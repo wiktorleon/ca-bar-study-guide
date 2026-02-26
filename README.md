@@ -2,7 +2,7 @@
 
 A free, open-source, comprehensive study guide covering all 13 California Bar Exam essay subjects + exam strategy. 141,000+ words of black-letter law, California distinctions, issue-spotting checklists, mnemonics, and IRAC guidance — all in a clean, static HTML site you can open in any browser.
 
-**[Live Demo](https://ca-bar-study-guide.github.io)** (coming soon)
+**[Live Demo](https://wiktorleon.github.io/ca-bar-study-guide/)**
 
 ## What's Inside
 

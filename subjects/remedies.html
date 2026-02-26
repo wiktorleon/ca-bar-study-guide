@@ -1,0 +1,983 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Remedies — CA Bar Study Guide</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <header class="site-header">
+    <button class="menu-toggle" aria-label="Toggle menu">&#9776;</button>
+    <a href="../index.html" class="site-title">CA Bar Study Guide</a>
+    <div class="header-search"><input type="text" placeholder="Search subjects..." aria-label="Search subjects"><div class="search-results"></div></div>
+    <div class="header-actions"><button class="theme-toggle">Dark Mode</button></div>
+  </header>
+  <div class="sidebar-overlay"></div>
+  <nav class="sidebar">
+    <div class="sidebar-progress"><div class="label">Progress: <strong class="progress-count">0/15</strong></div><div class="progress-bar"><div class="fill"></div></div></div>
+    <div class="sidebar-section"><h3>Subjects</h3>
+      <ul class="sidebar-nav">
+        <li><a href="torts.html" data-subject="torts">Torts <span class="check">&#10003;</span></a></li>
+        <li><a href="remedies.html" data-subject="remedies">Remedies <span class="check">&#10003;</span></a></li>
+        <li><a href="contracts.html" data-subject="contracts">Contracts <span class="check">&#10003;</span></a></li>
+        <li><a href="business-associations.html" data-subject="business-associations">Business Associations <span class="check">&#10003;</span></a></li>
+        <li><a href="criminal-law.html" data-subject="criminal-law">Criminal Law <span class="check">&#10003;</span></a></li>
+        <li><a href="criminal-procedure.html" data-subject="criminal-procedure">Criminal Procedure <span class="check">&#10003;</span></a></li>
+        <li><a href="evidence.html" data-subject="evidence">Evidence <span class="check">&#10003;</span></a></li>
+        <li><a href="constitutional-law.html" data-subject="constitutional-law">Constitutional Law <span class="check">&#10003;</span></a></li>
+        <li><a href="civil-procedure.html" data-subject="civil-procedure">Civil Procedure <span class="check">&#10003;</span></a></li>
+        <li><a href="real-property.html" data-subject="real-property">Real Property <span class="check">&#10003;</span></a></li>
+        <li><a href="community-property.html" data-subject="community-property">Community Property <span class="check">&#10003;</span></a></li>
+        <li><a href="wills-succession.html" data-subject="wills-succession">Wills &amp; Succession <span class="check">&#10003;</span></a></li>
+        <li><a href="trusts.html" data-subject="trusts">Trusts <span class="check">&#10003;</span></a></li>
+        <li><a href="professional-responsibility.html" data-subject="professional-responsibility">Professional Responsibility <span class="check">&#10003;</span></a></li>
+      </ul>
+    </div>
+    <div class="sidebar-section"><h3>Resources</h3><ul class="sidebar-nav"><li><a href="../exam-approach.html" data-subject="exam-approach">Exam Approach &amp; Strategy <span class="check">&#10003;</span></a></li></ul></div>
+  </nav>
+  <main class="main-content"><div class="content">
+
+    <!-- ==================== OVERVIEW ==================== -->
+    <h1>Remedies</h1>
+
+    <div class="callout callout-tip">
+      <div class="callout-title">Exam Frequency &amp; Cross-Over Potential</div>
+      <p>Remedies is one of the most frequently tested subjects on the California Bar Exam, appearing as a standalone essay or &mdash; more commonly &mdash; as a crossover component with Torts, Contracts, Real Property, Constitutional Law, or Business Associations. Examiners expect you to identify <strong>all available remedies</strong> for every cause of action you discuss, including legal damages, equitable relief, and restitutionary recovery. A complete answer always addresses the <strong>type of remedy, the measure of damages, any limitations on recovery, and defenses to equitable relief</strong>. Even when the essay question does not explicitly ask &ldquo;what remedies are available,&rdquo; analyzing remedies will almost certainly earn additional points.</p>
+    </div>
+
+    <div class="callout callout-warning">
+      <div class="callout-title">What Examiners Look For</div>
+      <p>The California Bar graders reward answers that demonstrate a <strong>systematic approach</strong> to remedies analysis. This means: (1) identifying whether the plaintiff seeks legal or equitable relief; (2) stating the applicable measure of damages with specificity; (3) applying limitations such as certainty, foreseeability, and mitigation; (4) explaining why equity is or is not appropriate; and (5) addressing California-specific statutory rules where applicable. Do not simply say &ldquo;plaintiff can recover damages&rdquo; &mdash; specify the <em>type</em> and <em>amount</em> of damages with reference to the facts.</p>
+    </div>
+
+    <h2>Foundational Framework</h2>
+    <p>Remedies law is organized around three fundamental categories of relief. Every remedies analysis should begin by identifying which category (or categories) of remedy applies to the facts presented.</p>
+
+    <table class="comparison-table">
+      <thead>
+        <tr>
+          <th>Category</th>
+          <th>Nature</th>
+          <th>Key Feature</th>
+          <th>Examples</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Legal Remedies</strong></td>
+          <td>Money damages awarded as a matter of right</td>
+          <td>Right to jury trial; substitutionary relief</td>
+          <td>Compensatory, consequential, nominal, punitive damages</td>
+        </tr>
+        <tr>
+          <td><strong>Equitable Remedies</strong></td>
+          <td>Court-ordered conduct; discretionary</td>
+          <td>No jury right; requires inadequacy of legal remedy</td>
+          <td>Injunctions, specific performance, rescission, reformation</td>
+        </tr>
+        <tr>
+          <td><strong>Restitutionary Remedies</strong></td>
+          <td>Disgorgement of unjust enrichment</td>
+          <td>Measured by defendant's gain, not plaintiff's loss</td>
+          <td>Quasi-contract, constructive trust, equitable lien</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- ==================== LEGAL DAMAGES ==================== -->
+    <h2>I. Legal Damages</h2>
+
+    <h3>A. Compensatory Damages (General Damages)</h3>
+
+    <div class="callout callout-rule">
+      <div class="callout-title">Key Rule &mdash; Compensatory Damages</div>
+      <p>Compensatory damages are designed to place the plaintiff in the position they would have been in <strong>but for</strong> the defendant's wrongful conduct. They are the default measure of relief in both tort and contract actions and are sometimes called &ldquo;general damages&rdquo; because they flow naturally and necessarily from the wrong itself.</p>
+    </div>
+
+    <p>The measure of compensatory damages differs depending on whether the underlying claim sounds in tort or contract:</p>
+
+    <table class="comparison-table">
+      <thead>
+        <tr>
+          <th>Context</th>
+          <th>Measure</th>
+          <th>Goal</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Tort</strong></td>
+          <td>Fair market value of loss; cost of repair; medical expenses; lost wages; pain and suffering</td>
+          <td>Restore plaintiff to pre-injury position (&ldquo;make whole&rdquo;)</td>
+        </tr>
+        <tr>
+          <td><strong>Contract &mdash; Expectation</strong></td>
+          <td>Benefit of the bargain: value of promised performance minus value of actual performance, plus incidental and consequential damages</td>
+          <td>Put plaintiff in position as if contract were fully performed</td>
+        </tr>
+        <tr>
+          <td><strong>Contract &mdash; Reliance</strong></td>
+          <td>Out-of-pocket expenditures made in reasonable reliance on the contract</td>
+          <td>Restore plaintiff to pre-contract position (alternative to expectation when expectation is too speculative)</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3>B. Consequential Damages (Special Damages)</h3>
+
+    <div class="callout callout-rule">
+      <div class="callout-title">Key Rule &mdash; Consequential Damages</div>
+      <p>Consequential damages compensate the plaintiff for losses that do not flow directly from the wrong but arise as a <strong>foreseeable consequence</strong> of it. In contract, they are governed by the rule of <em>Hadley v. Baxendale</em> (1854): consequential damages are recoverable only if they were <strong>reasonably foreseeable at the time of contracting</strong>, either because they arise naturally from the breach or because the defendant had <strong>reason to know</strong> of the special circumstances giving rise to the loss. In tort, the test is proximate causation: the harm must be a foreseeable result of the defendant's tortious conduct.</p>
+    </div>
+
+    <details>
+      <summary>Hadley v. Baxendale &mdash; Two-Prong Test</summary>
+      <div class="details-content">
+        <p><strong>Prong 1 &mdash; General damages:</strong> Losses that arise &ldquo;naturally&rdquo; and &ldquo;in the usual course of things&rdquo; from the breach itself. These are foreseeable to any reasonable person.</p>
+        <p><strong>Prong 2 &mdash; Special damages:</strong> Losses that arise from the plaintiff's <em>special circumstances</em>, recoverable only if the defendant had <strong>actual or constructive knowledge</strong> of those circumstances at the time of contracting.</p>
+        <p><em>Example:</em> A carrier delays delivery of a broken mill shaft. Lost profits from the mill being shut down are recoverable under Prong 2 only if the carrier knew the mill could not operate without the shaft and had no spare.</p>
+      </div>
+    </details>
+
+    <h3>C. Incidental Damages</h3>
+
+    <div class="callout callout-rule">
+      <div class="callout-title">Key Rule &mdash; Incidental Damages</div>
+      <p>Incidental damages are the reasonable costs incurred by the aggrieved party <strong>in dealing with the breach</strong> &mdash; such as expenses for inspection, transportation, storage, or care of goods after breach, and costs of arranging a substitute transaction (cover). Under the UCC, both buyers (UCC &sect; 2-715) and sellers (UCC &sect; 2-710) may recover incidental damages. Incidental damages are almost always recoverable because they are inherently foreseeable.</p>
+    </div>
+
+    <h3>D. Nominal Damages</h3>
+
+    <div class="callout callout-rule">
+      <div class="callout-title">Key Rule &mdash; Nominal Damages</div>
+      <p>Nominal damages are a small, symbolic sum (traditionally one dollar) awarded when the plaintiff establishes a <strong>legal right and its violation</strong> but cannot prove any actual loss. Nominal damages serve to (1) vindicate the plaintiff's right, (2) establish a precedent, and (3) provide a basis for an award of punitive damages in some jurisdictions. They are available in breach of contract and in intentional tort actions. They are <strong>not</strong> available in negligence actions, which require proof of actual damages as an element of the cause of action.</p>
+    </div>
+
+    <h3>E. Punitive (Exemplary) Damages</h3>
+
+    <div class="callout callout-rule">
+      <div class="callout-title">Key Rule &mdash; Punitive Damages</div>
+      <p>Punitive damages are awarded to <strong>punish</strong> the defendant and <strong>deter</strong> similar wrongful conduct in the future. They are available only in <strong>tort</strong> actions (never for breach of contract alone) and require proof that the defendant acted with <strong>malice, oppression, or fraud</strong>. There must be an underlying award of compensatory or nominal damages to support punitive damages; punitive damages cannot stand alone.</p>
+    </div>
+
+    <div class="callout callout-california">
+      <div class="callout-title">California Rule &mdash; Punitive Damages (Cal. Civ. Code &sect; 3294)</div>
+      <p>In California, punitive damages require proof by <strong>clear and convincing evidence</strong> that the defendant was guilty of <strong>oppression, fraud, or malice</strong>. &ldquo;Malice&rdquo; means conduct intended to cause injury or despicable conduct carried out with a willful and conscious disregard of the rights or safety of others. &ldquo;Oppression&rdquo; means despicable conduct that subjects a person to cruel and unjust hardship in conscious disregard of that person's rights. Against an <strong>employer</strong>, punitive damages require proof that an officer, director, or managing agent of the corporation authorized or ratified the wrongful conduct, or was personally guilty of oppression, fraud, or malice.</p>
+    </div>
+
+    <details>
+      <summary>Constitutional Limitations on Punitive Damages</summary>
+      <div class="details-content">
+        <p>The U.S. Supreme Court has held that the Due Process Clause of the Fourteenth Amendment limits punitive damages awards. Under <em>BMW of North America, Inc. v. Gore</em> (1996) and <em>State Farm Mutual Automobile Insurance Co. v. Campbell</em> (2003), courts consider three &ldquo;guideposts&rdquo;:</p>
+        <div class="elements-list">
+          <ol>
+            <li><strong>Degree of reprehensibility</strong> of the defendant's conduct (most important factor) &mdash; considering whether the harm was physical or economic, whether the conduct showed indifference to health/safety, whether the target was financially vulnerable, whether conduct was repeated, and whether harm was intentional or accidental.</li>
+            <li><strong>Ratio</strong> of punitive damages to compensatory damages &mdash; single-digit ratios are more likely to satisfy due process; a ratio exceeding 9:1 or 10:1 will rarely be upheld, though higher ratios may be permissible where compensatory damages are very small and the conduct is particularly egregious.</li>
+            <li><strong>Comparable civil or criminal penalties</strong> for similar misconduct &mdash; punitive damages should bear a reasonable relationship to authorized penalties.</li>
+          </ol>
+        </div>
+        <p>Additionally, under <em>Philip Morris USA v. Williams</em> (2007), punitive damages may not be used to punish a defendant for harm caused to <strong>nonparties</strong>, although evidence of harm to others may be considered to show reprehensibility.</p>
+      </div>
+    </details>
+
+    <!-- ==================== DAMAGES LIMITATIONS ==================== -->
+    <h2>II. Limitations on Damages</h2>
+
+    <div class="callout callout-tip">
+      <div class="callout-title">Always Address Limitations</div>
+      <p>On a bar exam essay, after calculating the plaintiff's damages, you should <strong>always</strong> analyze whether any of the four major limitations apply. This is a prime area for earning additional points because many examinees skip it.</p>
+    </div>
+
+    <h3>A. Certainty</h3>
+
+    <div class="callout callout-rule">
+      <div class="callout-title">Key Rule &mdash; Certainty Requirement</div>
+      <p>Damages must be proven with <strong>reasonable certainty</strong>; speculative or conjectural damages are not recoverable. The plaintiff must provide a <strong>reasonable basis for computation</strong> of damages. This does not require mathematical precision &mdash; once the fact of damage is established, uncertainty as to the <em>amount</em> is less fatal. New businesses face a higher burden because they lack a track record of profits (the &ldquo;new business rule&rdquo;), although California and modern courts have relaxed this restriction, allowing recovery if the plaintiff can provide a reasonable evidentiary basis (such as comparable businesses, expert testimony, or market analysis).</p>
+    </div>
+
+    <h3>B. Foreseeability</h3>
+
+    <div class="callout callout-rule">
+      <div class="callout-title">Key Rule &mdash; Foreseeability</div>
+      <p>In <strong>contract</strong>, damages are limited to those that were reasonably foreseeable at the <strong>time of contracting</strong> (<em>Hadley v. Baxendale</em>). In <strong>tort</strong>, damages are limited to those that were a reasonably foreseeable result of the defendant's conduct at the <strong>time of the tort</strong> (proximate cause). The thin-skull (eggshell plaintiff) rule in tort allows recovery for the full extent of injuries even if unforeseeable in degree, as long as <em>some</em> harm was foreseeable.</p>
+    </div>
+
+    <h3>C. Avoidability (Duty to Mitigate)</h3>
+
+    <div class="callout callout-rule">
+      <div class="callout-title">Key Rule &mdash; Duty to Mitigate</div>
+      <p>A plaintiff cannot recover damages that the plaintiff could have <strong>reasonably avoided</strong> after the breach or wrong. This is sometimes called the duty to mitigate, although it is not a true &ldquo;duty&rdquo; &mdash; failure to mitigate does not give rise to liability but merely <strong>reduces the plaintiff's recovery</strong>. The plaintiff need only take <strong>reasonable</strong> steps; the plaintiff is not required to take undue risks, spend disproportionate sums, or sacrifice substantial rights.</p>
+    </div>
+
+    <details>
+      <summary>Mitigation in Specific Contexts</summary>
+      <div class="details-content">
+        <table class="comparison-table">
+          <thead>
+            <tr>
+              <th>Context</th>
+              <th>Application</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Employment contracts</strong></td>
+              <td>Wrongfully discharged employee must seek <strong>substantially similar</strong> employment. Employee need not accept employment of a different or inferior kind, in a different location, or that is demeaning. (<em>Parker v. Twentieth Century-Fox Film Corp.</em>, Cal. 1970)</td>
+            </tr>
+            <tr>
+              <td><strong>Sale of goods (UCC)</strong></td>
+              <td>Aggrieved buyer should &ldquo;cover&rdquo; by making a reasonable substitute purchase (UCC &sect; 2-712). Failure to cover does not bar recovery but limits damages to the cover price formula.</td>
+            </tr>
+            <tr>
+              <td><strong>Real property leases</strong></td>
+              <td>In California, a landlord must make reasonable efforts to re-let the premises after a tenant abandons. (<em>Cal. Civ. Code &sect; 1951.2</em>)</td>
+            </tr>
+            <tr>
+              <td><strong>Personal injury (tort)</strong></td>
+              <td>Plaintiff must seek reasonable medical treatment. Failure to follow doctor's orders may reduce recovery, but plaintiff need not undergo risky surgery.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </details>
+
+    <h3>D. Offsetting Benefits</h3>
+
+    <div class="callout callout-rule">
+      <div class="callout-title">Key Rule &mdash; Offsetting Benefits (Collateral Source Rule)</div>
+      <p>Under the <strong>collateral source rule</strong> (tort), payments received by the plaintiff from independent sources (insurance, employment benefits, gratuitous payments) are <strong>not</strong> deducted from the defendant's liability. The rationale is that the wrongdoer should not benefit from the plaintiff's own foresight in obtaining insurance. However, in <strong>contract</strong>, benefits received as a result of the breach may offset damages to avoid double recovery. California follows the collateral source rule in tort, but Cal. Civ. Code &sect; 3333.1 (MICRA) modifies it for medical malpractice actions, allowing the defendant to introduce evidence of collateral source benefits (and allowing the plaintiff to introduce evidence of premiums paid).</p>
+    </div>
+
+    <!-- ==================== EQUITABLE REMEDIES ==================== -->
+    <h2>III. Equitable Remedies</h2>
+
+    <div class="callout callout-rule">
+      <div class="callout-title">Threshold Requirement for All Equitable Remedies</div>
+      <p>Before granting any equitable remedy, the court must find that the plaintiff's <strong>legal remedy is inadequate</strong>. This is the gateway requirement. Common reasons legal remedies are inadequate include: (1) the subject matter is unique (land, rare goods, art); (2) damages are too speculative to calculate; (3) the defendant is insolvent (rendering a money judgment uncollectible); (4) multiple suits would be required; or (5) the injury is ongoing or irreparable.</p>
+    </div>
+
+    <h3>A. Injunctions</h3>
+
+    <h4>1. Temporary Restraining Order (TRO)</h4>
+
+    <div class="callout callout-rule">
+      <div class="callout-title">Key Rule &mdash; Temporary Restraining Order</div>
+      <p>A TRO is an emergency, short-term order preserving the status quo until a hearing on a preliminary injunction can be held. It may be granted <strong>ex parte</strong> (without notice to the opposing party) upon a showing that <strong>immediate and irreparable injury</strong> will result before the adverse party can be heard. Under FRCP 65(b), a TRO expires within <strong>14 days</strong> unless extended for good cause or consent. The applicant generally must post a <strong>security bond</strong>. California follows similar rules under Cal. Code Civ. Proc. &sect; 527.</p>
+    </div>
+
+    <h4>2. Preliminary Injunction</h4>
+
+    <div class="callout callout-rule">
+      <div class="callout-title">Key Rule &mdash; Preliminary Injunction</div>
+      <p>A preliminary injunction maintains the status quo during litigation. Courts apply a multi-factor balancing test. The most common formulation requires the plaintiff to demonstrate:</p>
+    </div>
+
+    <div class="elements-list">
+      <ol>
+        <li><strong>Likelihood of success on the merits</strong> &mdash; The plaintiff must show a reasonable probability of prevailing on the underlying claim.</li>
+        <li><strong>Irreparable harm</strong> &mdash; The plaintiff will suffer injury that cannot be adequately compensated by money damages if the injunction is not granted.</li>
+        <li><strong>Balance of hardships</strong> &mdash; The threatened harm to the plaintiff outweighs the harm the injunction would cause the defendant.</li>
+        <li><strong>Public interest</strong> &mdash; The injunction would not be adverse to the public interest (particularly important in cases involving government action or matters of public concern).</li>
+      </ol>
+    </div>
+
+    <p>The applicant must generally post a <strong>security bond</strong> to compensate the defendant for damages sustained if the injunction is later found to have been wrongly issued.</p>
+
+    <h4>3. Permanent Injunction</h4>
+
+    <div class="callout callout-rule">
+      <div class="callout-title">Key Rule &mdash; Permanent Injunction</div>
+      <p>A permanent injunction is a final remedy granted after a full trial on the merits. The plaintiff must prove: (1) actual success on the merits (not merely likelihood); (2) inadequacy of the legal remedy; (3) the injunction is <strong>feasible</strong> (the court can frame and enforce the order); (4) the <strong>balance of hardships</strong> favors the plaintiff; and (5) no applicable equitable defenses bar relief. A permanent injunction is enforceable through the court's <strong>contempt power</strong> &mdash; violation may result in civil or criminal contempt sanctions.</p>
+    </div>
+
+    <details>
+      <summary>Types of Injunctions by Function</summary>
+      <div class="details-content">
+        <table class="comparison-table">
+          <thead>
+            <tr>
+              <th>Type</th>
+              <th>Function</th>
+              <th>Example</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Prohibitory</strong></td>
+              <td>Orders the defendant to <em>stop</em> doing something (maintains status quo)</td>
+              <td>Enjoining defendant from trespassing on plaintiff's land</td>
+            </tr>
+            <tr>
+              <td><strong>Mandatory</strong></td>
+              <td>Orders the defendant to take <em>affirmative action</em> (changes status quo)</td>
+              <td>Ordering defendant to tear down an encroaching structure</td>
+            </tr>
+            <tr>
+              <td><strong>Structural</strong></td>
+              <td>Ongoing court supervision of an institution's reform</td>
+              <td>Court-ordered desegregation or prison reform</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </details>
+
+    <h3>B. Specific Performance</h3>
+
+    <div class="callout callout-rule">
+      <div class="callout-title">Key Rule &mdash; Specific Performance</div>
+      <p>Specific performance is an equitable remedy compelling a party to perform its contractual obligations. It is available when: (1) there is a <strong>valid and enforceable contract</strong>; (2) the plaintiff has performed or is ready, willing, and able to perform its own obligations (or the conditions for the plaintiff's performance have been excused); (3) the <strong>legal remedy is inadequate</strong> (typically because the subject matter is unique); and (4) the contract terms are <strong>definite and certain</strong> enough for the court to frame a decree.</p>
+    </div>
+
+    <div class="elements-list">
+      <ol>
+        <li><strong>Real property:</strong> Specific performance is <strong>presumptively available</strong> for contracts to buy or sell land because every parcel of real property is considered unique.</li>
+        <li><strong>Unique personal property:</strong> Available for unique goods such as rare art, antiques, heirlooms, and custom-made items. Under UCC &sect; 2-716, specific performance may be decreed &ldquo;where the goods are unique or in other proper circumstances.&rdquo;</li>
+        <li><strong>Personal services:</strong> Specific performance is <strong>never granted</strong> to compel personal services because it would constitute involuntary servitude (Thirteenth Amendment concerns) and raises enforcement difficulties. However, a court may grant a <strong>negative injunction</strong> prohibiting the breaching party from performing services for a competitor if the services are unique or extraordinary (<em>Lumley v. Wagner</em> doctrine).</li>
+      </ol>
+    </div>
+
+    <div class="callout callout-california">
+      <div class="callout-title">California Rule &mdash; Specific Performance</div>
+      <p>Cal. Civ. Code &sect;&sect; 3384&ndash;3395 govern specific performance in California. The statute requires that the contract be &ldquo;just and reasonable&rdquo; and that the remedy at law be inadequate. California courts also consider whether the contract was obtained through <strong>undue advantage</strong> or whether enforcement would be <strong>unconscionable</strong>. California follows the majority rule that specific performance is presumptively available for contracts involving real property.</p>
+    </div>
+
+    <h3>C. Requirements for Equitable Relief (Defenses)</h3>
+
+    <div class="callout callout-warning">
+      <div class="callout-title">Always Address Equitable Defenses</div>
+      <p>Any time you conclude that equitable relief is appropriate, you <strong>must</strong> also discuss whether any equitable defenses apply. This is a frequent source of points on the bar exam.</p>
+    </div>
+
+    <table class="comparison-table">
+      <thead>
+        <tr>
+          <th>Defense</th>
+          <th>Rule</th>
+          <th>Application</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Inadequacy of legal remedy</strong></td>
+          <td>Equity will not act when there is an adequate remedy at law</td>
+          <td>If money damages fully compensate the plaintiff, equitable relief is denied</td>
+        </tr>
+        <tr>
+          <td><strong>Feasibility</strong></td>
+          <td>The court must be able to frame and enforce the decree</td>
+          <td>Personal service contracts; ongoing supervision problems; vague terms</td>
+        </tr>
+        <tr>
+          <td><strong>Balancing of hardships (undue hardship)</strong></td>
+          <td>Equity will not grant relief if the hardship to the defendant would be <strong>grossly disproportionate</strong> to the benefit to the plaintiff</td>
+          <td>Ordering demolition of an expensive building for a minor encroachment may be denied; plaintiff gets damages instead</td>
+        </tr>
+        <tr>
+          <td><strong>Unclean hands</strong></td>
+          <td>A party who has acted inequitably or in bad faith <strong>with respect to the same transaction</strong> may be denied equitable relief</td>
+          <td>Plaintiff who obtained the contract through fraud cannot enforce it in equity. The misconduct must relate to the matter in litigation.</td>
+        </tr>
+        <tr>
+          <td><strong>Laches</strong></td>
+          <td>Unreasonable delay in asserting a claim that causes <strong>prejudice</strong> to the defendant bars equitable relief</td>
+          <td>Unlike statute of limitations (legal defense), laches is an equitable defense requiring both (1) unreasonable delay AND (2) prejudice (evidentiary, economic, or change of position)</td>
+        </tr>
+        <tr>
+          <td><strong>Estoppel</strong></td>
+          <td>A party who induces reasonable reliance by another cannot take a position inconsistent with that reliance</td>
+          <td>Plaintiff who assures defendant that strict performance is not required cannot later insist on strict performance</td>
+        </tr>
+        <tr>
+          <td><strong>Unconscionability</strong></td>
+          <td>A contract so one-sided as to be oppressive may not be specifically enforced</td>
+          <td>Procedural (absence of meaningful choice) + substantive (unreasonably favorable terms) &mdash; courts look at both</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- ==================== RESTITUTION ==================== -->
+    <h2>IV. Restitution</h2>
+
+    <div class="callout callout-rule">
+      <div class="callout-title">Key Rule &mdash; Restitution Generally</div>
+      <p>Restitution is a remedy measured by the <strong>defendant's unjust enrichment</strong>, not by the plaintiff's loss. It is available in three broad situations: (1) when the defendant has been <strong>unjustly enriched</strong> at the plaintiff's expense (quasi-contract); (2) when the plaintiff seeks to <strong>disgorge profits</strong> the defendant obtained through wrongdoing; and (3) as an alternative remedy for breach of contract, where the plaintiff elects restitution instead of expectation damages. The plaintiff may prefer restitution when the value conferred on the defendant exceeds the contract price (i.e., the plaintiff made a bad bargain) &mdash; a breaching defendant cannot limit the plaintiff to the contract price.</p>
+    </div>
+
+    <h3>A. Quasi-Contract (Implied-in-Law Contract)</h3>
+
+    <div class="callout callout-rule">
+      <div class="callout-title">Key Rule &mdash; Quasi-Contract</div>
+      <p>Quasi-contract is a legal (not equitable) restitutionary remedy. It is not a true contract but a legal fiction imposed to prevent unjust enrichment. The plaintiff recovers the <strong>reasonable value of the benefit conferred</strong> on the defendant. Elements: (1) the plaintiff conferred a benefit on the defendant; (2) the plaintiff had a reasonable expectation of compensation (or the benefit was conferred under mistake or coercion); (3) the defendant had knowledge of the benefit; and (4) retention of the benefit without payment would be <strong>unjust</strong>.</p>
+    </div>
+
+    <h3>B. Constructive Trust</h3>
+
+    <div class="callout callout-rule">
+      <div class="callout-title">Key Rule &mdash; Constructive Trust</div>
+      <p>A constructive trust is an <strong>equitable remedy</strong> in which the court declares the defendant a trustee of specific property wrongfully acquired or retained. The defendant is compelled to <strong>convey the property</strong> (or its traceable proceeds) to the plaintiff. A constructive trust is particularly advantageous because: (1) it reaches <strong>specific property</strong> (not just a money judgment); (2) the plaintiff obtains <strong>priority over the defendant's general creditors</strong> in insolvency; and (3) the plaintiff can capture any <strong>appreciation</strong> in value of the property. Requirements: (1) wrongful acquisition or retention of property; (2) the property (or its traceable proceeds) is identifiable in the defendant's hands; (3) unjust enrichment if the defendant retains the property.</p>
+    </div>
+
+    <h3>C. Equitable Lien</h3>
+
+    <div class="callout callout-rule">
+      <div class="callout-title">Key Rule &mdash; Equitable Lien</div>
+      <p>An equitable lien is a court-imposed security interest on the defendant's property to secure payment of the plaintiff's claim. Unlike a constructive trust, an equitable lien does not transfer ownership &mdash; it gives the plaintiff a <strong>security interest</strong> in the property that can be enforced through a <strong>forced judicial sale</strong>. The equitable lien is preferred when: (1) the property has <strong>decreased</strong> in value (the plaintiff recovers the amount of the lien, not the lower current value); or (2) the property has been <strong>commingled</strong> with the defendant's own property and cannot be fully traced. Like a constructive trust, it gives the plaintiff <strong>priority over general creditors</strong>.</p>
+    </div>
+
+    <details>
+      <summary>Constructive Trust vs. Equitable Lien &mdash; When to Choose Which</summary>
+      <div class="details-content">
+        <table class="comparison-table">
+          <thead>
+            <tr>
+              <th>Factor</th>
+              <th>Constructive Trust</th>
+              <th>Equitable Lien</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Property value increased</strong></td>
+              <td>Preferred &mdash; plaintiff captures appreciation</td>
+              <td>Not preferred &mdash; plaintiff limited to lien amount</td>
+            </tr>
+            <tr>
+              <td><strong>Property value decreased</strong></td>
+              <td>Not preferred &mdash; plaintiff bears the loss</td>
+              <td>Preferred &mdash; plaintiff recovers full lien amount from sale proceeds plus deficiency judgment</td>
+            </tr>
+            <tr>
+              <td><strong>Property commingled</strong></td>
+              <td>Difficult &mdash; requires tracing to specific property</td>
+              <td>More flexible &mdash; can attach to commingled fund</td>
+            </tr>
+            <tr>
+              <td><strong>Defendant insolvent</strong></td>
+              <td>Both give priority over general creditors</td>
+              <td>Both give priority over general creditors</td>
+            </tr>
+            <tr>
+              <td><strong>BFP purchased property</strong></td>
+              <td>Cannot be imposed against a bona fide purchaser for value</td>
+              <td>Cannot be imposed against a bona fide purchaser for value</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </details>
+
+    <h3>D. Restitutionary Damages</h3>
+
+    <div class="callout callout-rule">
+      <div class="callout-title">Key Rule &mdash; Restitutionary Damages / Disgorgement</div>
+      <p>In some tort and breach-of-fiduciary-duty contexts, the plaintiff may recover the <strong>defendant's profits</strong> obtained through wrongdoing, even if those profits exceed the plaintiff's actual loss. This is sometimes called &ldquo;disgorgement.&rdquo; It is commonly available in cases of breach of fiduciary duty, misappropriation of trade secrets, patent/copyright infringement, and fraud. The measure is the <strong>net profit</strong> the defendant gained through the wrongful conduct.</p>
+    </div>
+
+    <!-- ==================== RESCISSION & REFORMATION ==================== -->
+    <h2>V. Rescission and Reformation</h2>
+
+    <h3>A. Rescission</h3>
+
+    <div class="callout callout-rule">
+      <div class="callout-title">Key Rule &mdash; Rescission</div>
+      <p>Rescission <strong>unwinds</strong> the contract and restores both parties to their <strong>pre-contract positions</strong>. It is available on grounds of: (1) <strong>mutual mistake</strong> as to a basic assumption of the contract that has a material effect on the exchange; (2) <strong>unilateral mistake</strong> where the non-mistaken party knew or should have known of the mistake, or enforcement would be unconscionable; (3) <strong>misrepresentation</strong> (fraudulent or material); (4) <strong>duress</strong> or <strong>undue influence</strong>; (5) <strong>failure of consideration</strong>; or (6) <strong>lack of capacity</strong>. Rescission may be accomplished <strong>at law</strong> (by the party's own act of notifying the other side and tendering back any benefits received) or <strong>in equity</strong> (by court decree). Equitable rescission requires the usual prerequisites of equity, including inadequacy of the legal remedy.</p>
+    </div>
+
+    <div class="callout callout-california">
+      <div class="callout-title">California Rule &mdash; Rescission</div>
+      <p>Under Cal. Civ. Code &sect;&sect; 1688&ndash;1693, a party seeking rescission must <strong>promptly</strong> give notice and <strong>restore or offer to restore</strong> everything of value received under the contract. California recognizes both legal rescission (self-help with notice and tender) and equitable rescission (court decree). Cal. Civ. Code &sect; 1692 provides that relief based on rescission &ldquo;may be granted with or without the filing of a cross-complaint,&rdquo; and courts may grant rescission with an award of damages in the same action.</p>
+    </div>
+
+    <h3>B. Reformation</h3>
+
+    <div class="callout callout-rule">
+      <div class="callout-title">Key Rule &mdash; Reformation</div>
+      <p>Reformation rewrites a written instrument to conform to the <strong>parties' actual prior agreement</strong>. It does not create a new agreement &mdash; it corrects a writing that does not accurately reflect the deal the parties actually made. Available grounds: (1) <strong>mutual mistake</strong> in integration (both parties intended X, but the writing says Y); (2) <strong>unilateral mistake</strong> coupled with the other party's <strong>fraud or inequitable conduct</strong> (one party knew the writing did not reflect the agreement and remained silent). Reformation is an <strong>equitable</strong> remedy and requires proof by <strong>clear and convincing evidence</strong>. The parol evidence rule does <em>not</em> bar evidence offered in support of reformation because reformation addresses the accuracy of the writing itself.</p>
+    </div>
+
+    <!-- ==================== DECLARATORY RELIEF ==================== -->
+    <h2>VI. Declaratory Relief</h2>
+
+    <div class="callout callout-rule">
+      <div class="callout-title">Key Rule &mdash; Declaratory Judgment</div>
+      <p>A declaratory judgment is a court's determination of the <strong>rights, duties, or obligations</strong> of the parties without ordering any further relief. It resolves an actual controversy before one party has suffered sufficient harm to warrant damages or injunctive relief. Under the federal Declaratory Judgment Act (28 U.S.C. &sect;&sect; 2201&ndash;2202) and California Code of Civil Procedure &sect; 1060, a court may issue a declaratory judgment when there is an <strong>actual controversy</strong> between parties with adverse interests. Declaratory relief is commonly used in insurance coverage disputes, intellectual property matters, and constitutional challenges. It is discretionary &mdash; the court need not grant it even if the requirements are met.</p>
+    </div>
+
+    <!-- ==================== REMEDIES IN SPECIFIC CONTEXTS ==================== -->
+    <h2>VII. Remedies in Specific Contexts</h2>
+
+    <h3>A. Remedies in Tort</h3>
+
+    <table class="comparison-table">
+      <thead>
+        <tr>
+          <th>Tort</th>
+          <th>Typical Damages</th>
+          <th>Special Considerations</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Personal injury (negligence/intentional)</strong></td>
+          <td>Medical expenses (past and future); lost wages/earning capacity; pain and suffering; emotional distress; loss of consortium (spouse's claim)</td>
+          <td>No certainty requirement for pain and suffering; eggshell plaintiff rule applies; collateral source rule</td>
+        </tr>
+        <tr>
+          <td><strong>Property damage</strong></td>
+          <td>If repairable: cost of repair plus loss of use during repair. If destroyed: fair market value at time and place of destruction</td>
+          <td>Recovery is lesser of cost-of-repair or diminution-in-value (majority rule); special/sentimental value generally not compensable</td>
+        </tr>
+        <tr>
+          <td><strong>Trespass to land</strong></td>
+          <td>Diminution in value; loss of use; cost of restoration; or fair rental value. Nominal damages if no actual harm.</td>
+          <td>Injunction available for continuing/repeated trespass; ejectment for permanent trespass</td>
+        </tr>
+        <tr>
+          <td><strong>Nuisance</strong></td>
+          <td>Permanent nuisance: diminution in property value. Temporary nuisance: loss of use/rental value during nuisance period</td>
+          <td>Injunction is the primary equitable remedy; court balances hardships. <em>Boomer v. Atlantic Cement Co.</em>: injunction may be conditioned on payment of permanent damages</td>
+        </tr>
+        <tr>
+          <td><strong>Conversion</strong></td>
+          <td>Fair market value of the chattel at time of conversion (forced sale to defendant)</td>
+          <td>Alternatively, plaintiff may seek replevin (recovery of the chattel itself) if it is still in defendant's possession</td>
+        </tr>
+        <tr>
+          <td><strong>Defamation</strong></td>
+          <td>General damages presumed for defamation per se and libel; special damages (specific pecuniary loss) required for slander per quod</td>
+          <td>Punitive damages available with actual malice; public figures must prove actual malice for any damages</td>
+        </tr>
+        <tr>
+          <td><strong>Fraud/Misrepresentation</strong></td>
+          <td>Benefit-of-the-bargain (majority/California rule): difference between value as represented and actual value. Out-of-pocket (minority): difference between price paid and actual value</td>
+          <td>Consequential damages; punitive damages available; rescission as alternative equitable remedy</td>
+        </tr>
+        <tr>
+          <td><strong>Wrongful death</strong></td>
+          <td>Pecuniary loss to statutory beneficiaries: lost financial support, loss of training/guidance, funeral expenses</td>
+          <td>Statutory remedy; pain and suffering of decedent not included (that goes in survival action). California: Cal. Code Civ. Proc. &sect; 377.60</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3>B. Remedies in Contract</h3>
+
+    <div class="callout callout-rule">
+      <div class="callout-title">Key Rule &mdash; Contract Damages Hierarchy</div>
+      <p>When a contract is breached, the plaintiff may recover: (1) <strong>Expectation damages</strong> (default) &mdash; the benefit of the bargain; (2) <strong>Reliance damages</strong> (alternative when expectation is too speculative) &mdash; out-of-pocket expenditures; (3) <strong>Restitution</strong> (alternative) &mdash; value of benefit conferred on the defendant; or (4) <strong>Specific performance</strong> (equitable) &mdash; when the legal remedy is inadequate. The plaintiff must elect among these where they are inconsistent. Liquidated damages clauses are enforceable if: (a) damages were difficult to estimate at the time of contracting; AND (b) the amount is a <strong>reasonable forecast</strong> of just compensation. An unreasonable liquidated damages clause is void as a <strong>penalty</strong>.</p>
+    </div>
+
+    <details>
+      <summary>Contract Damages Formulas</summary>
+      <div class="details-content">
+        <table class="comparison-table">
+          <thead>
+            <tr>
+              <th>Scenario</th>
+              <th>Formula</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Seller breaches sale of goods (buyer covers)</strong></td>
+              <td>(Cover price - Contract price) + Incidental damages + Consequential damages - Expenses saved</td>
+            </tr>
+            <tr>
+              <td><strong>Seller breaches (buyer does not cover)</strong></td>
+              <td>(Market price at time of breach - Contract price) + Incidental + Consequential - Expenses saved</td>
+            </tr>
+            <tr>
+              <td><strong>Buyer breaches (seller resells)</strong></td>
+              <td>(Contract price - Resale price) + Incidental damages - Expenses saved</td>
+            </tr>
+            <tr>
+              <td><strong>Buyer breaches (seller does not resell)</strong></td>
+              <td>(Contract price - Market price at time of breach) + Incidental - Expenses saved. For lost-volume seller: lost profit + incidental damages</td>
+            </tr>
+            <tr>
+              <td><strong>Construction contract &mdash; Owner breaches</strong></td>
+              <td>If before performance: expected profit + costs incurred. If during performance: contract price - costs remaining. If after performance: contract price owed</td>
+            </tr>
+            <tr>
+              <td><strong>Construction contract &mdash; Builder breaches</strong></td>
+              <td>Cost of completion (cost to hire another builder) + consequential damages (delay). If cost of completion is grossly disproportionate to value: diminution in value instead</td>
+            </tr>
+            <tr>
+              <td><strong>Employment contract &mdash; Employer breaches</strong></td>
+              <td>Full contract salary - wages actually earned (or reasonably earnable) from substitute employment of substantially similar kind</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </details>
+
+    <h3>C. Remedies in Property</h3>
+
+    <table class="comparison-table">
+      <thead>
+        <tr>
+          <th>Situation</th>
+          <th>Remedy</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Breach of contract for sale of real property</strong></td>
+          <td>Specific performance (presumptive); expectation damages (market price - contract price); reliance damages; vendee's/vendor's lien</td>
+        </tr>
+        <tr>
+          <td><strong>Waste by life tenant or tenant</strong></td>
+          <td>Damages for diminution in value; injunction against future waste; forfeiture of the estate (in some jurisdictions for intentional waste)</td>
+        </tr>
+        <tr>
+          <td><strong>Breach of covenant of quiet enjoyment / constructive eviction</strong></td>
+          <td>Damages for difference in rental value; relocation expenses; consequential damages; termination of lease</td>
+        </tr>
+        <tr>
+          <td><strong>Encroachment</strong></td>
+          <td>Mandatory injunction (removal) unless hardship is grossly disproportionate; damages (diminution in value or loss of use); ejectment</td>
+        </tr>
+        <tr>
+          <td><strong>Unlawful detainer</strong></td>
+          <td>Recovery of possession; back rent; treble damages in some jurisdictions for holdover; California provides statutory unlawful detainer process (Cal. Code Civ. Proc. &sect; 1161 et seq.)</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3>D. Remedies for Constitutional Violations</h3>
+
+    <div class="callout callout-rule">
+      <div class="callout-title">Key Rule &mdash; Section 1983 and Bivens Actions</div>
+      <p>Under 42 U.S.C. &sect; 1983, any person who, <strong>under color of state law</strong>, deprives another of federal constitutional or statutory rights is liable for damages and equitable relief. Compensatory damages are available for proven injuries. <strong>Nominal damages</strong> are available for the violation itself even without proven harm. <strong>Punitive damages</strong> are available against individual defendants (not municipalities) upon proof of evil intent or callous indifference. <strong>Injunctive relief</strong> is available against ongoing violations. <strong>Attorney's fees</strong> are available to prevailing plaintiffs under 42 U.S.C. &sect; 1988. Under <em>Bivens v. Six Unknown Named Agents</em> (1971), similar damages are available against <strong>federal officers</strong>, though the Supreme Court has significantly limited the availability of new Bivens claims in recent years.</p>
+    </div>
+
+    <!-- ==================== CALIFORNIA-SPECIFIC RULES ==================== -->
+    <h2>VIII. California-Specific Rules</h2>
+
+    <div class="callout callout-california">
+      <div class="callout-title">California Distinctions &mdash; Must Know for the Bar</div>
+      <p>The California Bar Exam frequently tests state-specific remedies rules. The following are the most important California distinctions:</p>
+    </div>
+
+    <table class="comparison-table">
+      <thead>
+        <tr>
+          <th>Topic</th>
+          <th>California Rule</th>
+          <th>Common Law / Majority Rule</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Punitive damages standard</strong></td>
+          <td>Cal. Civ. Code &sect; 3294: Oppression, fraud, or malice by <strong>clear and convincing evidence</strong>. Against employers: officer/director/managing agent must authorize, ratify, or be personally guilty.</td>
+          <td>Varies by jurisdiction; some require only a preponderance of evidence; some require willful/wanton conduct</td>
+        </tr>
+        <tr>
+          <td><strong>Fraud damages</strong></td>
+          <td><strong>Benefit of the bargain</strong> (Cal. Civ. Code &sect; 3343): value as represented minus actual value, plus consequential damages</td>
+          <td>Split: some jurisdictions use out-of-pocket (price paid minus actual value)</td>
+        </tr>
+        <tr>
+          <td><strong>Collateral source &mdash; medical malpractice</strong></td>
+          <td>MICRA (Cal. Civ. Code &sect; 3333.1): Defendant may introduce evidence of collateral source benefits; plaintiff may introduce evidence of premiums paid</td>
+          <td>Collateral source rule strictly bars evidence of collateral benefits</td>
+        </tr>
+        <tr>
+          <td><strong>Medical malpractice noneconomic damages</strong></td>
+          <td>MICRA (Cal. Civ. Code &sect; 3333.2): Noneconomic damages capped. Under AB 35 (effective 2023), cap is $350,000 for non-death cases and $500,000 for wrongful death, increasing annually by $40,000/$50,000 respectively until 2033, then adjusting for inflation.</td>
+          <td>Generally no cap (varies by state)</td>
+        </tr>
+        <tr>
+          <td><strong>Landlord's duty to mitigate</strong></td>
+          <td>Cal. Civ. Code &sect; 1951.2: Landlord <strong>must</strong> make reasonable efforts to re-let after tenant abandons</td>
+          <td>Traditional rule: no duty to mitigate (but trend is toward requiring mitigation)</td>
+        </tr>
+        <tr>
+          <td><strong>Treble damages &mdash; bad faith insurance</strong></td>
+          <td>Cal. Civ. Code &sect; 3294 applies; tort of bad faith (breach of implied covenant of good faith and fair dealing) allows tort damages including punitive damages against insurer</td>
+          <td>Some states limit remedies to contract damages for insurer bad faith</td>
+        </tr>
+        <tr>
+          <td><strong>Specific performance &mdash; contract standard</strong></td>
+          <td>Cal. Civ. Code &sect; 3384: Available when contract is &ldquo;just and reasonable&rdquo; and legal remedy is inadequate</td>
+          <td>Same general principles; less emphasis on &ldquo;just and reasonable&rdquo; requirement</td>
+        </tr>
+        <tr>
+          <td><strong>Prejudgment interest</strong></td>
+          <td>Cal. Civ. Code &sect; 3287: 7% per annum on damages certain or capable of being made certain by calculation (e.g., contract debts, property damage with determined value)</td>
+          <td>Varies by jurisdiction; some allow prejudgment interest on all liquidated claims</td>
+        </tr>
+        <tr>
+          <td><strong>Anti-SLAPP damages</strong></td>
+          <td>Cal. Code Civ. Proc. &sect; 425.16: Defendant may recover attorney's fees and costs if a SLAPP suit is struck. Plaintiff may recover fees if the anti-SLAPP motion is frivolous.</td>
+          <td>No equivalent in most jurisdictions (some states have adopted anti-SLAPP statutes)</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- ==================== COMMON ESSAY PATTERNS ==================== -->
+    <h2>IX. Common Essay Patterns</h2>
+
+    <details>
+      <summary>Pattern 1: Contract Breach with Request for Specific Performance</summary>
+      <div class="details-content">
+        <p><strong>Typical fact pattern:</strong> A seller agrees to sell real property (or unique goods) to a buyer, then refuses to perform or sells to a third party. The question asks what remedies are available to the buyer.</p>
+        <p><strong>Analysis framework:</strong></p>
+        <div class="elements-list">
+          <ol>
+            <li>Establish that a valid contract exists and the seller breached.</li>
+            <li>Discuss <strong>expectation damages</strong> (market price minus contract price) as the default legal remedy.</li>
+            <li>Discuss <strong>specific performance</strong>: land is unique; legal remedy is inadequate because each parcel of real property is considered unique; contract terms are definite; buyer was ready, willing, and able to perform.</li>
+            <li>Address equitable defenses: unclean hands, laches, unconscionability, hardship.</li>
+            <li>If seller sold to a third party, discuss whether third party is a bona fide purchaser (BFP cuts off equitable claims to the land).</li>
+            <li>Consider <strong>restitution</strong> of any deposit paid, and consequential damages (costs of finding alternative property, loss of anticipated rental income).</li>
+          </ol>
+        </div>
+      </div>
+    </details>
+
+    <details>
+      <summary>Pattern 2: Tort with Multiple Damages Categories</summary>
+      <div class="details-content">
+        <p><strong>Typical fact pattern:</strong> Defendant's intentional or negligent conduct causes personal injury to plaintiff, who incurs medical bills, loses wages, suffers emotional distress, and the defendant's conduct was particularly egregious.</p>
+        <p><strong>Analysis framework:</strong></p>
+        <div class="elements-list">
+          <ol>
+            <li>Identify all categories of <strong>compensatory damages</strong>: medical expenses (past and future), lost wages and earning capacity, pain and suffering, emotional distress, loss of enjoyment of life.</li>
+            <li>Discuss <strong>consequential damages</strong> arising from the injury (e.g., missed business opportunities, inability to care for family).</li>
+            <li>Analyze <strong>punitive damages</strong>: Was the conduct malicious, oppressive, or fraudulent? Apply California's clear and convincing evidence standard. Address constitutional limitations (BMW/State Farm guideposts).</li>
+            <li>Apply <strong>limitations</strong>: Did the plaintiff mitigate? Collateral source rule? Offsetting benefits?</li>
+            <li>If the tort is ongoing (e.g., nuisance, trespass), discuss <strong>injunctive relief</strong> and the requirements for obtaining it.</li>
+          </ol>
+        </div>
+      </div>
+    </details>
+
+    <details>
+      <summary>Pattern 3: Unjust Enrichment / Restitution Election</summary>
+      <div class="details-content">
+        <p><strong>Typical fact pattern:</strong> A party confers a benefit under a contract that is later found to be unenforceable, or a breaching defendant has profited from the breach more than the plaintiff lost.</p>
+        <p><strong>Analysis framework:</strong></p>
+        <div class="elements-list">
+          <ol>
+            <li>If contract is unenforceable: discuss <strong>quasi-contract</strong> recovery for the reasonable value of benefits conferred.</li>
+            <li>If contract was breached: discuss plaintiff's <strong>election</strong> between expectation damages, reliance damages, and restitution. Explain when restitution is preferable (e.g., bad bargain for plaintiff; defendant profited more than plaintiff lost).</li>
+            <li>If defendant wrongfully obtained specific property: discuss <strong>constructive trust</strong> (if property appreciated) vs. <strong>equitable lien</strong> (if property depreciated or commingled).</li>
+            <li>Address tracing requirements for equitable restitutionary remedies.</li>
+            <li>Discuss <strong>defendant insolvency</strong> as a reason to prefer equitable restitution (priority over general creditors).</li>
+          </ol>
+        </div>
+      </div>
+    </details>
+
+    <details>
+      <summary>Pattern 4: Rescission vs. Damages Election</summary>
+      <div class="details-content">
+        <p><strong>Typical fact pattern:</strong> A buyer purchases property or goods based on the seller's misrepresentation. The buyer discovers the truth and wants to undo the deal, but also wants to recover consequential losses.</p>
+        <p><strong>Analysis framework:</strong></p>
+        <div class="elements-list">
+          <ol>
+            <li>Identify the ground for rescission: fraud, mutual mistake, unilateral mistake with inequitable conduct, failure of consideration.</li>
+            <li>Discuss <strong>legal rescission</strong> (self-help: notice + tender of restoration) vs. <strong>equitable rescission</strong> (court decree).</li>
+            <li>Explain the requirement to <strong>restore</strong> benefits received (or offer to restore).</li>
+            <li>Under California law (Cal. Civ. Code &sect; 1692), rescission and damages can be sought <strong>in the same action</strong>.</li>
+            <li>Alternatively, discuss <strong>affirmance and damages</strong>: plaintiff may choose to keep the property and sue for fraud damages (benefit of the bargain in California) plus punitive damages.</li>
+            <li>Compare which election is better for the plaintiff under the given facts.</li>
+          </ol>
+        </div>
+      </div>
+    </details>
+
+    <details>
+      <summary>Pattern 5: Injunction Against Ongoing Harm (Nuisance/Trespass/IP)</summary>
+      <div class="details-content">
+        <p><strong>Typical fact pattern:</strong> Defendant operates a factory causing pollution (nuisance), or repeatedly trespasses, or infringes intellectual property rights. Plaintiff seeks an injunction.</p>
+        <p><strong>Analysis framework:</strong></p>
+        <div class="elements-list">
+          <ol>
+            <li>Establish the underlying substantive claim (nuisance, trespass, IP infringement, etc.).</li>
+            <li>Discuss <strong>inadequacy of legal remedy</strong>: ongoing harm requires repeated suits; damages are hard to calculate; the injury is to a property right.</li>
+            <li>Analyze the <strong>type of injunction</strong>: preliminary (if seeking relief during litigation) or permanent (if after trial). Discuss the multi-factor test for preliminary injunctions.</li>
+            <li>Apply the <strong>balancing of hardships</strong>: Would granting the injunction impose disproportionate burden on the defendant? Consider the <em>Boomer</em> approach (damages in lieu of injunction where hardship to defendant greatly exceeds benefit to plaintiff).</li>
+            <li>Address equitable defenses: laches, unclean hands, estoppel.</li>
+            <li>If injunction is denied, discuss <strong>permanent damages</strong> as a substitute.</li>
+            <li>Note that the <strong>public interest</strong> factor is especially important in environmental and land use cases.</li>
+          </ol>
+        </div>
+      </div>
+    </details>
+
+    <!-- ==================== ISSUE SPOTTING CHECKLIST ==================== -->
+    <h2>X. Issue Spotting Checklist</h2>
+
+    <ul class="checklist">
+      <li><strong>Identify all causes of action</strong> &mdash; Remedies follow from the substantive claim; each cause of action may yield different remedies.</li>
+      <li><strong>Legal damages first</strong> &mdash; Start with compensatory damages (general and special), then incidental and consequential.</li>
+      <li><strong>Calculate the measure</strong> &mdash; Use the correct formula for the context (tort vs. contract vs. UCC; expectation vs. reliance vs. restitution).</li>
+      <li><strong>Apply all four limitations</strong> &mdash; Certainty, foreseeability, avoidability/mitigation, and offsetting benefits/collateral source rule.</li>
+      <li><strong>Consider nominal damages</strong> &mdash; If a right was violated but no actual loss is provable (especially in intentional tort or contract).</li>
+      <li><strong>Punitive damages</strong> &mdash; Is the conduct malicious, oppressive, or fraudulent? Cite Cal. Civ. Code &sect; 3294 and the clear and convincing evidence standard. Discuss constitutional limitations.</li>
+      <li><strong>Equitable remedies</strong> &mdash; Is the legal remedy inadequate? Which equitable remedy is appropriate: injunction, specific performance, rescission, reformation?</li>
+      <li><strong>Equitable defenses</strong> &mdash; Unclean hands, laches, unconscionability, hardship balancing, feasibility, estoppel.</li>
+      <li><strong>Restitution</strong> &mdash; Has the defendant been unjustly enriched? Would the plaintiff prefer restitution over expectation damages? Should the plaintiff seek a constructive trust or equitable lien?</li>
+      <li><strong>Election of remedies</strong> &mdash; Are the remedies consistent or must the plaintiff elect? (e.g., rescission vs. affirmance and damages; expectation vs. restitution).</li>
+      <li><strong>Liquidated damages</strong> &mdash; Is there a liquidated damages clause? Is it enforceable or void as a penalty?</li>
+      <li><strong>Prejudgment interest</strong> &mdash; Are the damages liquidated or capable of being made certain? Apply Cal. Civ. Code &sect; 3287.</li>
+      <li><strong>California-specific rules</strong> &mdash; MICRA caps, fraud measure, landlord mitigation, collateral source modifications, anti-SLAPP fees.</li>
+    </ul>
+
+    <!-- ==================== EXAM WRITING TIPS ==================== -->
+    <h2>XI. Exam Writing Tips</h2>
+
+    <div class="callout callout-tip">
+      <div class="callout-title">Tip 1: Discuss Every Available Remedy</div>
+      <p>Bar graders award points for each remedy you identify and analyze. Even if one remedy is clearly the &ldquo;best&rdquo; answer, discuss <strong>all</strong> available remedies and explain why the plaintiff would prefer one over another. For example, if a contract for the sale of land was breached, discuss expectation damages, specific performance, reliance damages, and restitution, even if specific performance is the obvious primary remedy.</p>
+    </div>
+
+    <div class="callout callout-tip">
+      <div class="callout-title">Tip 2: State the Rule, Then Apply to Facts</div>
+      <p>Use IRAC format. State the general rule for each remedy, then apply it to the specific facts. Do not simply say &ldquo;plaintiff can get damages&rdquo; &mdash; specify the <em>type</em> of damages, the <em>measure</em>, and <em>apply the measure to the facts</em>. For instance: &ldquo;Plaintiff can recover expectation damages measured by the difference between the market price ($500,000) and the contract price ($400,000), yielding $100,000, plus consequential damages for lost rental income if foreseeable at the time of contracting.&rdquo;</p>
+    </div>
+
+    <div class="callout callout-tip">
+      <div class="callout-title">Tip 3: Always Address Limitations and Defenses</div>
+      <p>After calculating damages, apply the limitations (certainty, foreseeability, mitigation, collateral source). After discussing equitable remedies, address equitable defenses. These are often the difference between a passing and a high-scoring answer. Even if no defense applies on the facts, state the rule and explain why it does not apply.</p>
+    </div>
+
+    <div class="callout callout-tip">
+      <div class="callout-title">Tip 4: Use Headings and Organization</div>
+      <p>Organize your answer by remedy type, not by party or chronology. Use clear headings such as: &ldquo;I. Legal Damages,&rdquo; &ldquo;II. Equitable Remedies,&rdquo; &ldquo;III. Restitution.&rdquo; Under each heading, state the rule, apply it, and address limitations/defenses. This makes it easy for the grader to award points.</p>
+    </div>
+
+    <div class="callout callout-tip">
+      <div class="callout-title">Tip 5: Know When Restitution Beats Expectation</div>
+      <p>A frequent exam trick involves a plaintiff who made a bad bargain (contract price was below market or the plaintiff's cost of performance exceeded the contract price). In that situation, <strong>restitution</strong> may yield a higher recovery than expectation damages because restitution is measured by the <em>value of the benefit conferred</em>, which may exceed the contract price. Point this out and explain why the plaintiff would elect restitution.</p>
+    </div>
+
+    <div class="callout callout-tip">
+      <div class="callout-title">Tip 6: Crossover Awareness</div>
+      <p>Remedies almost always appears as a crossover. When you are writing a Torts, Contracts, or Property essay, <strong>always include a remedies section</strong> at the end. Address which remedies are available for each cause of action you have identified. This is one of the easiest ways to pick up additional points on any essay.</p>
+    </div>
+
+    <!-- ==================== MNEMONICS & MEMORY AIDS ==================== -->
+    <h2>XII. Mnemonics &amp; Memory Aids</h2>
+
+    <div class="mnemonic">
+      <div class="mnemonic-word">FCAMO</div>
+      <div class="mnemonic-breakdown">
+        <span>F</span>oreseeability &mdash; Were damages foreseeable at the time of contracting (contract) or at the time of the tort (tort)?<br>
+        <span>C</span>ertainty &mdash; Can damages be proven with reasonable certainty?<br>
+        <span>A</span>voidability &mdash; Did the plaintiff take reasonable steps to mitigate?<br>
+        <span>M</span>itigation &mdash; What costs did the plaintiff incur in mitigating (these are recoverable)?<br>
+        <span>O</span>ffsetting benefits &mdash; Does the collateral source rule apply, or should benefits be offset?
+      </div>
+    </div>
+
+    <div class="mnemonic">
+      <div class="mnemonic-word">FILCH</div>
+      <div class="mnemonic-breakdown">
+        <span>F</span>easibility &mdash; Can the court frame and enforce the decree?<br>
+        <span>I</span>nadequacy &mdash; Is the legal remedy inadequate?<br>
+        <span>L</span>aches &mdash; Did the plaintiff unreasonably delay?<br>
+        <span>C</span>lean hands &mdash; Did the plaintiff act equitably in the same transaction?<br>
+        <span>H</span>ardship &mdash; Does the balance of hardships favor granting equitable relief?
+      </div>
+    </div>
+
+    <div class="mnemonic">
+      <div class="mnemonic-word">ECRIN</div>
+      <div class="mnemonic-breakdown">
+        <span>E</span>xpectation damages &mdash; Benefit of the bargain (default contract remedy)<br>
+        <span>C</span>onsequential damages &mdash; Foreseeable special losses<br>
+        <span>R</span>eliance damages &mdash; Out-of-pocket expenditures in reliance on the contract<br>
+        <span>I</span>ncidental damages &mdash; Costs of dealing with the breach<br>
+        <span>N</span>ominal damages &mdash; Symbolic recovery vindicating the right
+      </div>
+    </div>
+
+    <div class="mnemonic">
+      <div class="mnemonic-word">CT vs. EL</div>
+      <div class="mnemonic-breakdown">
+        <span>C</span>onstructive <span>T</span>rust &mdash; Choose when property went UP in value (capture appreciation)<br>
+        <span>E</span>quitable <span>L</span>ien &mdash; Choose when property went DOWN in value (recover lien amount regardless of depreciation)<br>
+        Both give priority over general creditors in insolvency.<br>
+        Neither survives transfer to a bona fide purchaser.
+      </div>
+    </div>
+
+    <!-- ==================== KEY DISTINCTIONS ==================== -->
+    <h2>XIII. Key Distinctions</h2>
+
+    <table class="comparison-table">
+      <thead>
+        <tr>
+          <th>Distinction</th>
+          <th>Category A</th>
+          <th>Category B</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Legal vs. Equitable Remedies</strong></td>
+          <td><strong>Legal:</strong> Money damages; right to jury trial; available as a matter of right; measured by plaintiff's loss</td>
+          <td><strong>Equitable:</strong> Court-ordered conduct; no jury right; discretionary; requires inadequacy of legal remedy; subject to equitable defenses</td>
+        </tr>
+        <tr>
+          <td><strong>Expectation vs. Reliance vs. Restitution</strong></td>
+          <td><strong>Expectation:</strong> Forward-looking; puts plaintiff where they would have been if contract were performed. <strong>Reliance:</strong> Backward-looking; puts plaintiff where they were before the contract.</td>
+          <td><strong>Restitution:</strong> Measured by defendant's gain, not plaintiff's loss; may exceed contract price; preferred when plaintiff made a bad bargain</td>
+        </tr>
+        <tr>
+          <td><strong>Compensatory vs. Punitive Damages</strong></td>
+          <td><strong>Compensatory:</strong> Make the plaintiff whole; available in both tort and contract; measured by plaintiff's actual loss</td>
+          <td><strong>Punitive:</strong> Punish and deter; tort only (never contract alone); require malice/oppression/fraud; clear and convincing evidence (CA); subject to constitutional limits</td>
+        </tr>
+        <tr>
+          <td><strong>Rescission vs. Reformation</strong></td>
+          <td><strong>Rescission:</strong> Unwinds the entire contract; parties restored to pre-contract positions; based on fraud, mistake, duress, failure of consideration</td>
+          <td><strong>Reformation:</strong> Rewrites the contract to match actual agreement; contract continues in corrected form; based on mutual mistake in integration or unilateral mistake + fraud</td>
+        </tr>
+        <tr>
+          <td><strong>Injunction vs. Specific Performance</strong></td>
+          <td><strong>Injunction:</strong> Orders party to do or refrain from doing something; available in tort and contract; prohibitory or mandatory</td>
+          <td><strong>Specific performance:</strong> Orders party to perform contractual obligations; available only for contracts; never for personal services</td>
+        </tr>
+        <tr>
+          <td><strong>Constructive Trust vs. Equitable Lien</strong></td>
+          <td><strong>Constructive Trust:</strong> Transfers ownership of specific property; plaintiff captures appreciation; plaintiff bears risk of depreciation</td>
+          <td><strong>Equitable Lien:</strong> Creates security interest; enforced by judicial sale; plaintiff recovers fixed amount regardless of value change; better for depreciated or commingled property</td>
+        </tr>
+        <tr>
+          <td><strong>Laches vs. Statute of Limitations</strong></td>
+          <td><strong>Laches:</strong> Equitable defense; unreasonable delay + prejudice to defendant; no fixed time period; applies to equitable claims</td>
+          <td><strong>Statute of Limitations:</strong> Legal defense; fixed time period; applies regardless of prejudice; applies to legal claims</td>
+        </tr>
+        <tr>
+          <td><strong>Temporary vs. Permanent Nuisance Damages</strong></td>
+          <td><strong>Temporary:</strong> Nuisance can be abated; damages measured by loss of use/rental value during the period; statute of limitations runs from each occurrence</td>
+          <td><strong>Permanent:</strong> Nuisance cannot reasonably be abated; damages measured by diminution in property value (one recovery); statute of limitations runs from first occurrence</td>
+        </tr>
+        <tr>
+          <td><strong>Tort Damages Measure vs. Contract Damages Measure (for Fraud)</strong></td>
+          <td><strong>Benefit of the bargain (CA/majority for fraud):</strong> Value as represented minus actual value (often higher recovery)</td>
+          <td><strong>Out-of-pocket (minority for fraud):</strong> Price paid minus actual value (more conservative recovery)</td>
+        </tr>
+        <tr>
+          <td><strong>Liquidated Damages vs. Penalty</strong></td>
+          <td><strong>Enforceable liquidated damages:</strong> Damages were difficult to estimate at time of contracting AND amount is reasonable forecast of just compensation</td>
+          <td><strong>Unenforceable penalty:</strong> Amount is unreasonably large or serves as punishment rather than compensation; void; plaintiff limited to actual damages</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="mark-complete-wrap"><button class="mark-complete" data-subject="remedies">Mark as Complete</button></div>
+
+    <div class="page-nav"><a href="torts.html" class="prev"><span class="dir-label">Previous</span><br>Torts</a><a href="contracts.html" class="next"><span class="dir-label">Next</span><br>Contracts</a></div>
+
+  </div></main>
+  <script src="../script.js"></script>
+</body>
+</html>

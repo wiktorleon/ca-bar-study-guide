@@ -1,0 +1,1172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Evidence — CA Bar Study Guide</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <header class="site-header">
+    <button class="menu-toggle" aria-label="Toggle menu">&#9776;</button>
+    <a href="../index.html" class="site-title">CA Bar Study Guide</a>
+    <div class="header-search">
+      <input type="text" placeholder="Search subjects..." aria-label="Search subjects">
+      <div class="search-results"></div>
+    </div>
+    <div class="header-actions">
+      <button class="theme-toggle">Dark Mode</button>
+    </div>
+  </header>
+
+  <div class="sidebar-overlay"></div>
+  <nav class="sidebar">
+    <div class="sidebar-progress">
+      <div class="label">Progress: <strong class="progress-count">0/15</strong></div>
+      <div class="progress-bar"><div class="fill"></div></div>
+    </div>
+    <div class="sidebar-section">
+      <h3>Subjects</h3>
+      <ul class="sidebar-nav">
+        <li><a href="torts.html" data-subject="torts">Torts <span class="check">&#10003;</span></a></li>
+        <li><a href="remedies.html" data-subject="remedies">Remedies <span class="check">&#10003;</span></a></li>
+        <li><a href="contracts.html" data-subject="contracts">Contracts <span class="check">&#10003;</span></a></li>
+        <li><a href="business-associations.html" data-subject="business-associations">Business Associations <span class="check">&#10003;</span></a></li>
+        <li><a href="criminal-law.html" data-subject="criminal-law">Criminal Law <span class="check">&#10003;</span></a></li>
+        <li><a href="criminal-procedure.html" data-subject="criminal-procedure">Criminal Procedure <span class="check">&#10003;</span></a></li>
+        <li><a href="evidence.html" data-subject="evidence">Evidence <span class="check">&#10003;</span></a></li>
+        <li><a href="constitutional-law.html" data-subject="constitutional-law">Constitutional Law <span class="check">&#10003;</span></a></li>
+        <li><a href="civil-procedure.html" data-subject="civil-procedure">Civil Procedure <span class="check">&#10003;</span></a></li>
+        <li><a href="real-property.html" data-subject="real-property">Real Property <span class="check">&#10003;</span></a></li>
+        <li><a href="community-property.html" data-subject="community-property">Community Property <span class="check">&#10003;</span></a></li>
+        <li><a href="wills-succession.html" data-subject="wills-succession">Wills &amp; Succession <span class="check">&#10003;</span></a></li>
+        <li><a href="trusts.html" data-subject="trusts">Trusts <span class="check">&#10003;</span></a></li>
+        <li><a href="professional-responsibility.html" data-subject="professional-responsibility">Professional Responsibility <span class="check">&#10003;</span></a></li>
+      </ul>
+    </div>
+    <div class="sidebar-section">
+      <h3>Resources</h3>
+      <ul class="sidebar-nav">
+        <li><a href="../exam-approach.html" data-subject="exam-approach">Exam Approach &amp; Strategy <span class="check">&#10003;</span></a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="main-content">
+    <div class="content">
+
+      <!-- ============================================================ -->
+      <!--  OVERVIEW                                                     -->
+      <!-- ============================================================ -->
+      <h1>Evidence</h1>
+      <p class="subject-meta">Frequency: Very High | Last tested: July 2024 | Weight: Crossover with Criminal Procedure, Constitutional Law, Professional Responsibility</p>
+
+      <h2 id="overview">Overview</h2>
+      <p>Evidence is one of the most heavily tested subjects on the California Bar Exam. It appears on the MBE (approximately 25 of 175 scored questions) and is a regular essay topic, frequently crossing over with Criminal Procedure, Constitutional Law, and Professional Responsibility. The California Bar tests both the Federal Rules of Evidence (FRE) and the California Evidence Code (CEC), and you must know the key differences between them.</p>
+
+      <p>The bar examiners expect you to systematically analyze evidence issues in a logical sequence: relevance first, then character evidence and policy exclusions, then hearsay (including all layers), then privileges, and finally constitutional constraints (Confrontation Clause). An essay that jumps randomly between topics will score poorly even if the substantive analysis is correct.</p>
+
+      <div class="callout callout-tip">
+        <div class="callout-title">Exam Tip</div>
+        <p>On the essay portion, always state which body of law you are applying. The call of the question typically specifies "federal law" or "California law." If it says California law, discuss the CEC rules specifically. If it says federal law, apply the FRE. If ambiguous, discuss both and note the distinctions. On the MBE, apply the FRE exclusively.</p>
+      </div>
+
+      <div class="callout callout-california">
+        <div class="callout-title">California Distinction</div>
+        <p>The CEC is a comprehensive statutory code, not a set of rules like the FRE. Many CEC provisions mirror the FRE, but critical differences exist in areas including: character evidence (CEC allows opinion and specific-act evidence in civil cases), hearsay (CEC classifies admissions as hearsay subject to an exception rather than non-hearsay), the Dead Man&rsquo;s Statute (CEC &sect; 1261), expert testimony (Kelly/Frye standard rather than Daubert), additional privileges (psychotherapist, physician, clergy), and judicial notice (mandatory vs. permissive categories).</p>
+      </div>
+
+      <p>Key themes the examiners test repeatedly:</p>
+      <ul>
+        <li>Relevance and FRE 403 balancing</li>
+        <li>Character evidence rules and their exceptions (especially 404(b))</li>
+        <li>Hearsay within hearsay and the full catalog of exceptions</li>
+        <li>Impeachment methods and the rules governing each</li>
+        <li>Privileges&mdash;especially attorney-client and spousal privileges</li>
+        <li>Confrontation Clause under <em>Crawford v. Washington</em></li>
+        <li>FRE vs. CEC distinctions on every major topic</li>
+      </ul>
+
+      <!-- ============================================================ -->
+      <!--  I. RELEVANCE                                                 -->
+      <!-- ============================================================ -->
+      <h2 id="relevance">I. Relevance</h2>
+
+      <h3 id="relevance-defined">A. Relevance Defined (FRE 401)</h3>
+
+      <div class="callout callout-rule">
+        <div class="callout-title">Key Rule &mdash; FRE 401</div>
+        <p>Evidence is <strong>relevant</strong> if: (a) it has any tendency to make a fact more or less probable than it would be without the evidence; and (b) the fact is of consequence in determining the action. The threshold is very low&mdash;any tendency is sufficient.</p>
+      </div>
+
+      <p>Under FRE 402, relevant evidence is generally admissible; irrelevant evidence is never admissible. CEC &sect; 210 defines relevant evidence similarly: evidence &ldquo;having any tendency in reason to prove or disprove any disputed fact that is of consequence to the determination of the action.&rdquo;</p>
+
+      <h3 id="fre-403">B. Prejudice Balancing (FRE 403)</h3>
+
+      <div class="callout callout-rule">
+        <div class="callout-title">Key Rule &mdash; FRE 403</div>
+        <p>The court <strong>may</strong> exclude relevant evidence if its probative value is <strong>substantially outweighed</strong> by a danger of: unfair prejudice, confusing the issues, misleading the jury, undue delay, wasting time, or needlessly presenting cumulative evidence.</p>
+      </div>
+
+      <div class="callout callout-california">
+        <div class="callout-title">California Distinction &mdash; CEC &sect; 352</div>
+        <p>CEC &sect; 352 mirrors FRE 403 but uses slightly different language: the court &ldquo;in its discretion may exclude evidence if its probative value is <strong>substantially outweighed</strong> by the probability that its admission will (a) necessitate undue consumption of time or (b) create substantial danger of undue prejudice, of confusing the issues, or of misleading the jury.&rdquo; The standard is functionally identical, but note the balancing always favors admissibility&mdash;the evidence must be <em>substantially</em> outweighed.</p>
+      </div>
+
+      <h3 id="policy-exclusions">C. Policy-Based Exclusions (FRE 407&ndash;411)</h3>
+      <p>Even when evidence is relevant, certain policy concerns lead to categorical exclusion rules. These rules exist to encourage socially desirable behavior (settling disputes, repairing dangerous conditions, paying medical bills).</p>
+
+      <table class="comparison-table">
+        <thead>
+          <tr><th>Rule</th><th>FRE</th><th>CEC</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Subsequent Remedial Measures (FRE 407)</strong></td>
+            <td>Excluded when offered to prove negligence, culpable conduct, defective product design, or need for a warning. <em>Admissible</em> for impeachment, ownership, control, or feasibility of precautionary measures (if controverted).</td>
+            <td>CEC &sect; 1151 is similar but does <strong>not</strong> apply in strict products liability actions. In California, subsequent remedial measures <em>are</em> admissible in strict liability cases. (<em>Ault v. International Harvester</em>.)</td>
+          </tr>
+          <tr>
+            <td><strong>Compromise &amp; Offers to Compromise (FRE 408)</strong></td>
+            <td>Excluded to prove or disprove the validity or amount of a disputed claim, or to impeach by prior inconsistent statement or contradiction. Covers both the offer and any statements made during negotiations. Does <em>not</em> require a formal offer; covers any conduct or statements in compromise negotiations.</td>
+            <td>CEC &sect; 1152 similarly excludes offers to compromise. CEC &sect; 1154 also excludes offers to discount a claim. CEC &sect; 1152 does <em>not</em> exclude statements of fault made during mediation or settlement discussions that are admissions&mdash;but CEC &sect; 1119 (mediation confidentiality) provides broader protection for anything said during mediation. California&rsquo;s mediation confidentiality rules are among the strictest in the nation.</td>
+          </tr>
+          <tr>
+            <td><strong>Payment of Medical Expenses (FRE 409)</strong></td>
+            <td>Excluded when offered to prove liability for the injury. Covers only the payment or offer to pay; accompanying <strong>statements of fault are NOT excluded</strong> under FRE 409.</td>
+            <td>CEC &sect; 1160 similarly excludes payment of medical expenses. Like FRE 409, accompanying statements of fault are <em>not</em> protected.</td>
+          </tr>
+          <tr>
+            <td><strong>Plea Negotiations (FRE 410)</strong></td>
+            <td>Excluded: withdrawn guilty pleas, nolo contendere pleas, and statements made during plea discussions with an attorney for the government. Does <em>not</em> exclude statements made to police (only to prosecutors).</td>
+            <td>CEC &sect; 1153 excludes offers to plead guilty (not withdrawn pleas of guilty that were accepted). CEC &sect; 1153.5 excludes withdrawn guilty pleas. California is somewhat narrower in scope.</td>
+          </tr>
+          <tr>
+            <td><strong>Liability Insurance (FRE 411)</strong></td>
+            <td>Excluded when offered to prove negligence or wrongful conduct. <em>Admissible</em> for other purposes: proof of agency, ownership, control, bias, or prejudice of a witness.</td>
+            <td>CEC &sect; 1155 is substantially identical to FRE 411.</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="callout callout-warning">
+        <div class="callout-title">Common Trap</div>
+        <p>FRE 409 (medical expenses) only excludes the <em>payment itself</em>, not accompanying statements. If D says, "I'll pay your hospital bills&mdash;I ran that red light," the payment offer is excluded but "I ran that red light" is admissible as a party admission. By contrast, FRE 408 (compromise) excludes <em>both</em> the offer and statements made during compromise negotiations.</p>
+      </div>
+
+      <!-- ============================================================ -->
+      <!--  II. CHARACTER EVIDENCE                                       -->
+      <!-- ============================================================ -->
+      <h2 id="character-evidence">II. Character Evidence</h2>
+
+      <h3 id="general-prohibition">A. General Prohibition (FRE 404(a))</h3>
+
+      <div class="callout callout-rule">
+        <div class="callout-title">Key Rule &mdash; FRE 404(a)</div>
+        <p>Evidence of a person&rsquo;s character or character trait is <strong>not admissible</strong> to prove that on a particular occasion the person acted in accordance with that character or trait. This is the propensity rule: you cannot argue &ldquo;D is a violent person, therefore D committed this violent act.&rdquo;</p>
+      </div>
+
+      <h4>Exceptions in Criminal Cases (FRE 404(a)(2))</h4>
+      <ul class="elements-list">
+        <li><strong>Defendant&rsquo;s Character (Mercy Rule):</strong> A criminal defendant may introduce evidence of a <em>pertinent</em> character trait. If the defendant opens the door, the prosecution may rebut with evidence of the same trait. Under FRE, character evidence in this context is limited to <strong>reputation or opinion testimony</strong> (not specific acts on direct; specific acts allowed only on cross-examination of the character witness).</li>
+        <li><strong>Victim&rsquo;s Character:</strong> A criminal defendant may offer evidence of a pertinent trait of the victim (e.g., victim&rsquo;s violence in a self-defense case). If the defendant attacks the victim&rsquo;s character, the prosecution may rebut with evidence of (1) the victim&rsquo;s good character for the same trait, and (2) the defendant&rsquo;s bad character for the same trait.</li>
+        <li><strong>Homicide &mdash; Victim as Aggressor:</strong> In a homicide case, if the defendant claims the victim was the first aggressor, the prosecution may introduce evidence of the victim&rsquo;s peaceful character even if the defendant has not attacked the victim&rsquo;s character.</li>
+      </ul>
+
+      <div class="callout callout-california">
+        <div class="callout-title">California Distinction &mdash; Character Evidence</div>
+        <p>Under the CEC, character evidence in criminal cases may be proved by <strong>opinion, reputation, or specific instances of conduct</strong> (CEC &sect; 1102). This is broader than the FRE, which limits character evidence on direct to reputation and opinion only. In California civil cases, CEC &sect; 1101(a) similarly prohibits character evidence to prove conduct, but when character evidence is admissible (e.g., character in issue), California allows all three methods: opinion, reputation, and specific acts.</p>
+      </div>
+
+      <h3 id="fre-404b">B. Other Acts Evidence (FRE 404(b))</h3>
+
+      <div class="callout callout-rule">
+        <div class="callout-title">Key Rule &mdash; FRE 404(b)</div>
+        <p>Evidence of other crimes, wrongs, or acts is <strong>not admissible</strong> to prove character in order to show action in conformity therewith. However, such evidence <strong>may be admissible</strong> for another purpose, such as proving motive, opportunity, intent, preparation, plan, knowledge, identity, absence of mistake, or lack of accident.</p>
+      </div>
+
+      <div class="mnemonic">
+        <div class="mnemonic-title">Mnemonic &mdash; MIMIC</div>
+        <p><strong>M</strong>otive, <strong>I</strong>ntent, <strong>M</strong>istake (absence of) / Identity, <strong>I</strong>dentity / Preparation, <strong>C</strong>ommon plan or scheme. Also remember: <strong>K</strong>nowledge and <strong>O</strong>pportunity. The full list is often memorized as <strong>MIMIC KOPPD</strong>: Motive, Intent, Mistake (absence of), Identity, Common plan, Knowledge, Opportunity, Preparation, Plan, absence of acciDent.</p>
+      </div>
+
+      <p>Under FRE 404(b)(2), the prosecution in a criminal case must provide <strong>reasonable notice</strong> before trial of the general nature of any 404(b) evidence it intends to offer. The evidence must still pass FRE 403 balancing&mdash;the probative value for the non-propensity purpose must not be substantially outweighed by the danger of unfair prejudice.</p>
+
+      <div class="callout callout-california">
+        <div class="callout-title">California Distinction &mdash; CEC &sect; 1101(b)</div>
+        <p>CEC &sect; 1101(b) tracks FRE 404(b) closely. Evidence of uncharged acts is admissible to prove motive, intent, plan, knowledge, identity, or absence of mistake or accident. California courts also apply CEC &sect; 352 balancing. The California Supreme Court&rsquo;s analysis in <em>People v. Ewoldt</em> establishes a sliding scale: the degree of similarity required between the prior act and the charged offense depends on the purpose for which the evidence is offered (least similarity needed for intent, more for common plan, most for identity).</p>
+      </div>
+
+      <h3 id="habit">C. Habit Evidence (FRE 406)</h3>
+
+      <div class="callout callout-rule">
+        <div class="callout-title">Key Rule &mdash; FRE 406</div>
+        <p>Evidence of a person&rsquo;s <strong>habit</strong> or an organization&rsquo;s <strong>routine practice</strong> may be admitted to prove that the person or organization acted in accordance with the habit or routine practice on a particular occasion. Habit is admissible regardless of whether it is corroborated and regardless of whether an eyewitness is available.</p>
+      </div>
+
+      <p>Habit is distinguished from character: habit is a <strong>semi-automatic, specific, repeated response</strong> to a particular situation (e.g., always buckling a seatbelt, always descending a staircase on the left side, always locking the door upon leaving). Character is a general disposition (e.g., carefulness, aggressiveness). The key markers of habit are <strong>specificity</strong> and <strong>regularity</strong>.</p>
+
+      <p>CEC &sect; 1105 is identical in substance to FRE 406.</p>
+
+      <h3 id="sexual-assault">D. Sexual Assault Rules (FRE 412&ndash;415)</h3>
+
+      <table class="comparison-table">
+        <thead>
+          <tr><th>Rule</th><th>FRE</th><th>CEC</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Rape Shield (FRE 412)</strong></td>
+            <td>In any proceeding involving alleged sexual misconduct, evidence of the victim&rsquo;s other sexual behavior or sexual predisposition is generally <strong>inadmissible</strong>. Criminal exceptions: (1) specific instances to prove someone other than the defendant was the source of physical evidence; (2) specific instances of sexual behavior between the victim and the defendant, to prove consent; (3) exclusion would violate the defendant&rsquo;s constitutional rights. Civil exception: probative value substantially outweighs harm to victim and unfair prejudice (reverse 403 balancing).</td>
+            <td>CEC &sect; 1103(c) and CEC &sect; 782 provide California&rsquo;s rape shield. CEC &sect; 782 requires a written motion and an in-camera hearing before the defendant may introduce evidence of the victim&rsquo;s prior sexual conduct. CEC &sect; 1103(c)(1) prohibits opinion or reputation evidence of the complaining witness&rsquo;s sexual conduct to prove consent.</td>
+          </tr>
+          <tr>
+            <td><strong>D&rsquo;s Prior Sex Offenses (FRE 413&ndash;415)</strong></td>
+            <td>In sexual assault (413), child molestation (414), and civil cases involving sexual assault or molestation (415), evidence of the defendant&rsquo;s <strong>prior similar offenses is admissible</strong> and may be considered for <em>any relevant purpose</em>, including propensity. This is a major exception to the 404(a) ban.</td>
+            <td>CEC &sect; 1108 (sexual offenses) and &sect; 1109 (domestic violence) allow evidence of the defendant&rsquo;s prior uncharged acts of the same type to prove propensity. CEC &sect; 1108 is broader than the FRE in that it extends to all &ldquo;sexual offenses&rdquo; as defined. CEC &sect; 352 balancing still applies, and the court must weigh the inflammatory nature of the evidence, its remoteness, and likelihood of confusing the jury.</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <!-- ============================================================ -->
+      <!--  III. WITNESSES                                               -->
+      <!-- ============================================================ -->
+      <h2 id="witnesses">III. Witnesses</h2>
+
+      <h3 id="competency">A. Competency (FRE 601&ndash;606)</h3>
+
+      <div class="callout callout-rule">
+        <div class="callout-title">Key Rule &mdash; FRE 601</div>
+        <p>Every person is competent to be a witness unless the Federal Rules provide otherwise. There are no minimum age or mental capacity requirements under the FRE. The only federal competency rules are: (1) the witness must have personal knowledge (FRE 602); (2) the witness must take an oath or affirmation to testify truthfully (FRE 603); and (3) a juror may not testify before the jury in the trial in which the juror sits (FRE 606).</p>
+      </div>
+
+      <table class="comparison-table">
+        <thead>
+          <tr><th>Issue</th><th>FRE</th><th>CEC</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>General Standard</strong></td>
+            <td>All persons competent (FRE 601). In diversity cases, state law governs witness competency as to elements of a claim or defense.</td>
+            <td>CEC &sect; 700: all persons are qualified to testify except those unable to (1) express themselves so as to be understood, or (2) understand the duty to tell the truth (CEC &sect; 701).</td>
+          </tr>
+          <tr>
+            <td><strong>Dead Man&rsquo;s Statute</strong></td>
+            <td>No federal Dead Man&rsquo;s Statute (but in diversity cases, state law applies under FRE 601).</td>
+            <td>CEC &sect; 1261 provides a limited Dead Man&rsquo;s Statute: a statement by a <em>deceased declarant</em> is inadmissible hearsay in certain actions against the estate unless it falls within a specific hearsay exception. Note: California&rsquo;s rule is narrower than many other states&rsquo; Dead Man&rsquo;s Statutes, which prohibit a surviving party from testifying about transactions with the decedent.</td>
+          </tr>
+          <tr>
+            <td><strong>Judge as Witness</strong></td>
+            <td>FRE 605: The presiding judge may not testify as a witness. No objection need be made to preserve the issue.</td>
+            <td>CEC &sect; 703 similarly disqualifies the presiding judge.</td>
+          </tr>
+          <tr>
+            <td><strong>Juror as Witness</strong></td>
+            <td>FRE 606(a): A juror may not testify before the other jurors. FRE 606(b): During an inquiry into the validity of a verdict, a juror may not testify about statements made during deliberations, the effect of anything on any juror&rsquo;s vote, or any juror&rsquo;s mental processes. Exceptions: (1) extraneous prejudicial information, (2) outside improper influence, (3) a mistake on the verdict form. <em>Pena-Rodriguez v. Colorado</em> (2017): racial bias in deliberations is an additional exception.</td>
+            <td>CEC &sect; 704 tracks the federal rule. CEC &sect; 1150 distinguishes between the &ldquo;objective&rdquo; conduct of jurors (admissible to impeach verdict) and &ldquo;subjective&rdquo; mental processes (inadmissible).</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3 id="impeachment">B. Impeachment</h3>
+      <p>Impeachment is the process of attacking a witness&rsquo;s credibility. Any party may impeach any witness, including its own (FRE 607; CEC &sect; 785). The major impeachment methods are:</p>
+
+      <ul class="elements-list">
+        <li><strong>Prior Inconsistent Statements (FRE 613):</strong> A witness may be impeached with a prior statement inconsistent with the witness&rsquo;s trial testimony. Under FRE 613, extrinsic evidence of a prior inconsistent statement is admissible only if the witness is given an opportunity to explain or deny the statement and the opposing party is given an opportunity to examine the witness about it (or the interests of justice otherwise require). The foundation need not be laid before introducing extrinsic evidence. Under CEC &sect; 770, the witness must be given the opportunity to explain or deny <em>before</em> extrinsic evidence is admitted, unless the witness has not yet been excused and can still be recalled.</li>
+
+        <li><strong>Bias, Interest, or Motive:</strong> Evidence that a witness has a reason to favor or disfavor a party is always relevant to credibility. The FRE does not have a specific rule on bias, but the Supreme Court in <em>United States v. Abel</em> (1984) confirmed that bias is always a proper basis for impeachment. Extrinsic evidence of bias is admissible (unlike character for untruthfulness under 608(b)). Under CEC &sect; 780, bias is listed as a factor bearing on credibility.</li>
+
+        <li><strong>Sensory or Mental Defects:</strong> Evidence that the witness had impaired perception, memory, or mental capacity at the time of the event or at trial. Extrinsic evidence is admissible.</li>
+
+        <li><strong>Character for Untruthfulness (FRE 608):</strong> A witness&rsquo;s character for truthfulness or untruthfulness may be attacked by reputation or opinion testimony (FRE 608(a)). Specific instances of conduct probative of truthfulness or untruthfulness may be inquired into on cross-examination of the witness or a character witness, but <strong>extrinsic evidence is not admissible</strong> to prove specific instances of conduct under FRE 608(b). The cross-examiner is &ldquo;stuck with the answer.&rdquo;</li>
+
+        <li><strong>Prior Convictions (FRE 609):</strong> See detailed table below.</li>
+
+        <li><strong>Contradiction:</strong> A witness may be impeached by showing that the witness&rsquo;s testimony on a material point is incorrect. The collateral-matter rule limits the use of extrinsic evidence: extrinsic evidence is generally not admissible to contradict a witness on a collateral matter (one that is not independently relevant to the case apart from impeachment).</li>
+      </ul>
+
+      <h4>Prior Convictions &mdash; FRE 609</h4>
+
+      <table class="comparison-table">
+        <thead>
+          <tr><th>Type of Conviction</th><th>FRE 609</th><th>CEC</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Crimes punishable by death or &gt;1 year imprisonment (felonies)</strong></td>
+            <td>For a <em>non-defendant</em> witness: admissible subject to FRE 403 balancing. For a <em>criminal defendant</em>: admissible only if probative value <strong>outweighs</strong> its prejudicial effect to the defendant (reverse 403 &mdash; balancing favors exclusion). Factors: nature of the crime, recency, similarity to charged offense, importance of D&rsquo;s testimony, centrality of credibility.</td>
+            <td>CEC &sect; 788: any witness (including the defendant) may be impeached with a prior <strong>felony conviction</strong>. California does not use the FRE&rsquo;s tiered balancing approach, but courts retain discretion under CEC &sect; 352. <em>People v. Wheeler</em> (1992) and <em>People v. Clark</em> establish that &sect; 352 analysis applies.</td>
+          </tr>
+          <tr>
+            <td><strong>Crimes involving dishonesty or false statement (crimen falsi)</strong></td>
+            <td>Admissible <strong>regardless of punishment</strong> and without any balancing. No discretion to exclude. Examples: perjury, fraud, embezzlement, forgery, false pretenses. Does <em>not</em> include theft crimes generally unless they involved deceit.</td>
+            <td>CEC does not have a separate crimen falsi category. All felony convictions are treated the same under CEC &sect; 788. Misdemeanor convictions generally cannot be used for impeachment in California.</td>
+          </tr>
+          <tr>
+            <td><strong>Time Limit</strong></td>
+            <td>If more than <strong>10 years</strong> have passed since the later of the conviction or release from confinement, the evidence is admissible only if its probative value, supported by specific facts and circumstances, substantially outweighs its prejudicial effect, and the proponent gives reasonable written notice.</td>
+            <td>CEC has <strong>no automatic time limit</strong>. Remoteness is a factor under &sect; 352 balancing, but old convictions are not presumptively excluded.</td>
+          </tr>
+          <tr>
+            <td><strong>Juvenile Adjudications</strong></td>
+            <td>Generally not admissible; exception for witnesses other than the defendant in criminal cases where admission is necessary for a fair determination.</td>
+            <td>CEC &sect; 788 applies to felony convictions; juvenile adjudications are generally not &ldquo;convictions&rdquo; and are excluded.</td>
+          </tr>
+          <tr>
+            <td><strong>Pardons</strong></td>
+            <td>FRE 609(c): Not admissible if the pardon was based on a finding of rehabilitation and the person has not been convicted of a subsequent felony, or if based on a finding of innocence.</td>
+            <td>Similar rules apply under CEC &sect; 788.</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h4>Rehabilitation of Impeached Witnesses</h4>
+      <p>After a witness has been impeached, the calling party may rehabilitate by:</p>
+      <ul>
+        <li><strong>Prior Consistent Statements:</strong> Admissible to rebut a charge of recent fabrication or improper influence or motive, provided the statement was made <em>before</em> the alleged motive to fabricate arose (FRE 801(d)(1)(B)). Under <em>Tome v. United States</em> (1995), the pre-motive requirement applies. The 2014 amendment also allows consistent statements to rehabilitate the witness&rsquo;s credibility more broadly. Under CEC &sect; 791, prior consistent statements are admissible to rebut a charge of recent fabrication or bias.</li>
+        <li><strong>Good Character for Truthfulness:</strong> Under FRE 608(a), evidence of good character for truthfulness (reputation or opinion) is admissible only <em>after</em> the witness&rsquo;s character for truthfulness has been attacked.</li>
+        <li><strong>Explanation of Prior Inconsistency:</strong> The witness may be given the opportunity to explain the inconsistency on redirect.</li>
+      </ul>
+
+      <h3 id="opinions">C. Lay and Expert Opinion</h3>
+
+      <table class="comparison-table">
+        <thead>
+          <tr><th>Issue</th><th>FRE</th><th>CEC</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Lay Opinion (FRE 701)</strong></td>
+            <td>A lay witness may testify in the form of an opinion if it is: (a) rationally based on the witness&rsquo;s perception; (b) helpful to understanding the testimony or determining a fact; and (c) not based on scientific, technical, or specialized knowledge within the scope of FRE 702. Common examples: speed, intoxication, handwriting identification, emotional state, identity.</td>
+            <td>CEC &sect; 800 is substantially similar: lay opinion must be rationally based on the witness&rsquo;s perception and helpful to a clear understanding of testimony.</td>
+          </tr>
+          <tr>
+            <td><strong>Expert Opinion (FRE 702)</strong></td>
+            <td>A qualified expert (by knowledge, skill, experience, training, or education) may testify if: (a) specialized knowledge will help the trier of fact; (b) the testimony is based on sufficient facts or data; (c) the testimony is the product of reliable principles and methods; and (d) the expert has reliably applied the principles and methods to the facts. Standard: <strong>Daubert v. Merrell Dow</strong> (1993) &mdash; the trial judge acts as gatekeeper. Factors: testability, peer review, error rate, general acceptance.</td>
+            <td>CEC &sect; 801 and &sect; 720 govern expert testimony. California uses the <strong>Kelly/Frye</strong> standard (general acceptance in the relevant scientific community) for <em>new scientific techniques</em>. For other expert testimony, CEC &sect; 801 requires that the opinion be based on matter that is of a type reasonably relied upon by experts in the field. <em>Sargon Enterprises v. USC</em> (2012) adopted a gatekeeper role for California courts, but Kelly/Frye remains the standard for novel scientific methods.</td>
+          </tr>
+          <tr>
+            <td><strong>Basis of Expert Opinion</strong></td>
+            <td>FRE 703: An expert may base opinion on facts or data that the expert has been made aware of or personally observed. If experts in the field reasonably rely on such data, it need not be independently admissible. But the facts/data themselves may be disclosed to the jury only if their probative value in helping the jury evaluate the opinion substantially outweighs their prejudicial effect.</td>
+            <td>CEC &sect; 801(b): expert opinion must be based on matter &ldquo;of a type that reasonably may be relied upon by an expert in forming an opinion.&rdquo; California allows experts to rely on hearsay and other inadmissible evidence as a basis for opinion, but the underlying data is not independently admissible.</td>
+          </tr>
+          <tr>
+            <td><strong>Ultimate Issue</strong></td>
+            <td>FRE 704(a): An opinion is not objectionable just because it embraces an ultimate issue. FRE 704(b) exception: in a criminal case, an expert may <em>not</em> state an opinion about whether the defendant had the mental state required for the crime. The expert may describe the defendant&rsquo;s condition, but the ultimate conclusion on mental state is for the jury.</td>
+            <td>CEC &sect; 805: testimony in the form of an opinion that is otherwise admissible is not objectionable because it embraces the ultimate issue. California does <em>not</em> have an equivalent of FRE 704(b)&rsquo;s mental-state restriction.</td>
+          </tr>
+          <tr>
+            <td><strong>Learned Treatises (FRE 803(18))</strong></td>
+            <td>A statement in a learned treatise, periodical, or pamphlet may be read into evidence (but not received as an exhibit) if: (a) the statement is called to the attention of or relied upon by an expert on cross-examination, and (b) the publication is established as a reliable authority by the expert&rsquo;s testimony, other expert testimony, or judicial notice.</td>
+            <td>CEC &sect; 721(b): an expert may be cross-examined regarding publications in the field. However, the publication itself is <strong>not independently admissible as substantive evidence</strong> under the CEC&mdash;it may only be used for impeachment. This is a significant FRE/CEC difference.</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="callout callout-warning">
+        <div class="callout-title">Key Distinction &mdash; Daubert vs. Kelly/Frye</div>
+        <p><strong>Daubert</strong> (federal): The trial judge acts as a &ldquo;gatekeeper&rdquo; to ensure expert testimony is both relevant and reliable. Factors include testability, peer review, known error rate, and general acceptance. Daubert is more flexible and allows the judge to consider multiple reliability factors.</p>
+        <p><strong>Kelly/Frye</strong> (California): For <em>new scientific techniques</em> (e.g., novel DNA analysis, lie detectors), the proponent must show the technique is generally accepted in the relevant scientific community. This is a narrower, more conservative test that applies only to novel scientific evidence. For non-novel expert testimony, California applies CEC &sect; 352 and the <em>Sargon</em> gatekeeper framework.</p>
+      </div>
+
+      <!-- ============================================================ -->
+      <!--  IV. HEARSAY                                                  -->
+      <!-- ============================================================ -->
+      <h2 id="hearsay">IV. Hearsay</h2>
+
+      <h3 id="hearsay-definition">A. Definition (FRE 801)</h3>
+
+      <div class="callout callout-rule">
+        <div class="callout-title">Key Rule &mdash; FRE 801(a)&ndash;(c)</div>
+        <p><strong>Hearsay</strong> is a <strong>statement</strong> (oral assertion, written assertion, or nonverbal conduct intended as an assertion) made by a <strong>declarant</strong> (a person) who is <strong>not testifying at the current trial or hearing</strong>, offered in evidence to prove the <strong>truth of the matter asserted</strong>. Hearsay is inadmissible unless an exception or exclusion applies.</p>
+      </div>
+
+      <h4>Non-Hearsay Purposes</h4>
+      <p>A statement is not hearsay if it is offered for a purpose other than proving the truth of the matter asserted. Common non-hearsay purposes include:</p>
+      <ul class="elements-list">
+        <li><strong>Verbal Acts (Legally Operative Words):</strong> Words that have independent legal significance&mdash;e.g., words of a contract, defamatory statement (in a defamation case), words of offer/acceptance, threat, permission, gift.</li>
+        <li><strong>Effect on the Listener/Reader:</strong> Offered to show the listener&rsquo;s state of mind, knowledge, or the reasonableness of the listener&rsquo;s subsequent conduct&mdash;e.g., showing that the defendant had notice, knowledge, or was put on alert.</li>
+        <li><strong>Circumstantial Evidence of Declarant&rsquo;s State of Mind:</strong> Offered to show the declarant&rsquo;s then-existing mental state, knowledge, or belief (not for the truth of what is believed, but for the fact that the belief existed).</li>
+        <li><strong>Impeachment:</strong> A prior inconsistent statement offered solely to impeach a witness (not for truth) is not hearsay.</li>
+      </ul>
+
+      <h3 id="prior-statements">B. Prior Statements of a Testifying Witness (FRE 801(d)(1))</h3>
+
+      <table class="comparison-table">
+        <thead>
+          <tr><th>Type</th><th>FRE 801(d)(1) (Non-Hearsay)</th><th>CEC (Hearsay Exception)</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Prior Inconsistent Statements</strong></td>
+            <td>FRE 801(d)(1)(A): Substantively admissible as non-hearsay only if given under <strong>oath at a prior proceeding</strong> (trial, deposition, hearing, other proceeding). If not under oath, it may still be used for impeachment only (not for truth).</td>
+            <td>CEC &sect; 1235: A prior inconsistent statement is admissible for its truth <strong>regardless of whether it was made under oath</strong>. This is significantly broader than the FRE. Any prior inconsistent statement is substantive evidence in California.</td>
+          </tr>
+          <tr>
+            <td><strong>Prior Consistent Statements</strong></td>
+            <td>FRE 801(d)(1)(B): Substantively admissible as non-hearsay if offered (i) to rebut a charge of recent fabrication or improper influence or motive, or (ii) to rehabilitate the witness&rsquo;s credibility after it has been attacked on another ground. Under <em>Tome</em>, the pre-motive requirement applies to subsection (i).</td>
+            <td>CEC &sect; 791: prior consistent statements are admissible to rebut charges of recent fabrication or bias/motive. CEC &sect; 1236 allows prior consistent statements to be admitted for their truth when they are otherwise admissible to support credibility.</td>
+          </tr>
+          <tr>
+            <td><strong>Prior Identification</strong></td>
+            <td>FRE 801(d)(1)(C): A statement identifying a person as someone the declarant perceived earlier. Substantively admissible as non-hearsay. The declarant must testify and be subject to cross-examination at the current trial.</td>
+            <td>CEC &sect; 1238: a prior identification is admissible for its truth if the declarant testifies at the hearing and is subject to cross-examination. Substantially identical to FRE.</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="callout callout-california">
+        <div class="callout-title">Critical CA Distinction &mdash; Prior Inconsistent Statements</div>
+        <p>Under the FRE, a prior inconsistent statement is substantive evidence (admissible for its truth) <em>only if</em> it was given under oath at a prior proceeding. Under the CEC (&sect; 1235), <em>any</em> prior inconsistent statement is admissible for its truth, whether or not made under oath. This is one of the most frequently tested FRE/CEC distinctions. On a CA essay, if a witness made a prior inconsistent statement to a police officer (not under oath), it is admissible for its truth under CEC &sect; 1235 but only for impeachment (not truth) under the FRE.</p>
+      </div>
+
+      <h3 id="admissions">C. Opposing Party Statements / Admissions (FRE 801(d)(2))</h3>
+
+      <div class="callout callout-rule">
+        <div class="callout-title">Key Rule &mdash; FRE 801(d)(2)</div>
+        <p>A statement is <strong>not hearsay</strong> if it is offered against an opposing party and is: (A) the party&rsquo;s own statement; (B) a statement the party manifested that it adopted or believed to be true (adoptive admission); (C) a statement by a person authorized by the party to make a statement on the subject; (D) a statement by the party&rsquo;s agent or employee on a matter within the scope of the relationship, made during the relationship; or (E) a statement by a co-conspirator during and in furtherance of the conspiracy.</p>
+      </div>
+
+      <div class="callout callout-california">
+        <div class="callout-title">California Distinction &mdash; Admissions as Hearsay</div>
+        <p>Under the CEC, admissions of a party-opponent are classified as <strong>hearsay</strong> but are admissible under <strong>hearsay exceptions</strong>: CEC &sect; 1220 (party&rsquo;s own statement), CEC &sect; 1221 (adoptive admission), CEC &sect; 1222 (authorized admission), CEC &sect; 1224 (statement of declarant whose liability is in issue). This classification difference matters for hearsay-within-hearsay analysis: under the FRE, the admission is not hearsay at all, so the outer layer does not require an exception. Under the CEC, each layer of hearsay must satisfy an exception.</p>
+      </div>
+
+      <h4>Types of Admissions in Detail</h4>
+      <ul class="elements-list">
+        <li><strong>Personal Admissions (801(d)(2)(A) / CEC &sect; 1220):</strong> The party&rsquo;s own statement in any form&mdash;oral, written, or conduct. Need not be against interest when made; any statement by a party offered against that party qualifies. No personal-knowledge requirement.</li>
+        <li><strong>Adoptive Admissions (801(d)(2)(B) / CEC &sect; 1221):</strong> A statement by another person that the party adopted. Adoption may be express or implied. <em>Tacit admission</em>: silence in response to a statement may be treated as adoption if (1) the party heard and understood the statement, (2) the party was able to deny it, and (3) a reasonable person in the party&rsquo;s position would have denied it. Does not apply when the party is in police custody (Miranda protections).</li>
+        <li><strong>Authorized Admissions (801(d)(2)(C) / CEC &sect; 1222):</strong> Statement by a person authorized by the party to speak on the subject (e.g., spokesperson, attorney).</li>
+        <li><strong>Agent/Employee Admissions (801(d)(2)(D)):</strong> Statement by a party&rsquo;s agent or employee concerning a matter within the scope of the agency or employment, made during the existence of the relationship. Under FRE, the contents of the statement itself may be considered in determining whether the agency relationship exists (but cannot be the <em>sole</em> basis). CEC does <em>not</em> have a direct equivalent of 801(d)(2)(D); California uses CEC &sect; 1222 (authorized admissions) more narrowly.</li>
+        <li><strong>Co-Conspirator Admissions (801(d)(2)(E) / CEC &sect; 1223):</strong> A statement by a co-conspirator made during and in furtherance of the conspiracy. The proponent must show: (1) a conspiracy existed; (2) the declarant and the party were members; (3) the statement was made during the conspiracy; and (4) the statement was made in furtherance of the conspiracy. Preliminary factual determinations are made by the judge under FRE 104(a). The statement itself may be considered but is not sufficient alone. &ldquo;In furtherance&rdquo; means to advance the conspiracy&rsquo;s objectives&mdash;mere narratives about past events do not qualify.</li>
+      </ul>
+
+      <!-- ============================================================ -->
+      <!--  V. HEARSAY EXCEPTIONS — DECLARANT UNAVAILABLE (804)          -->
+      <!-- ============================================================ -->
+      <h2 id="hearsay-unavailable">V. Hearsay Exceptions &mdash; Declarant Unavailable (FRE 804)</h2>
+
+      <h3>Unavailability Defined (FRE 804(a))</h3>
+      <p>A declarant is unavailable if: (1) exempt from testifying due to privilege; (2) refuses to testify despite a court order; (3) testifies to not remembering the subject matter; (4) cannot be present because of death or existing physical or mental illness or infirmity; or (5) is absent and the proponent was unable to procure attendance (or in the case of 804(b)(2)&ndash;(4), deposition testimony) by process or other reasonable means. The proponent of the statement must not have caused the unavailability through wrongdoing intended to prevent the declarant from testifying.</p>
+
+      <table class="comparison-table">
+        <thead>
+          <tr><th>Exception</th><th>FRE 804(b)</th><th>CEC</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Former Testimony (804(b)(1))</strong></td>
+            <td>Testimony given at a prior proceeding or deposition is admissible if the party against whom it is offered (or in civil cases, a predecessor in interest) had an <strong>opportunity and similar motive to develop the testimony</strong> by direct, cross, or redirect examination.</td>
+            <td>CEC &sect; 1290 (former testimony in a different proceeding) and &sect; 1291 (former testimony offered against a party who was a party to the former proceeding). CEC &sect; 1291 requires the party against whom it is offered had the right and opportunity to cross-examine with an interest and motive similar to that which the party has now. CEC &sect; 1292 allows former testimony against a person not a party to the former action if the issues are similar and the party&rsquo;s interest in the former proceeding was similar (broader than FRE in civil cases).</td>
+          </tr>
+          <tr>
+            <td><strong>Dying Declaration (804(b)(2))</strong></td>
+            <td>A statement made by a declarant who <strong>believes death is imminent</strong>, concerning the <strong>cause or circumstances of the believed impending death</strong>. Under FRE, admissible only in <strong>homicide cases and civil cases</strong>.</td>
+            <td>CEC &sect; 1242: dying declarations are admissible in <strong>all cases</strong> (criminal and civil), not just homicide and civil. This is broader than the FRE. The declarant need not actually die&mdash;the belief of imminent death is what matters (same as FRE).</td>
+          </tr>
+          <tr>
+            <td><strong>Statement Against Interest (804(b)(3))</strong></td>
+            <td>A statement that was so far contrary to the declarant&rsquo;s <strong>proprietary or pecuniary interest</strong>, or so far tended to <strong>subject the declarant to civil or criminal liability</strong>, or to render invalid a claim by the declarant against another, that a reasonable person in the declarant&rsquo;s position would not have made the statement unless believing it to be true. If offered in a criminal case to exculpate the accused, <strong>corroborating circumstances</strong> must clearly indicate the trustworthiness of the statement. Note: the declarant need not be a party (distinguishing this from admissions).</td>
+            <td>CEC &sect; 1230 is substantially similar. California also requires that the statement, when offered to exculpate the accused, be supported by corroborating circumstances. Note that statements against <strong>social interest</strong> (e.g., &ldquo;I cheated on my wife&rdquo;) do not qualify under either the FRE or CEC.</td>
+          </tr>
+          <tr>
+            <td><strong>Statement of Personal or Family History (804(b)(4))</strong></td>
+            <td>Statement about the declarant&rsquo;s own birth, adoption, legitimacy, ancestry, marriage, divorce, relationship by blood, adoption, or marriage, or similar fact, even if the declarant had no way to acquire personal knowledge.</td>
+            <td>CEC &sect;&sect; 1310&ndash;1316 cover various family-history exceptions, including statements by a deceased declarant, family reputation, community reputation, and entries in family Bibles and similar records.</td>
+          </tr>
+          <tr>
+            <td><strong>Forfeiture by Wrongdoing (804(b)(6))</strong></td>
+            <td>A statement offered against a party that <strong>wrongfully caused</strong> or acquiesced in wrongfully causing the declarant&rsquo;s unavailability. The party forfeits the right to object on hearsay (and Confrontation Clause) grounds. Intent to procure unavailability must be shown.</td>
+            <td>CEC &sect; 1390: forfeiture by wrongdoing. California&rsquo;s statute closely tracks the FRE. The proponent must show by a preponderance that the party engaged in or aided wrongdoing that was intended to and did procure the declarant&rsquo;s unavailability.</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="callout callout-warning">
+        <div class="callout-title">Common Trap &mdash; Against Interest vs. Admissions</div>
+        <p>Do not confuse <strong>statements against interest (FRE 804(b)(3))</strong> with <strong>party admissions (FRE 801(d)(2))</strong>. Key differences: (1) The declarant for a statement against interest must be <em>unavailable</em>; no unavailability required for admissions. (2) The statement must have been <em>against interest when made</em>; admissions need not be against interest when made. (3) The declarant for a statement against interest need <em>not</em> be a party; admissions must be offered against a party. (4) The declarant must have <em>personal knowledge</em> for a statement against interest; no personal-knowledge requirement for admissions.</p>
+      </div>
+
+      <!-- ============================================================ -->
+      <!--  VI. HEARSAY EXCEPTIONS — AVAILABILITY IMMATERIAL (803)       -->
+      <!-- ============================================================ -->
+      <h2 id="hearsay-available">VI. Hearsay Exceptions &mdash; Availability Immaterial (FRE 803)</h2>
+
+      <table class="comparison-table">
+        <thead>
+          <tr><th>Exception</th><th>FRE 803</th><th>CEC</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Present Sense Impression (803(1))</strong></td>
+            <td>A statement <strong>describing or explaining</strong> an event or condition, made <strong>while or immediately after</strong> the declarant perceived it. Requires near-contemporaneity. No requirement of a startling event (distinguished from excited utterance).</td>
+            <td>The CEC does <strong>not have a present sense impression exception</strong>. This is a major FRE/CEC distinction. In California, such a statement would need to qualify under another exception (e.g., contemporaneous statement under CEC &sect; 1241, which requires the statement be made while the declarant was engaged in the conduct described).</td>
+          </tr>
+          <tr>
+            <td><strong>Excited Utterance (803(2))</strong></td>
+            <td>A statement relating to a <strong>startling event or condition</strong>, made while the declarant was still <strong>under the stress of excitement</strong> caused by the event. The statement need not be contemporaneous&mdash;it is admissible as long as the declarant is still under the influence of the excitement. Need not describe the event; it only needs to &ldquo;relate to&rdquo; it.</td>
+            <td>CEC &sect; 1240: substantially similar. Requires (1) a statement made in response to a startling event, (2) while the declarant was under the stress of excitement, and (3) purporting to narrate, describe, or explain the act, condition, or event. Functionally identical to FRE 803(2).</td>
+          </tr>
+          <tr>
+            <td><strong>Then-Existing State of Mind (803(3))</strong></td>
+            <td>A statement of the declarant&rsquo;s <strong>then-existing state of mind, emotion, sensation, or physical condition</strong> (e.g., intent, plan, motive, design, mental feeling, pain, bodily health). Includes statements of intent to do something in the future (<em>Mutual Life Insurance Co. v. Hillmon</em>). Does <strong>not</strong> include statements of memory or belief to prove the fact remembered or believed, <em>except</em> statements relating to the execution, revocation, identification, or terms of the declarant&rsquo;s will.</td>
+            <td>CEC &sect; 1250: substantially identical. Admits statements of the declarant&rsquo;s then-existing state of mind, emotion, or physical sensation when offered to prove the declarant&rsquo;s state of mind or to prove subsequent conduct of the declarant. CEC &sect; 1251 covers statements of previously existing mental or physical state, admissible when the declarant is unavailable.</td>
+          </tr>
+          <tr>
+            <td><strong>Statements for Medical Diagnosis or Treatment (803(4))</strong></td>
+            <td>A statement made for and reasonably pertinent to <strong>medical diagnosis or treatment</strong>, describing medical history, past or present symptoms, pain, sensations, their inception, or their general cause. <em>Includes statements to physicians consulted solely for the purpose of testifying.</em> The declarant need not be the patient. <strong>Identity of the perpetrator</strong> is generally not reasonably pertinent unless relevant to treatment (e.g., in child abuse cases, identity may relate to treatment of ongoing threat).</td>
+            <td>CEC &sect; 1253 covers statements for medical diagnosis or treatment in child abuse or neglect proceedings. Beyond that, the CEC does <strong>not have a general equivalent of FRE 803(4)</strong>. In California, statements to a doctor may come in under other exceptions or as prior consistent/inconsistent statements, or under the business-records exception if recorded in medical charts. This is another significant FRE/CEC difference.</td>
+          </tr>
+          <tr>
+            <td><strong>Recorded Recollection (803(5))</strong></td>
+            <td>A record that: (a) is on a matter the witness once had <strong>knowledge</strong> about but now <strong>cannot recall well enough to testify fully</strong>; (b) was <strong>made or adopted</strong> by the witness when the matter was fresh in memory; and (c) <strong>accurately reflects</strong> the witness&rsquo;s knowledge. The record may be <em>read into evidence</em> but may <strong>not be received as an exhibit</strong> unless offered by an adverse party. Distinguished from present recollection refreshed (FRE 612), which is not a hearsay exception&mdash;it merely uses a writing to jog the witness&rsquo;s memory.</td>
+            <td>CEC &sect; 1237: past recollection recorded. Requirements are similar: (a) a writing made at or near the time of the event; (b) by or under the direction of the witness; (c) offered after the witness testifies that the statement was a true statement of the fact; and (d) the witness has insufficient recollection to testify fully. Under CEC, the writing itself <em>may</em> be received as an exhibit (different from FRE, which only allows it to be read).</td>
+          </tr>
+          <tr>
+            <td><strong>Business Records (803(6))</strong></td>
+            <td>A record of an act, event, condition, opinion, or diagnosis if: (a) made at or near the time of the event; (b) by or from information transmitted by someone with knowledge; (c) kept in the course of a regularly conducted activity of a business; (d) making the record was a regular practice of that activity; and (e) the opponent does not show that the source of information or the method or circumstances of preparation indicate a lack of trustworthiness. Foundation is typically laid through the testimony of a custodian or other qualified witness, or by certification under FRE 902(11)&ndash;(12).</td>
+            <td>CEC &sect; 1271: substantially similar. Requires that the writing was made in the regular course of business, at or near the time of the act, condition, or event, and the custodian or other qualified witness testifies to its identity and mode of preparation. CEC &sect; 1272 provides an alternative if the business-records foundational requirements are met but no qualified witness is available (the record is admissible if the court finds it was made in the regular course of business).</td>
+          </tr>
+          <tr>
+            <td><strong>Public Records (803(8))</strong></td>
+            <td>A record setting out: (A) the office&rsquo;s activities; (B) a matter observed while under a legal duty to report (excluding, in criminal cases, matters observed by law enforcement); or (C) factual findings from a legally authorized investigation (in civil cases and against the government in criminal cases). The opponent may show lack of trustworthiness.</td>
+            <td>CEC &sect; 1280: similar public-employee records exception. Requires the writing was made by a public employee within the scope of duty, at or near the time of the act, and the sources of information and method of preparation are such as to indicate trustworthiness. CEC &sect; 1280 does not contain the FRE&rsquo;s explicit limitation on law-enforcement observations in criminal cases, but California courts have applied similar limitations through CEC &sect; 352.</td>
+          </tr>
+          <tr>
+            <td><strong>Ancient Documents (803(16))</strong></td>
+            <td>A statement in a document that has been in existence for <strong>20 years or more</strong> and whose authenticity is established. Note: The 2017 amendment to FRE 803(16) limits this to documents prepared before January 1, 1998, for purposes of being offered as substantive evidence.</td>
+            <td>CEC &sect; 1331: a writing more than <strong>30 years old</strong> is admissible if it has been &ldquo;acted upon as authentic by persons having an interest in the matter.&rdquo; California&rsquo;s threshold is 30 years rather than 20.</td>
+          </tr>
+          <tr>
+            <td><strong>Residual / Catch-All Exception (FRE 807)</strong></td>
+            <td>A statement not covered by a specific exception is admissible if: (1) it is supported by <strong>sufficient guarantees of trustworthiness</strong> after considering the totality of circumstances; (2) it is offered as evidence of a <strong>material fact</strong>; (3) it is <strong>more probative</strong> on the point for which it is offered than any other evidence the proponent can obtain through reasonable efforts; and (4) admitting it serves the purposes of the rules and the interests of justice. Reasonable notice to the adverse party is required.</td>
+            <td>The CEC does <strong>not have a residual/catch-all exception</strong>. Evidence either falls within a specific CEC exception or it is inadmissible hearsay. This is a significant structural difference&mdash;the CEC is a closed system.</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="callout callout-tip">
+        <div class="callout-title">Exam Tip &mdash; Hearsay Within Hearsay</div>
+        <p>Under FRE 805, hearsay within hearsay (multiple layers) is admissible only if <strong>each layer</strong> falls within a hearsay exception or exclusion. For example, a hospital record (business record, 803(6)) containing a patient&rsquo;s statement about the cause of injury (statement for medical diagnosis, 803(4)): both layers must be independently justified. On the essay, identify each layer separately and apply the appropriate exception to each. Under CEC &sect; 1201, the same rule applies&mdash;each level of hearsay must satisfy an exception.</p>
+      </div>
+
+      <div class="mnemonic">
+        <div class="mnemonic-title">Mnemonic &mdash; 803 Exceptions (Availability Immaterial)</div>
+        <p><strong>P-E-S-M-R-B-P-A-R</strong>: <strong>P</strong>resent sense impression, <strong>E</strong>xcited utterance, <strong>S</strong>tate of mind, <strong>M</strong>edical diagnosis, <strong>R</strong>ecorded recollection, <strong>B</strong>usiness records, <strong>P</strong>ublic records, <strong>A</strong>ncient documents, <strong>R</strong>esidual exception. Remember: &ldquo;Please Eat Some More Roast Beef, Perhaps A Rib.&rdquo;</p>
+      </div>
+
+      <!-- ============================================================ -->
+      <!--  VII. CONFRONTATION CLAUSE                                    -->
+      <!-- ============================================================ -->
+      <h2 id="confrontation">VII. Confrontation Clause</h2>
+
+      <div class="callout callout-rule">
+        <div class="callout-title">Key Rule &mdash; Crawford v. Washington (2004)</div>
+        <p>The Sixth Amendment&rsquo;s Confrontation Clause prohibits the introduction of <strong>testimonial hearsay</strong> against a criminal defendant unless: (1) the declarant is <strong>unavailable</strong>, and (2) the defendant had a <strong>prior opportunity to cross-examine</strong> the declarant. This applies regardless of whether the statement falls within a hearsay exception.</p>
+      </div>
+
+      <h4>What is &ldquo;Testimonial&rdquo;?</h4>
+      <p>The Supreme Court has not provided a comprehensive definition, but has identified categories:</p>
+      <ul class="elements-list">
+        <li><strong>Testimonial:</strong> Prior testimony at a preliminary hearing, grand jury, or former trial; affidavits; depositions; statements in response to police interrogation where the primary purpose is to establish or prove past events relevant to later criminal prosecution (<em>Davis v. Washington</em>, 2006).</li>
+        <li><strong>Non-testimonial:</strong> Statements made during an ongoing emergency where the primary purpose is to enable police assistance to meet the emergency (<em>Davis v. Washington</em>); casual remarks to acquaintances; business records; co-conspirator statements made in furtherance of the conspiracy.</li>
+        <li><strong>Forensic reports:</strong> Certificates of analysis, autopsy reports, and lab reports prepared for litigation are testimonial (<em>Melendez-Diaz v. Massachusetts</em>, 2009; <em>Bullcoming v. New Mexico</em>, 2011). The analyst who performed the test generally must testify. <em>Williams v. Illinois</em> (2012) created ambiguity about reports not introduced for their truth but as basis for expert opinion.</li>
+      </ul>
+
+      <h4>Key Limitations</h4>
+      <ul>
+        <li>The Confrontation Clause applies only in <strong>criminal cases</strong> and only against <strong>the accused</strong>.</li>
+        <li>It does not apply to non-testimonial hearsay&mdash;such statements are governed solely by the hearsay rules.</li>
+        <li><strong>Forfeiture by wrongdoing</strong> (FRE 804(b)(6)) also results in forfeiture of Confrontation Clause rights (<em>Giles v. California</em>, 2008, but requiring intent to prevent testimony).</li>
+        <li>Dying declarations may be a historical exception to the Confrontation Clause (dicta in <em>Crawford</em> and <em>Giles</em>), though the Court has not definitively ruled on this.</li>
+      </ul>
+
+      <div class="callout callout-california">
+        <div class="callout-title">California Note</div>
+        <p>The Confrontation Clause applies in California state courts through the Fourteenth Amendment. California courts follow <em>Crawford</em> and its progeny. Additionally, Cal. Const. Art. I, &sect; 28(f)(2) (Proposition 115, the &ldquo;Right to Truth-in-Evidence&rdquo; provision) generally makes all relevant evidence admissible in criminal proceedings, but this is subject to the Confrontation Clause limitations established by the U.S. Supreme Court.</p>
+      </div>
+
+      <!-- ============================================================ -->
+      <!--  VIII. PRIVILEGES                                             -->
+      <!-- ============================================================ -->
+      <h2 id="privileges">VIII. Privileges</h2>
+
+      <p>Privileges allow a person to refuse to disclose, and to prevent others from disclosing, confidential communications. Under FRE 501, privileges in federal courts are governed by the common law &ldquo;as interpreted by the courts of the United States in the light of reason and experience.&rdquo; In diversity cases, state privilege law applies. California has extensive statutory privilege provisions in the CEC.</p>
+
+      <h3 id="attorney-client">A. Attorney-Client Privilege</h3>
+
+      <table class="comparison-table">
+        <thead>
+          <tr><th>Element</th><th>FRE (Federal Common Law)</th><th>CEC</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Scope</strong></td>
+            <td>Protects <strong>confidential communications</strong> between a client (or prospective client) and an attorney, made for the purpose of seeking or providing <strong>legal advice</strong>. The privilege belongs to the client.</td>
+            <td>CEC &sect;&sect; 950&ndash;962. Protects confidential communications between client and lawyer made during the course of the attorney-client relationship. Substantially similar to federal law.</td>
+          </tr>
+          <tr>
+            <td><strong>Who is Protected</strong></td>
+            <td>The client, the attorney (on behalf of the client), and agents of either whose participation is reasonably necessary to facilitate legal representation (e.g., paralegals, interpreters, accountants assisting in legal analysis).</td>
+            <td>CEC &sect; 952: &ldquo;confidential communication between client and lawyer&rdquo; includes communications made in confidence to the lawyer by the client, or to third persons acting on behalf of the client or the lawyer.</td>
+          </tr>
+          <tr>
+            <td><strong>Corporate Clients</strong></td>
+            <td><em>Upjohn Co. v. United States</em> (1981): privilege extends to communications between corporate counsel and any corporate employee, so long as the communication was made at the direction of corporate superiors, concerned matters within the employee&rsquo;s duties, and the employee knew the purpose was to obtain legal advice for the corporation.</td>
+            <td>CEC follows the Upjohn approach; communications between corporate counsel and employees within the scope of their duties are privileged.</td>
+          </tr>
+          <tr>
+            <td><strong>Exceptions</strong></td>
+            <td>(1) Crime-fraud exception: no privilege for communications made in furtherance of a crime or fraud. (2) Disputes between attorney and client. (3) Joint-client communications: when two clients consult the same attorney on a matter of common interest, neither can claim privilege against the other in subsequent litigation between them. (4) Attestation: attorney acting as attesting witness to a document.</td>
+            <td>CEC &sect; 956 (crime-fraud), &sect; 958 (attorney-client disputes), &sect; 962 (joint clients). Substantially identical exceptions. CEC &sect; 957 also provides an exception for a deceased client when parties claim through the same deceased client.</td>
+          </tr>
+          <tr>
+            <td><strong>Duration</strong></td>
+            <td>The privilege survives the termination of the attorney-client relationship and even the death of the client (<em>Swidler &amp; Berlin v. United States</em>, 1998).</td>
+            <td>Same: the privilege survives the end of the relationship and the client&rsquo;s death (CEC &sect; 954).</td>
+          </tr>
+          <tr>
+            <td><strong>Waiver</strong></td>
+            <td>Voluntary disclosure to a third party outside the privilege waives the privilege as to the disclosed communication. Inadvertent disclosure may or may not waive the privilege&mdash;FRE 502 addresses this, providing protection for inadvertent disclosures if the holder took reasonable steps to prevent disclosure and promptly took reasonable steps to rectify the error.</td>
+            <td>CEC &sect; 912: voluntary disclosure by the holder waives the privilege. CEC &sect; 912(b): inadvertent disclosure does not waive if made without the holder&rsquo;s consent and the holder has taken reasonable steps to prevent disclosure.</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3 id="work-product">B. Work-Product Doctrine</h3>
+
+      <div class="callout callout-rule">
+        <div class="callout-title">Key Rule &mdash; Work Product</div>
+        <p>The work-product doctrine (not technically a &ldquo;privilege&rdquo; but a qualified protection) shields documents and tangible things prepared in <strong>anticipation of litigation</strong> or for trial by or for a party or its representative. Under <em>Hickman v. Taylor</em> (1947) and FRCP 26(b)(3), ordinary work product may be discovered upon a showing of <strong>substantial need and inability to obtain the substantial equivalent without undue hardship</strong>. <strong>Opinion work product</strong> (mental impressions, conclusions, opinions, legal theories) receives near-absolute protection.</p>
+      </div>
+
+      <p>California codifies work-product protection in CCP &sect; 2018.030. &ldquo;Absolute&rdquo; work product (writing reflecting attorney&rsquo;s impressions, conclusions, opinions, or legal research) is protected absolutely. &ldquo;Qualified&rdquo; work product may be discovered upon a showing of denial of a fair resolution of the suit.</p>
+
+      <h3 id="spousal">C. Spousal Privileges</h3>
+
+      <table class="comparison-table">
+        <thead>
+          <tr><th>Privilege</th><th>FRE (Federal Common Law)</th><th>CEC</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Spousal Testimonial Privilege (Spousal Immunity)</strong></td>
+            <td>In <strong>criminal cases only</strong>, a married person may refuse to testify against his or her spouse. Under <em>Trammel v. United States</em> (1980), the <strong>witness-spouse holds the privilege</strong> (not the defendant-spouse). Applies only while the marriage exists. Covers <em>all testimony</em>, not just confidential communications. Terminates upon divorce.</td>
+            <td>CEC &sect; 970: a married person has a privilege not to testify against his or her spouse in <em>any proceeding</em> (not just criminal). CEC &sect; 971: a married person may also refuse to be called as a witness for the spouse. Under California law, <strong>either spouse holds the privilege</strong>&mdash;the defendant-spouse can invoke it to prevent the witness-spouse from testifying. This is broader than federal law, where only the witness-spouse holds it. Exceptions: CEC &sect; 972 (crime against the other spouse or a child, commitment proceedings, competency proceedings, and certain other situations).</td>
+          </tr>
+          <tr>
+            <td><strong>Confidential Marital Communications</strong></td>
+            <td>Protects <strong>confidential communications</strong> made <em>during the marriage</em>. Both spouses hold the privilege. Survives the end of the marriage (the communication remains privileged even after divorce). Applies in both civil and criminal cases.</td>
+            <td>CEC &sect; 980: substantially similar. Protects confidential communications made during marriage. Either spouse may claim the privilege. Survives divorce (as to communications made during the marriage). Exceptions: CEC &sect; 981&ndash;987 (crime against the other spouse or child, commitment proceedings, competency proceedings, proceedings to establish competence, and joint-participant exception).</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="callout callout-warning">
+        <div class="callout-title">Key Distinction &mdash; Two Spousal Privileges</div>
+        <p>Students frequently confuse the two spousal privileges. Remember: (1) <strong>Spousal testimonial privilege / immunity</strong> prevents one spouse from testifying against the other. It covers <em>any</em> testimony (not just communications). It only exists during marriage and terminates upon divorce. (2) <strong>Confidential marital communications privilege</strong> protects only <em>confidential communications</em> made during the marriage. It <em>survives divorce</em>. Also note: in federal court, the witness-spouse holds the testimonial privilege; in California, either spouse can invoke it.</p>
+      </div>
+
+      <h3 id="other-privileges">D. Other Privileges</h3>
+
+      <table class="comparison-table">
+        <thead>
+          <tr><th>Privilege</th><th>FRE (Federal)</th><th>CEC</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Psychotherapist-Patient</strong></td>
+            <td>Recognized by the Supreme Court in <em>Jaffee v. Redmond</em> (1996). Protects confidential communications between a patient and a psychotherapist (including licensed social workers) made for purposes of diagnosis or treatment.</td>
+            <td>CEC &sect;&sect; 1010&ndash;1027. Comprehensive statutory privilege covering psychotherapists (psychiatrists, psychologists, licensed clinical social workers, marriage and family therapists). Exceptions include: dangerous patient (&sect; 1024), court-ordered examination (&sect; 1017), proceeding to hospitalize (&sect; 1025), and criminal proceeding where the patient raises a mental-health defense (&sect; 1023).</td>
+          </tr>
+          <tr>
+            <td><strong>Physician-Patient</strong></td>
+            <td><strong>Not recognized</strong> in federal courts as a matter of federal common law.</td>
+            <td>CEC &sect;&sect; 990&ndash;1007. Protects confidential information acquired by a physician during the course of treatment. Numerous exceptions, including: patient-litigant exception (if the patient raises his or her physical condition as an issue in litigation, the privilege is waived as to that condition), crime/fraud, and certain court proceedings.</td>
+          </tr>
+          <tr>
+            <td><strong>Clergy-Penitent</strong></td>
+            <td>Recognized by most federal courts as a matter of common law under FRE 501, though the Supreme Court has not definitively ruled on it.</td>
+            <td>CEC &sect;&sect; 1030&ndash;1034. A penitent has a privilege to refuse to disclose a penitential communication. A member of the clergy also has a privilege to refuse to disclose a penitential communication (CEC &sect; 1034). The communication must be made in confidence, in the course of the discipline of the church or religious denomination.</td>
+          </tr>
+          <tr>
+            <td><strong>Fifth Amendment</strong></td>
+            <td>Not technically an evidence privilege, but the Fifth Amendment privilege against self-incrimination allows a witness to refuse to answer questions that might incriminate them. Applies in all proceedings. In civil cases, the trier of fact may draw an adverse inference from the invocation; in criminal cases, no adverse inference may be drawn from the defendant&rsquo;s refusal to testify (<em>Griffin v. California</em>, 1965).</td>
+            <td>CEC &sect; 940 codifies the privilege against self-incrimination. Same substantive rules apply.</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <!-- ============================================================ -->
+      <!--  IX. AUTHENTICATION                                           -->
+      <!-- ============================================================ -->
+      <h2 id="authentication">IX. Authentication &amp; Identification (FRE 901&ndash;903)</h2>
+
+      <div class="callout callout-rule">
+        <div class="callout-title">Key Rule &mdash; FRE 901(a)</div>
+        <p>To satisfy the requirement of authenticating or identifying an item of evidence, the proponent must produce evidence sufficient to support a finding that the item is what the proponent claims it is. This is a <strong>low threshold</strong>&mdash;a prima facie showing; the jury ultimately decides authenticity.</p>
+      </div>
+
+      <h4>Common Authentication Methods (FRE 901(b) examples)</h4>
+      <ul class="elements-list">
+        <li><strong>Testimony of a witness with knowledge</strong> (901(b)(1)): A witness who has personal knowledge that the item is what it is claimed to be.</li>
+        <li><strong>Non-expert handwriting comparison</strong> (901(b)(2)): Comparison by the trier of fact or an expert witness with specimens proved to be genuine.</li>
+        <li><strong>Distinctive characteristics</strong> (901(b)(4)): Appearance, contents, substance, internal patterns, or other distinctive characteristics of the item, taken in conjunction with the circumstances.</li>
+        <li><strong>Voice identification</strong> (901(b)(5)): Identification of a voice based on hearing the voice at any time under circumstances connecting it with the alleged speaker.</li>
+        <li><strong>Telephone conversations</strong> (901(b)(6)): For outgoing calls, evidence that a call was made to the number assigned to a particular person or business, plus self-identification or other circumstances showing the person answering is who is claimed. For incoming calls, self-identification alone is generally insufficient&mdash;additional corroborating circumstances are needed.</li>
+        <li><strong>Public records</strong> (901(b)(7)): Evidence that the document is from the public office where items of that nature are kept.</li>
+        <li><strong>Ancient documents</strong> (901(b)(8)): The document is in such condition as to create no suspicion about its authenticity, was found in a place where it would likely be if authentic, and has been in existence 20 years or more.</li>
+        <li><strong>Process or system</strong> (901(b)(9)): Evidence describing a process or system and showing it produces an accurate result (e.g., photographs, x-rays, computer records).</li>
+      </ul>
+
+      <h4>Self-Authenticating Documents (FRE 902)</h4>
+      <p>Certain documents are self-authenticating and do not require extrinsic evidence of authenticity:</p>
+      <ul>
+        <li>Domestic public documents under seal (902(1))</li>
+        <li>Certified copies of public records (902(4))</li>
+        <li>Official publications (902(5))</li>
+        <li>Newspapers and periodicals (902(6))</li>
+        <li>Trade inscriptions (902(7))</li>
+        <li>Acknowledged documents (902(8))</li>
+        <li>Commercial paper and related documents (902(9))</li>
+        <li>Certified domestic business records (902(11)) and foreign business records (902(12))</li>
+        <li>Certified electronically stored information (902(13)&ndash;(14))</li>
+      </ul>
+
+      <p>CEC &sect;&sect; 1400&ndash;1454 cover authentication and are substantially similar to the FRE in most respects.</p>
+
+      <!-- ============================================================ -->
+      <!--  X. BEST EVIDENCE RULE                                        -->
+      <!-- ============================================================ -->
+      <h2 id="best-evidence">X. Best Evidence Rule (FRE 1001&ndash;1008)</h2>
+
+      <div class="callout callout-rule">
+        <div class="callout-title">Key Rule &mdash; FRE 1002 (Original Document Rule)</div>
+        <p>An <strong>original writing, recording, or photograph</strong> is required to prove the <strong>content</strong> of a writing, recording, or photograph, unless an exception applies. This rule applies when: (1) the writing is a legally operative document (e.g., a contract, a deed, a will); or (2) the witness&rsquo;s knowledge comes solely from having read the document. It does <em>not</em> apply when a witness testifies from personal knowledge of a fact that also happens to be recorded in a writing.</p>
+      </div>
+
+      <h4>Key Provisions</h4>
+      <ul class="elements-list">
+        <li><strong>Duplicate (FRE 1003):</strong> A duplicate is admissible to the same extent as an original unless (1) a genuine question is raised about the original&rsquo;s authenticity, or (2) in the circumstances it would be unfair to admit the duplicate. A duplicate includes a counterpart produced by any mechanical, photographic, chemical, electronic, or other equivalent process.</li>
+        <li><strong>Excuses for Non-Production (FRE 1004):</strong> An original is not required and other evidence of content is admissible if: (a) the originals are lost or destroyed (not in bad faith); (b) the original cannot be obtained by judicial process; (c) the original is in the possession of the opponent who was notified to produce it and failed to do so; or (d) the writing is not closely related to a controlling issue.</li>
+        <li><strong>Public Records (FRE 1005):</strong> A copy of a public record is admissible if certified or testified to be correct.</li>
+        <li><strong>Summaries (FRE 1006):</strong> Voluminous writings may be presented in summary form. The originals must be made available for examination by the other party.</li>
+        <li><strong>Judge and Jury (FRE 1008):</strong> The court determines whether the proponent has fulfilled the conditions for admitting other evidence of content. The jury determines genuineness and accuracy issues.</li>
+      </ul>
+
+      <div class="callout callout-california">
+        <div class="callout-title">California Distinction</div>
+        <p>CEC &sect;&sect; 1500&ndash;1553 codify California&rsquo;s &ldquo;secondary evidence rule.&rdquo; CEC &sect; 1521 provides that oral testimony of the content of a writing is generally inadmissible if the original is available. However, CEC &sect; 1523 allows oral testimony of the content of a writing if the proponent does not have possession or control of the original. California is somewhat more liberal than the FRE in admitting secondary evidence, particularly photocopies and duplicates.</p>
+      </div>
+
+      <!-- ============================================================ -->
+      <!--  XI. JUDICIAL NOTICE                                          -->
+      <!-- ============================================================ -->
+      <h2 id="judicial-notice">XI. Judicial Notice (FRE 201)</h2>
+
+      <div class="callout callout-rule">
+        <div class="callout-title">Key Rule &mdash; FRE 201</div>
+        <p>A court may judicially notice an adjudicative fact that is either: (1) <strong>generally known</strong> within the trial court&rsquo;s territorial jurisdiction; or (2) <strong>accurately and readily determinable</strong> from sources whose accuracy cannot reasonably be questioned. The court <strong>must</strong> take judicial notice if a party requests it and supplies the necessary information. In a <strong>civil case</strong>, the jury is instructed to accept the noticed fact as conclusive. In a <strong>criminal case</strong>, the jury is instructed that it <em>may but is not required to</em> accept the noticed fact as conclusive (because of the defendant&rsquo;s right to a jury trial on every element).</p>
+      </div>
+
+      <table class="comparison-table">
+        <thead>
+          <tr><th>Issue</th><th>FRE 201</th><th>CEC</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Scope</strong></td>
+            <td>Adjudicative facts only (facts about the parties and events of the particular case). Does not address legislative facts (general facts that help the tribunal decide questions of law and policy).</td>
+            <td>CEC &sect; 451 (mandatory judicial notice) and &sect; 452 (permissive judicial notice). California&rsquo;s system is broader and more detailed. CEC &sect; 451 requires judicial notice of: federal and state law, rules of court, and other enumerated sources. CEC &sect; 452 permits judicial notice of: court records, legislative enactments, official acts, facts not reasonably subject to dispute, and other enumerated items.</td>
+          </tr>
+          <tr>
+            <td><strong>Mandatory vs. Permissive</strong></td>
+            <td>Must take judicial notice if a party requests it and supplies necessary information. Otherwise, permissive.</td>
+            <td>CEC &sect; 451: mandatory judicial notice of specified items (decisional, constitutional, and statutory law of California and the U.S.; rules of court; regulations). CEC &sect; 452: permissive judicial notice of other items (court records, facts not reasonably subject to dispute, official acts of legislative and executive departments). CEC &sect; 453: a party requesting judicial notice under &sect; 452 must give opposing party sufficient notice and opportunity to be heard.</td>
+          </tr>
+          <tr>
+            <td><strong>Effect in Criminal Cases</strong></td>
+            <td>Jury <em>may but is not required to</em> accept the noticed fact as conclusive.</td>
+            <td>CEC &sect; 457: in a criminal case, the court shall instruct the jury that it may but is not required to accept the noticed fact as conclusive (same as FRE for adjudicative facts). For judicial notice of law, the noticed law is conclusive.</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <!-- ============================================================ -->
+      <!--  XII. BURDENS AND PRESUMPTIONS                                -->
+      <!-- ============================================================ -->
+      <h2 id="burdens-presumptions">XII. Burdens of Proof &amp; Presumptions</h2>
+
+      <h3>A. Burdens of Proof</h3>
+      <ul class="elements-list">
+        <li><strong>Burden of Production (Going Forward):</strong> The obligation to produce sufficient evidence on an issue to avoid a directed verdict. Once met, the issue goes to the jury.</li>
+        <li><strong>Burden of Persuasion:</strong> The obligation to convince the trier of fact. Standards: preponderance of the evidence (most civil cases), clear and convincing evidence (fraud, certain constitutional issues), beyond a reasonable doubt (criminal cases).</li>
+      </ul>
+
+      <h3>B. Presumptions</h3>
+
+      <table class="comparison-table">
+        <thead>
+          <tr><th>Issue</th><th>FRE 301</th><th>CEC</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Effect of a Presumption</strong></td>
+            <td><strong>&ldquo;Bursting bubble&rdquo; approach (Thayer):</strong> A presumption imposes on the opposing party the burden of <em>producing</em> evidence to rebut the presumption. Once the opponent produces sufficient evidence to rebut, the presumption &ldquo;bursts&rdquo; and disappears. The presumption does <strong>not shift the burden of persuasion</strong>.</td>
+            <td>California uses <strong>two categories</strong> of presumptions (CEC &sect;&sect; 600&ndash;669.5): (1) <strong>Presumptions affecting the burden of producing evidence</strong> (&sect; 603): similar to the FRE&rsquo;s bursting-bubble approach. Once rebutted, the presumption disappears. (2) <strong>Presumptions affecting the burden of proof</strong> (&sect; 606): these <em>shift the burden of persuasion</em> to the opposing party. Example: CEC &sect; 662 (owner of legal title is presumed to be full beneficial owner). This is a critical CEC distinction&mdash;California has mandatory burden-shifting presumptions that do not exist under the FRE.</td>
+          </tr>
+          <tr>
+            <td><strong>Conclusive Presumptions</strong></td>
+            <td>Not addressed by FRE 301 (which applies only to rebuttable presumptions). Conclusive presumptions are substantive law, not evidence rules.</td>
+            <td>CEC &sect; 620: a conclusive presumption is one that cannot be rebutted. Example: a child under a certain age is conclusively presumed to be incapable of committing a crime.</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="callout callout-california">
+        <div class="callout-title">California Distinction &mdash; Burden-Shifting Presumptions</div>
+        <p>California&rsquo;s Evidence Code &sect; 606 presumptions are far more powerful than the FRE&rsquo;s bursting-bubble presumptions. When a &sect; 606 presumption applies, the opposing party must not only produce evidence to rebut but must actually <strong>persuade</strong> the trier of fact that the presumed fact is not true. Common examples: the presumption of ownership from title (&sect; 662), the presumption that a person not heard from in five years is dead (&sect; 667), and the presumption of due care (&sect; 668). Always identify which type of presumption applies on a CA essay.</p>
+      </div>
+
+      <!-- ============================================================ -->
+      <!--  MASTER FRE vs CEC COMPARISON                                 -->
+      <!-- ============================================================ -->
+      <h2 id="fre-cec-master">XIII. Master FRE vs. CEC Comparison</h2>
+      <p>The following table collects the most frequently tested distinctions between the Federal Rules of Evidence and the California Evidence Code in one place for quick review.</p>
+
+      <table class="comparison-table">
+        <thead>
+          <tr><th>Topic</th><th>FRE</th><th>CEC</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Subsequent remedial measures in strict products liability</td>
+            <td>Excluded (FRE 407)</td>
+            <td><strong>Admissible</strong> (CEC &sect; 1151 does not apply in strict liability)</td>
+          </tr>
+          <tr>
+            <td>Character evidence methods in criminal cases</td>
+            <td>Reputation and opinion only (FRE 405(a))</td>
+            <td><strong>Reputation, opinion, and specific acts</strong> (CEC &sect; 1102)</td>
+          </tr>
+          <tr>
+            <td>Prior inconsistent statements &mdash; substantive use</td>
+            <td>Only if under oath at a prior proceeding (801(d)(1)(A))</td>
+            <td><strong>Any prior inconsistent statement</strong> (CEC &sect; 1235)</td>
+          </tr>
+          <tr>
+            <td>Admissions of a party-opponent</td>
+            <td>Non-hearsay (801(d)(2))</td>
+            <td><strong>Hearsay with an exception</strong> (CEC &sect; 1220)</td>
+          </tr>
+          <tr>
+            <td>Present sense impression</td>
+            <td>Recognized (803(1))</td>
+            <td><strong>No equivalent exception</strong></td>
+          </tr>
+          <tr>
+            <td>Statements for medical diagnosis</td>
+            <td>Broad exception (803(4))</td>
+            <td><strong>No general equivalent</strong> (only CEC &sect; 1253 for child abuse/neglect)</td>
+          </tr>
+          <tr>
+            <td>Dying declarations &mdash; case types</td>
+            <td>Homicide and civil cases only (804(b)(2))</td>
+            <td><strong>All cases</strong> (CEC &sect; 1242)</td>
+          </tr>
+          <tr>
+            <td>Residual / catch-all exception</td>
+            <td>Recognized (FRE 807)</td>
+            <td><strong>No residual exception</strong> (closed system)</td>
+          </tr>
+          <tr>
+            <td>Learned treatises</td>
+            <td>Substantive evidence; read into the record (803(18))</td>
+            <td><strong>Impeachment only</strong> (CEC &sect; 721(b))</td>
+          </tr>
+          <tr>
+            <td>Expert testimony standard for novel science</td>
+            <td>Daubert (flexible, multi-factor)</td>
+            <td><strong>Kelly/Frye</strong> (general acceptance)</td>
+          </tr>
+          <tr>
+            <td>Spousal testimonial privilege &mdash; holder</td>
+            <td>Witness-spouse (<em>Trammel</em>)</td>
+            <td><strong>Either spouse</strong> (CEC &sect; 970)</td>
+          </tr>
+          <tr>
+            <td>Physician-patient privilege</td>
+            <td>Not recognized</td>
+            <td><strong>Recognized</strong> (CEC &sect;&sect; 990&ndash;1007)</td>
+          </tr>
+          <tr>
+            <td>Presumptions</td>
+            <td>Bursting bubble only (FRE 301)</td>
+            <td><strong>Two types</strong>: burden of production (&sect; 603) and burden of proof (&sect; 606)</td>
+          </tr>
+          <tr>
+            <td>Recorded recollection &mdash; as exhibit</td>
+            <td>May be read; <strong>not received as exhibit</strong> (unless offered by adverse party)</td>
+            <td><strong>May be received as an exhibit</strong> (CEC &sect; 1237)</td>
+          </tr>
+          <tr>
+            <td>Impeachment with prior convictions</td>
+            <td>Felonies (with balancing); crimen falsi (no balancing) (FRE 609)</td>
+            <td><strong>Felonies only</strong>; no separate crimen falsi category (CEC &sect; 788)</td>
+          </tr>
+          <tr>
+            <td>Conviction time limit</td>
+            <td>10-year presumptive limit (FRE 609(b))</td>
+            <td><strong>No automatic time limit</strong> (remoteness under &sect; 352)</td>
+          </tr>
+          <tr>
+            <td>Dead Man&rsquo;s Statute</td>
+            <td>No federal Dead Man&rsquo;s Statute (state law in diversity)</td>
+            <td><strong>CEC &sect; 1261</strong> (limited rule for statements by deceased declarants)</td>
+          </tr>
+          <tr>
+            <td>Ultimate issue &mdash; mental state in criminal case</td>
+            <td>FRE 704(b): expert may <strong>not</strong> opine on defendant&rsquo;s mental state</td>
+            <td><strong>No equivalent restriction</strong> (CEC &sect; 805)</td>
+          </tr>
+          <tr>
+            <td>Ancient documents age threshold</td>
+            <td>20 years (FRE 803(16))</td>
+            <td><strong>30 years</strong> (CEC &sect; 1331)</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <!-- ============================================================ -->
+      <!--  COMMON ESSAY PATTERNS                                        -->
+      <!-- ============================================================ -->
+      <h2 id="essay-patterns">XIV. Common Essay Patterns</h2>
+
+      <details>
+        <summary><strong>Pattern 1: Hearsay + Confrontation Clause Crossover</strong></summary>
+        <p>A common essay pattern presents a criminal case where the prosecution seeks to introduce an out-of-court statement by a witness who is unavailable at trial. The essay requires you to analyze:</p>
+        <ul>
+          <li>Whether the statement is hearsay and whether an exception applies (work through the definition, identify each layer).</li>
+          <li>Whether the statement is &ldquo;testimonial&rdquo; under <em>Crawford</em> (police interrogation? affidavit? casual statement to a friend?).</li>
+          <li>If testimonial, whether the defendant had a prior opportunity to cross-examine the declarant.</li>
+          <li>Whether forfeiture by wrongdoing applies if the defendant caused the witness&rsquo;s unavailability.</li>
+        </ul>
+      </details>
+
+      <details>
+        <summary><strong>Pattern 2: Character Evidence + 404(b) Other Acts</strong></summary>
+        <p>A fact pattern involving a criminal defendant where the prosecution seeks to introduce evidence of the defendant&rsquo;s prior bad acts. Analyze:</p>
+        <ul>
+          <li>Is the evidence being offered to prove propensity (prohibited under 404(a)) or for a MIMIC purpose (permitted under 404(b))?</li>
+          <li>Identify the specific non-propensity purpose and explain why the evidence is relevant to that purpose.</li>
+          <li>Apply FRE 403 / CEC &sect; 352 balancing.</li>
+          <li>If a sexual-assault case, discuss FRE 413&ndash;415 / CEC &sect; 1108 (propensity is allowed).</li>
+          <li>Address FRE/CEC distinctions on the form of character evidence (reputation/opinion vs. specific acts).</li>
+        </ul>
+      </details>
+
+      <details>
+        <summary><strong>Pattern 3: Privilege Issues (Attorney-Client + Spousal)</strong></summary>
+        <p>A fact pattern where a party or witness asserts a privilege to prevent disclosure of a communication. Analyze:</p>
+        <ul>
+          <li>Identify which privilege applies (attorney-client, spousal testimonial, confidential communications, psychotherapist).</li>
+          <li>Determine whether the communication was made in confidence and during the relevant relationship.</li>
+          <li>Consider exceptions (crime-fraud, joint-client, patient-litigant, crime against a spouse).</li>
+          <li>Analyze waiver (voluntary disclosure to a third party, inadvertent disclosure).</li>
+          <li>Address FRE/CEC differences (especially who holds the spousal testimonial privilege).</li>
+        </ul>
+      </details>
+
+      <details>
+        <summary><strong>Pattern 4: Impeachment Smorgasbord</strong></summary>
+        <p>A fact pattern with multiple witnesses where the opposing party attempts to impeach using various methods. Analyze each method:</p>
+        <ul>
+          <li>Prior inconsistent statements (foundation requirements, substantive use under FRE vs. CEC).</li>
+          <li>Bias/interest/motive (always admissible, extrinsic evidence permitted).</li>
+          <li>Character for untruthfulness (608(a) reputation/opinion; 608(b) specific acts on cross only, stuck with the answer).</li>
+          <li>Prior convictions (apply the 609 framework: type of crime, who is being impeached, time limit).</li>
+          <li>Contradiction (collateral-matter rule limits extrinsic evidence).</li>
+          <li>Rehabilitation (prior consistent statements, good character for truthfulness).</li>
+        </ul>
+      </details>
+
+      <details>
+        <summary><strong>Pattern 5: Business Records / Public Records + Multiple Hearsay</strong></summary>
+        <p>A fact pattern involving a document (hospital record, police report, business file) that contains statements from multiple sources. Analyze:</p>
+        <ul>
+          <li>Authentication of the document (901(a), or self-authentication under 902).</li>
+          <li>Best Evidence Rule (is the original required? Is a duplicate acceptable?).</li>
+          <li>Business-records exception (803(6)): foundation requirements (regular course of business, at or near the time, custodian or certification).</li>
+          <li>Public-records exception (803(8)): limitations on law-enforcement reports in criminal cases.</li>
+          <li>Hearsay within hearsay (805): analyze each layer independently.</li>
+          <li>Confrontation Clause issues if in a criminal case (forensic lab reports are testimonial under <em>Melendez-Diaz</em>).</li>
+        </ul>
+      </details>
+
+      <!-- ============================================================ -->
+      <!--  ISSUE-SPOTTING CHECKLIST                                     -->
+      <!-- ============================================================ -->
+      <h2 id="checklist">XV. Issue-Spotting Checklist</h2>
+
+      <p>Use this systematic checklist when analyzing any evidence issue on an essay. Work through the issues in this order:</p>
+
+      <ul class="checklist">
+        <li><strong>Step 1 &mdash; Relevance:</strong> Is the evidence relevant under FRE 401 / CEC &sect; 210? Does it have any tendency to make a consequential fact more or less probable?</li>
+        <li><strong>Step 2 &mdash; FRE 403 / CEC &sect; 352 Balancing:</strong> Even if relevant, should the evidence be excluded because its probative value is substantially outweighed by the danger of unfair prejudice, confusion, misleading the jury, or undue delay?</li>
+        <li><strong>Step 3 &mdash; Policy Exclusions:</strong> Does a specific policy rule apply (subsequent remedial measures, compromise offers, medical payments, pleas, insurance)?</li>
+        <li><strong>Step 4 &mdash; Character Evidence:</strong> Is character evidence being offered to prove propensity (generally prohibited)? Does an exception apply (mercy rule, 404(b) MIMIC, habit, sexual-assault rules)?</li>
+        <li><strong>Step 5 &mdash; Hearsay:</strong> Is the evidence an out-of-court statement offered for the truth of the matter asserted? If so, is it excluded from hearsay (admissions, prior statements of testifying witness)? Does an exception apply (803, 804, 807)?</li>
+        <li><strong>Step 6 &mdash; Hearsay Within Hearsay:</strong> If there are multiple layers, does each layer independently satisfy an exception or exclusion?</li>
+        <li><strong>Step 7 &mdash; Confrontation Clause:</strong> In a criminal case, is the statement testimonial? If so, was the declarant unavailable and did the defendant have a prior opportunity to cross-examine?</li>
+        <li><strong>Step 8 &mdash; Witness Competency and Impeachment:</strong> Is the witness competent? What impeachment methods are being used? Are the foundation requirements met? Is extrinsic evidence admissible for this method?</li>
+        <li><strong>Step 9 &mdash; Opinion Testimony:</strong> Is the witness offering a lay opinion (701) or expert opinion (702)? Does the expert meet the qualification and reliability standards (Daubert/Kelly-Frye)?</li>
+        <li><strong>Step 10 &mdash; Privileges:</strong> Does a privilege apply? Has it been waived? Does an exception apply?</li>
+        <li><strong>Step 11 &mdash; Authentication:</strong> Has the evidence been properly authenticated?</li>
+        <li><strong>Step 12 &mdash; Best Evidence Rule:</strong> Is the content of a writing, recording, or photograph at issue? Is the original required?</li>
+        <li><strong>Step 13 &mdash; Judicial Notice:</strong> Is a party asking the court to take judicial notice? Is the fact judicially noticeable? What is the effect?</li>
+        <li><strong>Step 14 &mdash; FRE vs. CEC:</strong> If the question asks for California law, have you identified every applicable FRE/CEC distinction?</li>
+      </ul>
+
+      <!-- ============================================================ -->
+      <!--  EXAM TIPS                                                    -->
+      <!-- ============================================================ -->
+      <h2 id="exam-tips">XVI. Exam Tips</h2>
+
+      <div class="callout callout-tip">
+        <div class="callout-title">Exam Tip &mdash; Structure Your Answer</div>
+        <p>Evidence essays reward methodical organization. For each piece of evidence challenged, work through: (1) Relevance, (2) Character/policy exclusion, (3) Hearsay (define, identify, exception), (4) Confrontation Clause (if criminal), (5) Privilege, (6) Authentication/Best Evidence. Do not skip steps&mdash;state your conclusion even if an issue is straightforward.</p>
+      </div>
+
+      <div class="callout callout-tip">
+        <div class="callout-title">Exam Tip &mdash; Non-Hearsay Purposes</div>
+        <p>Before concluding that a statement is hearsay, always ask: &ldquo;Is this being offered for a purpose <em>other than</em> the truth of the matter asserted?&rdquo; If the statement is a verbal act, offered for its effect on the listener, or offered as circumstantial evidence of the declarant&rsquo;s state of mind, it is not hearsay at all. This is one of the most commonly missed issues on evidence essays.</p>
+      </div>
+
+      <div class="callout callout-tip">
+        <div class="callout-title">Exam Tip &mdash; FRE/CEC Distinctions Score Points</div>
+        <p>On a California bar essay that asks you to apply California law, <strong>always note where the CEC differs from the FRE</strong>. Even a brief mention (&ldquo;Under the CEC, unlike the FRE, prior inconsistent statements are admissible for their truth regardless of whether they were given under oath&rdquo;) earns significant points. The graders are specifically looking for your ability to identify these distinctions.</p>
+      </div>
+
+      <div class="callout callout-tip">
+        <div class="callout-title">Exam Tip &mdash; Multiple Grounds</div>
+        <p>When a piece of evidence is potentially admissible under multiple theories, discuss all of them. For example, a party&rsquo;s out-of-court statement might be (1) an admission under 801(d)(2), (2) an excited utterance under 803(2), and (3) admissible for a non-hearsay purpose. Discussing multiple grounds demonstrates mastery and earns more points.</p>
+      </div>
+
+      <div class="callout callout-tip">
+        <div class="callout-title">Exam Tip &mdash; MBE Strategy</div>
+        <p>On MBE questions, read the call of the question first. Evidence questions typically ask for the &ldquo;most likely&rdquo; ruling or the &ldquo;best&rdquo; objection/response. Eliminate answers that misstate rules. For hearsay questions, systematically check: (1) Is it hearsay? (2) Is it excluded from hearsay? (3) Does an exception apply? The most common incorrect MBE answers confuse exceptions or apply the wrong standard.</p>
+      </div>
+
+      <!-- ============================================================ -->
+      <!--  MNEMONICS                                                    -->
+      <!-- ============================================================ -->
+      <h2 id="mnemonics">XVII. Mnemonics &amp; Memory Aids</h2>
+
+      <div class="mnemonic">
+        <div class="mnemonic-title">Mnemonic &mdash; MIMIC (404(b) Purposes)</div>
+        <p><strong>M</strong>otive, <strong>I</strong>ntent, absence of <strong>M</strong>istake, <strong>I</strong>dentity, <strong>C</strong>ommon plan/scheme. Also add: <strong>K</strong>nowledge, <strong>O</strong>pportunity, <strong>P</strong>reparation. The full list under 404(b)(2) is not exhaustive&mdash;any non-propensity purpose qualifies.</p>
+      </div>
+
+      <div class="mnemonic">
+        <div class="mnemonic-title">Mnemonic &mdash; Impeachment Methods: &ldquo;BICCC-P&rdquo;</div>
+        <p><strong>B</strong>ias, <strong>I</strong>nconsistent statements (prior), <strong>C</strong>haracter for untruthfulness, <strong>C</strong>onvictions (prior), <strong>C</strong>ontradiction, <strong>P</strong>erception/capacity defects. For each, remember whether extrinsic evidence is allowed: Bias = yes; Inconsistent = yes (with foundation); Character = no (stuck with the answer under 608(b)); Convictions = yes (record of conviction); Contradiction = only if not collateral; Perception = yes.</p>
+      </div>
+
+      <div class="mnemonic">
+        <div class="mnemonic-title">Mnemonic &mdash; Hearsay Exceptions Requiring Unavailability (804): &ldquo;F-D-S-P-F&rdquo;</div>
+        <p><strong>F</strong>ormer testimony, <strong>D</strong>ying declaration, <strong>S</strong>tatement against interest, <strong>P</strong>ersonal/family history, <strong>F</strong>orfeiture by wrongdoing. Remember: &ldquo;Five Deadly Sins Produce Forfeiture.&rdquo;</p>
+      </div>
+
+      <div class="mnemonic">
+        <div class="mnemonic-title">Mnemonic &mdash; Unavailability (804(a)): &ldquo;PRPDA&rdquo;</div>
+        <p><strong>P</strong>rivilege (exempted by), <strong>R</strong>efuses to testify, <strong>P</strong>oor memory (lack of), <strong>D</strong>eath/illness/infirmity, <strong>A</strong>bsent (and cannot be procured). Remember: &ldquo;Privilege Renders People Dead or Absent.&rdquo;</p>
+      </div>
+
+      <div class="mnemonic">
+        <div class="mnemonic-title">Mnemonic &mdash; Admissions: &ldquo;PAACE&rdquo;</div>
+        <p><strong>P</strong>ersonal (party&rsquo;s own statement), <strong>A</strong>doptive, <strong>A</strong>uthorized, agent/<strong>C</strong>o-conspirator / <strong>E</strong>mployee. These are the five categories of FRE 801(d)(2)(A)&ndash;(E).</p>
+      </div>
+
+      <div class="mnemonic">
+        <div class="mnemonic-title">Mnemonic &mdash; Key FRE/CEC Differences: &ldquo;PLAD PRISM&rdquo;</div>
+        <p><strong>P</strong>rior inconsistent statements (CEC broader), <strong>L</strong>earned treatises (CEC impeachment only), <strong>A</strong>dmissions (CEC = hearsay), <strong>D</strong>ying declarations (CEC = all cases). <strong>P</strong>resent sense impression (no CEC equivalent), <strong>R</strong>esidual exception (no CEC equivalent), <strong>I</strong>mmunity/spousal (CEC = either spouse), <strong>S</strong>ubsequent remedial measures (CEC = admissible in strict liability), <strong>M</strong>edical diagnosis statements (no general CEC equivalent).</p>
+      </div>
+
+      <!-- ============================================================ -->
+      <!--  KEY DISTINCTIONS                                             -->
+      <!-- ============================================================ -->
+      <h2 id="key-distinctions">XVIII. Key Distinctions</h2>
+
+      <details>
+        <summary><strong>Admission vs. Statement Against Interest</strong></summary>
+        <ul>
+          <li><strong>Admission (801(d)(2)):</strong> Declarant must be a party. No unavailability requirement. No personal-knowledge requirement. Need not have been against interest when made. Under FRE, classified as non-hearsay; under CEC, hearsay with exception.</li>
+          <li><strong>Statement Against Interest (804(b)(3)):</strong> Declarant need not be a party (and often is not). Declarant must be unavailable. Must have been against interest when made. Requires personal knowledge. If offered to exculpate a criminal defendant, must have corroborating circumstances.</li>
+        </ul>
+      </details>
+
+      <details>
+        <summary><strong>Present Recollection Refreshed vs. Recorded Recollection</strong></summary>
+        <ul>
+          <li><strong>Present Recollection Refreshed (FRE 612):</strong> Not a hearsay exception. The witness&rsquo;s memory is jogged by <em>any</em> item (document, photo, song&mdash;anything). The witness then testifies from refreshed memory. The writing itself is not admitted into evidence (though the opposing party may inspect it and introduce relevant portions). No foundation requirements regarding when the writing was made.</li>
+          <li><strong>Recorded Recollection (FRE 803(5)):</strong> A hearsay exception. The witness <em>cannot</em> recall enough to testify fully. The writing was made or adopted when the matter was fresh. The writing accurately reflects the witness&rsquo;s knowledge. The writing may be read into evidence but not received as an exhibit (except by the adverse party). Under CEC &sect; 1237, the writing <em>may</em> be admitted as an exhibit.</li>
+        </ul>
+      </details>
+
+      <details>
+        <summary><strong>Character Evidence vs. Habit Evidence</strong></summary>
+        <ul>
+          <li><strong>Character:</strong> A general disposition or propensity (e.g., &ldquo;careful,&rdquo; &ldquo;aggressive,&rdquo; &ldquo;truthful&rdquo;). Generally inadmissible to prove conduct (with exceptions). Proved by reputation or opinion (FRE) or also specific acts (CEC in criminal cases). Subject to FRE 404 restrictions.</li>
+          <li><strong>Habit:</strong> A specific, semi-automatic, repeated response to a particular stimulus (e.g., &ldquo;always signals before turning,&rdquo; &ldquo;always locks the safe every night at closing&rdquo;). Admissible to prove conduct on a specific occasion. No restrictions on method of proof. Not subject to 404 limitations.</li>
+        </ul>
+      </details>
+
+      <details>
+        <summary><strong>Excited Utterance vs. Present Sense Impression</strong></summary>
+        <ul>
+          <li><strong>Excited Utterance (803(2)):</strong> Requires a startling event. The declarant must still be under the stress of excitement. Statement need only &ldquo;relate to&rdquo; the event. Time may elapse as long as the stress persists. Available under both FRE and CEC.</li>
+          <li><strong>Present Sense Impression (803(1)):</strong> No startling event required. The statement must be made while or immediately after perceiving the event. The statement must describe or explain the event. Near-contemporaneity is required. Available under FRE only; <strong>no CEC equivalent</strong>.</li>
+        </ul>
+      </details>
+
+      <details>
+        <summary><strong>Spousal Testimonial Privilege vs. Confidential Marital Communications</strong></summary>
+        <ul>
+          <li><strong>Testimonial Privilege:</strong> Prevents one spouse from testifying against the other. Covers <em>all</em> testimony. Exists only during the marriage. In federal court, the witness-spouse holds it; in California, either spouse. Applies to criminal cases (federal) or all cases (California).</li>
+          <li><strong>Confidential Communications:</strong> Protects only confidential communications made during the marriage. Both spouses hold the privilege. Survives divorce (the communication remains privileged). Applies in both civil and criminal cases.</li>
+        </ul>
+      </details>
+
+      <details>
+        <summary><strong>Daubert vs. Kelly/Frye</strong></summary>
+        <ul>
+          <li><strong>Daubert (federal):</strong> Judge acts as gatekeeper. Multi-factor test: testability, peer review and publication, known error rate, general acceptance. More flexible&mdash;general acceptance is one factor among several. Applies to all expert testimony.</li>
+          <li><strong>Kelly/Frye (California):</strong> The scientific technique must be &ldquo;generally accepted&rdquo; in the relevant scientific community. Applies only to <em>new or novel scientific techniques</em>. More conservative&mdash;single-factor test. For non-novel expert testimony, California uses the <em>Sargon</em> gatekeeper framework and CEC &sect; 352 balancing.</li>
+        </ul>
+      </details>
+
+      <details>
+        <summary><strong>Business Records (803(6)) vs. Public Records (803(8))</strong></summary>
+        <ul>
+          <li><strong>Business Records:</strong> Made in the regular course of a regularly conducted business activity. Foundation through custodian or certification. No automatic exclusion of law-enforcement records. The &ldquo;business&rdquo; can be any regularly conducted activity (hospital, school, nonprofit, etc.).</li>
+          <li><strong>Public Records:</strong> Set out activities of the office, matters observed under a legal duty to report, or factual findings from an investigation. In criminal cases, matters observed by law enforcement are excluded when offered by the prosecution. The prosecution may not use the business-records exception to circumvent the public-records limitation on law-enforcement reports in criminal cases (<em>Palmer v. Hoffman</em> principle).</li>
+        </ul>
+      </details>
+
+      <!-- ============================================================ -->
+      <!--  MARK COMPLETE + NAV                                          -->
+      <!-- ============================================================ -->
+      <div class="mark-complete-wrap">
+        <button class="mark-complete" data-subject="evidence">Mark as Complete</button>
+      </div>
+
+      <div class="page-nav">
+        <a href="criminal-procedure.html" class="prev"><span class="dir-label">Previous</span><br>Criminal Procedure</a>
+        <a href="constitutional-law.html" class="next"><span class="dir-label">Next</span><br>Constitutional Law</a>
+      </div>
+
+    </div>
+  </main>
+  <script src="../script.js"></script>
+</body>
+</html>

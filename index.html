@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>California Bar Exam Study Guide</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <button class="menu-toggle" aria-label="Toggle menu">&#9776;</button>
+    <a href="index.html" class="site-title">CA Bar Study Guide</a>
+    <div class="header-search">
+      <input type="text" placeholder="Search subjects..." aria-label="Search subjects">
+      <div class="search-results"></div>
+    </div>
+    <div class="header-actions">
+      <button class="theme-toggle">Dark Mode</button>
+    </div>
+  </header>
+
+  <!-- SIDEBAR -->
+  <div class="sidebar-overlay"></div>
+  <nav class="sidebar">
+    <div class="sidebar-progress">
+      <div class="label">Progress: <strong class="progress-count">0/15</strong></div>
+      <div class="progress-bar"><div class="fill"></div></div>
+    </div>
+
+    <div class="sidebar-section">
+      <h3>Subjects</h3>
+      <ul class="sidebar-nav">
+        <li><a href="subjects/torts.html" data-subject="torts">Torts <span class="check">&#10003;</span></a></li>
+        <li><a href="subjects/remedies.html" data-subject="remedies">Remedies <span class="check">&#10003;</span></a></li>
+        <li><a href="subjects/contracts.html" data-subject="contracts">Contracts <span class="check">&#10003;</span></a></li>
+        <li><a href="subjects/business-associations.html" data-subject="business-associations">Business Associations <span class="check">&#10003;</span></a></li>
+        <li><a href="subjects/criminal-law.html" data-subject="criminal-law">Criminal Law <span class="check">&#10003;</span></a></li>
+        <li><a href="subjects/criminal-procedure.html" data-subject="criminal-procedure">Criminal Procedure <span class="check">&#10003;</span></a></li>
+        <li><a href="subjects/evidence.html" data-subject="evidence">Evidence <span class="check">&#10003;</span></a></li>
+        <li><a href="subjects/constitutional-law.html" data-subject="constitutional-law">Constitutional Law <span class="check">&#10003;</span></a></li>
+        <li><a href="subjects/civil-procedure.html" data-subject="civil-procedure">Civil Procedure <span class="check">&#10003;</span></a></li>
+        <li><a href="subjects/real-property.html" data-subject="real-property">Real Property <span class="check">&#10003;</span></a></li>
+        <li><a href="subjects/community-property.html" data-subject="community-property">Community Property <span class="check">&#10003;</span></a></li>
+        <li><a href="subjects/wills-succession.html" data-subject="wills-succession">Wills &amp; Succession <span class="check">&#10003;</span></a></li>
+        <li><a href="subjects/trusts.html" data-subject="trusts">Trusts <span class="check">&#10003;</span></a></li>
+        <li><a href="subjects/professional-responsibility.html" data-subject="professional-responsibility">Professional Responsibility <span class="check">&#10003;</span></a></li>
+      </ul>
+    </div>
+
+    <div class="sidebar-section">
+      <h3>Resources</h3>
+      <ul class="sidebar-nav">
+        <li><a href="exam-approach.html" data-subject="exam-approach">Exam Approach &amp; Strategy <span class="check">&#10003;</span></a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- MAIN -->
+  <main class="main-content">
+    <div class="landing-hero">
+      <h1>California Bar Exam<br>Study Guide</h1>
+      <p class="subtitle">Comprehensive coverage of all 13 essay subjects with California-specific rules, issue-spotting checklists, and exam-day strategies.</p>
+    </div>
+
+    <div class="callout callout-warning" style="max-width:700px;margin:0 auto 2rem;">
+      <div class="callout-title">Disclaimer</div>
+      <p>This study guide was generated using AI (Claude) and is provided as a <strong>free supplemental study aid</strong>. It is not legal advice and may contain inaccuracies. Always cross-reference with official bar prep materials, Barbri/Themis outlines, or your state bar's published resources. Laws change — verify current statutes before relying on any rule statement. Use at your own risk.</p>
+    </div>
+
+    <div class="subject-grid">
+      <a class="subject-card" href="subjects/torts.html" data-subject="torts">
+        <span class="card-check">&#10003;</span>
+        <h3>Torts</h3>
+        <p>Intentional torts, negligence, strict liability, defamation, privacy, and products liability.</p>
+      </a>
+      <a class="subject-card" href="subjects/remedies.html" data-subject="remedies">
+        <span class="card-check">&#10003;</span>
+        <h3>Remedies</h3>
+        <p>Legal damages, equitable remedies, restitution, and the interplay across all subjects.</p>
+      </a>
+      <a class="subject-card" href="subjects/contracts.html" data-subject="contracts">
+        <span class="card-check">&#10003;</span>
+        <h3>Contracts</h3>
+        <p>Common law contracts, UCC Article 2, formation, performance, breach, and third-party rights.</p>
+      </a>
+      <a class="subject-card" href="subjects/business-associations.html" data-subject="business-associations">
+        <span class="card-check">&#10003;</span>
+        <h3>Business Associations</h3>
+        <p>Agency, partnership, corporations, LLCs, and fiduciary duties.</p>
+      </a>
+      <a class="subject-card" href="subjects/criminal-law.html" data-subject="criminal-law">
+        <span class="card-check">&#10003;</span>
+        <h3>Criminal Law</h3>
+        <p>Homicide, theft crimes, inchoate offenses, accomplice liability, and defenses.</p>
+      </a>
+      <a class="subject-card" href="subjects/criminal-procedure.html" data-subject="criminal-procedure">
+        <span class="card-check">&#10003;</span>
+        <h3>Criminal Procedure</h3>
+        <p>Fourth, Fifth, and Sixth Amendment rights, exclusionary rule, and identification.</p>
+      </a>
+      <a class="subject-card" href="subjects/evidence.html" data-subject="evidence">
+        <span class="card-check">&#10003;</span>
+        <h3>Evidence</h3>
+        <p>Relevance, hearsay, character evidence, privileges, and California distinctions.</p>
+      </a>
+      <a class="subject-card" href="subjects/constitutional-law.html" data-subject="constitutional-law">
+        <span class="card-check">&#10003;</span>
+        <h3>Constitutional Law</h3>
+        <p>Federal powers, individual rights, equal protection, due process, and First Amendment.</p>
+      </a>
+      <a class="subject-card" href="subjects/civil-procedure.html" data-subject="civil-procedure">
+        <span class="card-check">&#10003;</span>
+        <h3>Civil Procedure</h3>
+        <p>Jurisdiction, pleading, discovery, summary judgment, and California procedural rules.</p>
+      </a>
+      <a class="subject-card" href="subjects/real-property.html" data-subject="real-property">
+        <span class="card-check">&#10003;</span>
+        <h3>Real Property</h3>
+        <p>Estates, future interests, easements, covenants, landlord-tenant, and recording acts.</p>
+      </a>
+      <a class="subject-card" href="subjects/community-property.html" data-subject="community-property">
+        <span class="card-check">&#10003;</span>
+        <h3>Community Property</h3>
+        <p>Characterization, management, division at death and divorce. California-specific subject.</p>
+      </a>
+      <a class="subject-card" href="subjects/wills-succession.html" data-subject="wills-succession">
+        <span class="card-check">&#10003;</span>
+        <h3>Wills &amp; Succession</h3>
+        <p>Intestate succession, will execution, revocation, trusts interaction, and will substitutes.</p>
+      </a>
+      <a class="subject-card" href="subjects/trusts.html" data-subject="trusts">
+        <span class="card-check">&#10003;</span>
+        <h3>Trusts</h3>
+        <p>Trust creation, types, trustee duties, modification, termination, and charitable trusts.</p>
+      </a>
+      <a class="subject-card" href="subjects/professional-responsibility.html" data-subject="professional-responsibility">
+        <span class="card-check">&#10003;</span>
+        <h3>Professional Responsibility</h3>
+        <p>Duties to clients, confidentiality, conflicts, competence, and the California RPC.</p>
+      </a>
+      <a class="subject-card" href="exam-approach.html" data-subject="exam-approach">
+        <span class="card-check">&#10003;</span>
+        <h3>Exam Approach &amp; Strategy</h3>
+        <p>IRAC method, time management, issue spotting, and essay writing techniques.</p>
+      </a>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

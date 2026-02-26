@@ -1,0 +1,994 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contracts — CA Bar Study Guide</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <header class="site-header">
+    <button class="menu-toggle" aria-label="Toggle menu">&#9776;</button>
+    <a href="../index.html" class="site-title">CA Bar Study Guide</a>
+    <div class="header-search">
+      <input type="text" placeholder="Search subjects..." aria-label="Search subjects">
+      <div class="search-results"></div>
+    </div>
+    <div class="header-actions">
+      <button class="theme-toggle">Dark Mode</button>
+    </div>
+  </header>
+
+  <div class="sidebar-overlay"></div>
+  <nav class="sidebar">
+    <div class="sidebar-progress">
+      <div class="label">Progress: <strong class="progress-count">0/15</strong></div>
+      <div class="progress-bar"><div class="fill"></div></div>
+    </div>
+    <div class="sidebar-section">
+      <h3>Subjects</h3>
+      <ul class="sidebar-nav">
+        <li><a href="torts.html" data-subject="torts">Torts <span class="check">&#10003;</span></a></li>
+        <li><a href="remedies.html" data-subject="remedies">Remedies <span class="check">&#10003;</span></a></li>
+        <li><a href="contracts.html" data-subject="contracts">Contracts <span class="check">&#10003;</span></a></li>
+        <li><a href="business-associations.html" data-subject="business-associations">Business Associations <span class="check">&#10003;</span></a></li>
+        <li><a href="criminal-law.html" data-subject="criminal-law">Criminal Law <span class="check">&#10003;</span></a></li>
+        <li><a href="criminal-procedure.html" data-subject="criminal-procedure">Criminal Procedure <span class="check">&#10003;</span></a></li>
+        <li><a href="evidence.html" data-subject="evidence">Evidence <span class="check">&#10003;</span></a></li>
+        <li><a href="constitutional-law.html" data-subject="constitutional-law">Constitutional Law <span class="check">&#10003;</span></a></li>
+        <li><a href="civil-procedure.html" data-subject="civil-procedure">Civil Procedure <span class="check">&#10003;</span></a></li>
+        <li><a href="real-property.html" data-subject="real-property">Real Property <span class="check">&#10003;</span></a></li>
+        <li><a href="community-property.html" data-subject="community-property">Community Property <span class="check">&#10003;</span></a></li>
+        <li><a href="wills-succession.html" data-subject="wills-succession">Wills &amp; Succession <span class="check">&#10003;</span></a></li>
+        <li><a href="trusts.html" data-subject="trusts">Trusts <span class="check">&#10003;</span></a></li>
+        <li><a href="professional-responsibility.html" data-subject="professional-responsibility">Professional Responsibility <span class="check">&#10003;</span></a></li>
+      </ul>
+    </div>
+    <div class="sidebar-section">
+      <h3>Resources</h3>
+      <ul class="sidebar-nav">
+        <li><a href="../exam-approach.html" data-subject="exam-approach">Exam Approach &amp; Strategy <span class="check">&#10003;</span></a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="main-content">
+    <div class="content">
+
+      <h1>Contracts</h1>
+      <p class="subject-meta">Frequency: Very High | Last tested: July 2024 | Weight: Crossover with Remedies, UCC, and Real Property</p>
+
+      <!-- ============================================================ -->
+      <!--  SECTION 1 — OVERVIEW                                        -->
+      <!-- ============================================================ -->
+      <h2>I. Overview</h2>
+      <p>Contracts is one of the most frequently tested subjects on the California Bar Exam. It appears regularly as a standalone essay and as a crossover topic combined with Remedies, Real Property, or Professional Responsibility. On the MBE, Contracts and Sales (UCC Article 2) account for roughly 25 of the 175 scored questions.</p>
+      <p>Examiners look for your ability to: (1) identify whether common law or UCC Article 2 applies; (2) apply formation rules precisely, including offer, acceptance, and consideration; (3) spot and analyze defenses to formation; (4) identify conditions and breach issues; (5) calculate and compare available remedies; and (6) address third-party rights such as assignments, delegations, and third-party beneficiaries.</p>
+
+      <div class="callout callout-tip">
+        <div class="callout-title">Exam Tip</div>
+        <p>Always begin your contracts essay by stating whether the UCC or common law applies. This is a threshold issue that examiners expect to see addressed first. Even if the answer seems obvious, state it explicitly and explain why. If the transaction involves a mix of goods and services, discuss the predominant-purpose test.</p>
+      </div>
+
+      <!-- ============================================================ -->
+      <!--  SECTION 2 — APPLICABLE LAW                                  -->
+      <!-- ============================================================ -->
+      <h2>II. Applicable Law: UCC Article 2 vs. Common Law</h2>
+
+      <h3>A. The Threshold Question</h3>
+      <p>The first issue in any contracts analysis is determining the governing law. This determines which rules apply to formation, performance, breach, and remedies.</p>
+
+      <div class="callout callout-rule">
+        <div class="callout-title">Key Rule</div>
+        <p><strong>UCC Article 2</strong> governs contracts for the <strong>sale of goods</strong>. Goods are defined as tangible, movable personal property at the time of identification to the contract (UCC &sect; 2-105).</p>
+        <p><strong>Common law</strong> governs all other contracts, including contracts for services, real property, employment, and intellectual property licenses.</p>
+      </div>
+
+      <h3>B. Mixed Transactions: The Predominant-Purpose Test</h3>
+      <p>When a single contract involves both goods and services (e.g., a contract for installing a custom kitchen, which includes both cabinets and labor), courts apply the <strong>predominant-purpose test</strong>: Look to the primary purpose of the contract. If the predominant purpose is the sale of goods, UCC applies to the entire contract. If the predominant purpose is services, common law applies to the entire contract.</p>
+      <p>Factors courts consider include: the language of the contract, the nature of the business of the supplier, the relative cost of goods versus services, and whether the goods are specially manufactured.</p>
+
+      <div class="callout callout-warning">
+        <div class="callout-title">Watch Out</div>
+        <p>Some jurisdictions use the "gravamen" test instead, which applies UCC or common law depending on which aspect of the transaction gave rise to the dispute. While this is a minority approach, be aware of it in case a question points to it.</p>
+      </div>
+
+      <table class="comparison-table">
+        <thead>
+          <tr><th>Type of Contract</th><th>Governing Law</th><th>Key Implications</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Sale of goods (tangible, movable property)</td><td>UCC Article 2</td><td>Flexible formation, gap-fillers, perfect tender rule, merchant rules</td></tr>
+          <tr><td>Services</td><td>Common Law</td><td>Mirror image rule, substantial performance, no merchant rules</td></tr>
+          <tr><td>Real property (sale or lease)</td><td>Common Law</td><td>Statute of Frauds always applies, specific performance more available</td></tr>
+          <tr><td>Mixed (goods + services)</td><td>Predominant-purpose test</td><td>One body of law governs entire contract</td></tr>
+          <tr><td>Lease of goods</td><td>UCC Article 2A</td><td>Similar to Art. 2 but with lease-specific provisions</td></tr>
+        </tbody>
+      </table>
+
+      <h3>C. Merchants Under the UCC</h3>
+      <p>The UCC imposes heightened duties on <strong>merchants</strong>. A merchant is a person who deals in goods of the kind involved in the transaction, or who by occupation holds themselves out as having knowledge or skill peculiar to the practices or goods involved (UCC &sect; 2-104).</p>
+      <p>Special merchant rules include: firm offers (2-205), battle of the forms between merchants (2-207), risk of loss rules (2-509), implied warranty of merchantability (2-314), and the Statute of Frauds confirmation rule (2-201(2)).</p>
+
+      <!-- ============================================================ -->
+      <!--  SECTION 3 — FORMATION                                       -->
+      <!-- ============================================================ -->
+      <h2>III. Contract Formation</h2>
+
+      <div class="callout callout-rule">
+        <div class="callout-title">Key Rule</div>
+        <p>A valid contract requires: (1) mutual assent (offer and acceptance), (2) consideration (or a valid substitute), and (3) no invalidating defenses. Under the UCC, a contract may be formed "in any manner sufficient to show agreement" (UCC &sect; 2-204).</p>
+      </div>
+
+      <!-- ===== OFFER ===== -->
+      <h3>A. Offer</h3>
+
+      <h4>1. Definition and Requirements</h4>
+      <div class="callout callout-rule">
+        <div class="callout-title">Key Rule</div>
+        <p>An <strong>offer</strong> is a manifestation of present contractual intent, communicated to an identified offeree, with sufficiently definite terms to form a basis for a contract. The test is whether a reasonable person in the position of the offeree would believe that their assent would create a contract.</p>
+      </div>
+
+      <div class="elements-list">
+        <ol>
+          <li><strong>Present contractual intent</strong> &mdash; The offeror must manifest a willingness to enter into a bargain, not merely invite negotiations. Distinguish from preliminary negotiations, advertisements, price quotes, and expressions of opinion.</li>
+          <li><strong>Definite and certain terms</strong> &mdash; Under common law, essential terms must be included: parties, subject matter, quantity, price, and time for performance. Under the UCC, only the parties and quantity term are required; courts supply reasonable gap-fillers for price (reasonable price), time (reasonable time), place (seller's place of business), and payment (due at delivery).</li>
+          <li><strong>Communication to the offeree</strong> &mdash; The offer must be communicated to the offeree or their agent. An offeree cannot accept an offer they do not know about.</li>
+        </ol>
+      </div>
+
+      <h4>2. Offers vs. Invitations to Deal</h4>
+      <p><strong>Advertisements</strong> are generally invitations to deal, not offers, because they are addressed to the general public and lack specificity. However, an advertisement may constitute an offer if it is specific, limits who can accept, and requires a specific act of acceptance (e.g., "First come, first served, $100 for this fur coat" &mdash; <em>Lefkowitz v. Great Minneapolis Surplus Store</em>).</p>
+      <p><strong>Price quotations</strong> are usually invitations to negotiate. However, a detailed price quotation sent to a specific party in response to an inquiry may be an offer if it contains sufficiently definite terms.</p>
+      <p><strong>Auctions:</strong> In an auction with reserve (the default), the auctioneer invites offers from bidders; each bid is an offer, and the auctioneer may accept or reject. In an auction without reserve, once the auctioneer calls for bids, the auctioneer has made an irrevocable offer to sell to the highest bidder.</p>
+
+      <h4>3. Termination of Offers</h4>
+      <p>An offer may be terminated before acceptance by any of the following:</p>
+      <div class="elements-list">
+        <ol>
+          <li><strong>Revocation by the offeror</strong> &mdash; The offeror may revoke at any time before acceptance, even if the offeror promised to keep the offer open (unless an option contract or firm offer applies). Revocation is effective when received by the offeree. Indirect revocation occurs when the offeree learns from a reliable source that the offeror has taken action inconsistent with the offer (e.g., sold the property to someone else).</li>
+          <li><strong>Rejection by the offeree</strong> &mdash; Effective when received by the offeror. A counteroffer operates as a rejection of the original offer and as a new offer (under common law).</li>
+          <li><strong>Lapse of time</strong> &mdash; If the offer specifies a time limit, it expires at the end of that period. If no time is stated, the offer lapses after a reasonable time (determined by the subject matter, market conditions, and other circumstances).</li>
+          <li><strong>Death or incapacity of the offeror</strong> &mdash; Terminates the offer automatically (without need for communication), unless an option contract exists.</li>
+          <li><strong>Destruction of the subject matter or supervening illegality</strong> &mdash; Terminates the offer by operation of law.</li>
+        </ol>
+      </div>
+
+      <h4>4. Irrevocable Offers</h4>
+      <p>Certain offers cannot be revoked:</p>
+      <ul>
+        <li><strong>Option contract:</strong> The offeree gives separate consideration (or there is a recital of consideration under the Restatement) to keep the offer open for a stated period. The offer is irrevocable for that period.</li>
+        <li><strong>UCC Firm Offer (UCC &sect; 2-205):</strong> A signed, written offer by a merchant to buy or sell goods that states it will be held open is irrevocable for the time stated, or if no time is stated, for a reasonable time, but not to exceed <strong>three months</strong>. No consideration is required.</li>
+        <li><strong>Detrimental reliance:</strong> Under Restatement (Second) &sect; 87(2), an offer that the offeror should reasonably expect to induce substantial reliance, and that does induce such reliance, may be irrevocable to the extent necessary to avoid injustice (commonly applied to construction bid cases &mdash; <em>Drennan v. Star Paving</em>).</li>
+        <li><strong>Part performance of a unilateral contract:</strong> Once the offeree begins performance of a unilateral contract, the offeror's power to revoke is suspended. The offeree must be given a reasonable time to complete performance. Mere preparation is not enough.</li>
+      </ul>
+
+      <div class="callout callout-tip">
+        <div class="callout-title">Exam Tip</div>
+        <p>On the bar exam, always check whether the offeror is a merchant when dealing with UCC offers. If a merchant makes a signed, written offer to keep the offer open, you must discuss the firm offer rule under UCC 2-205 even if no consideration was given.</p>
+      </div>
+
+      <!-- ===== ACCEPTANCE ===== -->
+      <h3>B. Acceptance</h3>
+
+      <h4>1. Common Law Acceptance</h4>
+      <div class="callout callout-rule">
+        <div class="callout-title">Key Rule</div>
+        <p>An <strong>acceptance</strong> is an unequivocal manifestation of assent to the terms of the offer, communicated by the offeree to the offeror. Under common law, the <strong>mirror image rule</strong> applies: the acceptance must match the offer exactly. Any variation in terms constitutes a counteroffer, not an acceptance.</p>
+      </div>
+
+      <p><strong>Method of acceptance:</strong> If the offer specifies a method of acceptance, the offeree must comply. If no method is specified, the offeree may accept by any reasonable medium. Under modern law (Restatement and UCC), an offer to enter into a bilateral contract may be accepted either by a promise or by beginning performance, unless the offer unambiguously requires one or the other.</p>
+      <p><strong>Unilateral vs. bilateral contracts:</strong> A unilateral contract is one in which the offeror requests acceptance by performance only (not a promise). Modern law disfavors classifying contracts as unilateral; courts prefer to interpret offers as inviting acceptance by any reasonable means. Classic example of a unilateral offer: "I will pay you $500 if you walk across the Brooklyn Bridge."</p>
+      <p><strong>Silence as acceptance:</strong> Generally, silence does not constitute acceptance. Exceptions: (1) where the offeree takes the benefit of offered services with reasonable opportunity to reject and reason to know compensation is expected; (2) prior course of dealing making silence reasonable; (3) the offeree exercises dominion over goods sent.</p>
+
+      <h4>2. The Mailbox Rule</h4>
+      <div class="callout callout-rule">
+        <div class="callout-title">Key Rule</div>
+        <p>An acceptance is effective upon <strong>dispatch</strong> (when placed out of the offeree's possession), provided the acceptance is sent by an authorized medium. A rejection is effective upon <strong>receipt</strong>. If an offeree sends a rejection, then sends an acceptance, whichever arrives first controls. If an offeree sends an acceptance then a rejection, the acceptance is effective upon dispatch (the rejection is too late unless it arrives first and the offeror detrimentally relies on it).</p>
+      </div>
+
+      <p>The mailbox rule does <strong>not</strong> apply to: (1) option contracts (acceptance effective on receipt); (2) revocations (effective on receipt); (3) rejections (effective on receipt); or (4) when the offer stipulates that acceptance is not effective until received.</p>
+
+      <h4>3. UCC &sect; 2-207: Battle of the Forms</h4>
+      <p>This is one of the most heavily tested UCC provisions on the bar exam.</p>
+
+      <div class="callout callout-rule">
+        <div class="callout-title">Key Rule</div>
+        <p>Under UCC &sect; 2-207, a <strong>definite and seasonable expression of acceptance</strong> or a written confirmation operates as an acceptance <strong>even though it states terms additional to or different from</strong> those in the offer, unless acceptance is expressly made conditional on assent to the additional or different terms.</p>
+      </div>
+
+      <p><strong>Step 1: Is there an acceptance?</strong> A response that adds or changes terms is still an acceptance under 2-207, unlike common law. However, if the response is <strong>expressly conditional</strong> on the offeror's assent to the new terms, it is a counteroffer, not an acceptance.</p>
+
+      <p><strong>Step 2: What happens to additional terms?</strong></p>
+      <ul>
+        <li><strong>Between non-merchants:</strong> Additional terms are mere proposals that must be separately accepted by the offeror.</li>
+        <li><strong>Between merchants:</strong> Additional terms automatically become part of the contract <strong>unless</strong>: (a) the offer expressly limits acceptance to its terms; (b) the additional terms materially alter the contract; or (c) the offeror objects within a reasonable time.</li>
+      </ul>
+
+      <p><strong>Step 3: Different terms (as opposed to additional terms).</strong> Courts are split: Some treat different terms the same as additional terms. Others apply the <strong>knockout rule</strong>, where conflicting terms cancel each other out and the UCC gap-filler supplies the term. The knockout rule is the majority approach.</p>
+
+      <p><strong>Step 4: Contract by conduct (2-207(3)).</strong> If the writings of the parties do not establish a contract (e.g., because the response was expressly conditional), but the parties proceed to perform, a contract is formed by their conduct. The terms consist of those on which the writings agree, supplemented by UCC gap-fillers.</p>
+
+      <div class="callout callout-warning">
+        <div class="callout-title">Watch Out</div>
+        <p>The "expressly conditional" language in 2-207(1) is narrowly construed. A response that merely proposes additional terms or states preferences is not "expressly conditional." Look for language such as "acceptance is conditioned upon buyer's agreement to all terms herein." Even then, if both parties perform, analyze under 2-207(3).</p>
+      </div>
+
+      <!-- ===== CONSIDERATION ===== -->
+      <h3>C. Consideration</h3>
+
+      <h4>1. Definition</h4>
+      <div class="callout callout-rule">
+        <div class="callout-title">Key Rule</div>
+        <p><strong>Consideration</strong> requires a bargained-for exchange in which each party incurs a legal detriment or receives a legal benefit. The detriment must be the inducement for the promise, and the promise must be the inducement for the detriment.</p>
+      </div>
+
+      <h4>2. Adequacy of Consideration</h4>
+      <p>Courts generally do <strong>not</strong> inquire into the adequacy of consideration. A peppercorn or $1 can be valid consideration, as long as there is a genuine bargained-for exchange. However, mere pretense of a bargain (sham consideration) is not enforceable. Gross inadequacy may be evidence of fraud, duress, or unconscionability.</p>
+
+      <h4>3. What Does NOT Constitute Consideration</h4>
+      <div class="elements-list">
+        <ol>
+          <li><strong>Past consideration:</strong> Something already done before the promise was made is not consideration (e.g., "In consideration of your saving my life last week, I promise to pay you $1,000"). Exception: Some jurisdictions enforce promises based on past consideration if made in writing and the past act was performed at the promisor's prior request.</li>
+          <li><strong>Preexisting duty rule:</strong> A promise to do something one is already legally obligated to do is not consideration. If A promises B $5,000 to complete a construction project, and B threatens to walk off unless paid $7,000, A's promise to pay more is unenforceable for lack of consideration because B had a preexisting duty to complete the project.</li>
+          <li><strong>Illusory promises:</strong> A promise that does not actually commit the promisor to anything (e.g., "I'll buy as many as I want") is not consideration. Contrast with requirements and output contracts under the UCC, which impose an obligation of good faith and are not illusory.</li>
+          <li><strong>Moral obligation:</strong> A mere moral obligation does not constitute consideration. However, under the material benefit rule (Restatement &sect; 86), a promise made in recognition of a benefit previously received is enforceable to the extent necessary to prevent injustice, if the benefit was not a gift.</li>
+          <li><strong>Gifts and conditional gifts:</strong> A promise to make a gift (donative promise) is not supported by consideration. A condition on a gift ("I'll give you $1,000 if you come to my house to pick it up") does not transform it into consideration if the condition is merely the means of making the gift.</li>
+        </ol>
+      </div>
+
+      <h4>4. Exceptions and Workarounds to the Preexisting Duty Rule</h4>
+      <ul>
+        <li><strong>Additional or different consideration:</strong> If the promisee agrees to do something different or additional, there is new consideration (e.g., completing the job faster or using better materials).</li>
+        <li><strong>Unforeseen circumstances:</strong> Under the Restatement, a modification is enforceable if it is fair and equitable in view of circumstances not anticipated when the contract was made.</li>
+        <li><strong>Mutual rescission and new agreement:</strong> The parties may rescind the original contract (each giving up their rights is consideration) and enter into a new agreement on different terms.</li>
+        <li><strong>UCC &sect; 2-209:</strong> Under the UCC, a modification to a contract for the sale of goods requires <strong>no consideration</strong>, only <strong>good faith</strong>. This is a major departure from common law.</li>
+      </ul>
+
+      <div class="callout callout-california">
+        <div class="callout-title">California Distinction</div>
+        <p>California Civil Code &sect; 1524 and case law provide that a written modification to a contract is enforceable without consideration, similar to the UCC approach. California has effectively abolished the preexisting duty rule for written modifications. However, on the MBE, apply the common law preexisting duty rule unless the contract involves goods (UCC).</p>
+      </div>
+
+      <h4>5. Substitutes for Consideration</h4>
+
+      <p><strong>Promissory Estoppel (Detrimental Reliance):</strong></p>
+      <div class="callout callout-rule">
+        <div class="callout-title">Key Rule</div>
+        <p>Under Restatement (Second) &sect; 90, a promise that the promisor should reasonably expect to induce action or forbearance on the part of the promisee, and that does induce such action or forbearance, is enforceable to the extent necessary to avoid injustice. Consideration is not required.</p>
+      </div>
+      <div class="elements-list">
+        <ol>
+          <li>A clear and definite promise</li>
+          <li>The promisor should reasonably expect the promise to induce action or forbearance</li>
+          <li>The promisee actually and justifiably relies on the promise</li>
+          <li>Injustice can be avoided only by enforcement of the promise</li>
+        </ol>
+      </div>
+      <p>Damages for promissory estoppel are typically limited to <strong>reliance damages</strong> (out-of-pocket costs) rather than full expectation damages, though courts have discretion.</p>
+
+      <p><strong>Quasi-Contract / Unjust Enrichment:</strong> Where no contract exists but one party has conferred a benefit on another under circumstances making it unjust for the recipient to retain the benefit without payment, the court may impose a quasi-contractual obligation. The measure of recovery is the reasonable value of the benefit conferred (restitution).</p>
+
+      <p><strong>Promissory Restitution / Material Benefit Rule:</strong> Under Restatement &sect; 86, a promise made in recognition of a benefit previously received is binding to the extent necessary to prevent injustice (e.g., A saves B's life, and B later promises to pay A &mdash; enforceable under the material benefit rule in some jurisdictions).</p>
+
+      <p><strong>Seal:</strong> At common law, a promise under seal was enforceable without consideration. Most states, including California, have abolished the seal as a substitute for consideration.</p>
+
+      <!-- ============================================================ -->
+      <!--  SECTION 4 — STATUTE OF FRAUDS                               -->
+      <!-- ============================================================ -->
+      <h2>IV. Statute of Frauds</h2>
+
+      <h3>A. Contracts Within the Statute</h3>
+      <div class="callout callout-rule">
+        <div class="callout-title">Key Rule</div>
+        <p>The Statute of Frauds requires certain contracts to be evidenced by a <strong>writing signed by the party to be charged</strong> in order to be enforceable. The writing must contain the essential terms of the agreement.</p>
+      </div>
+
+      <div class="mnemonic">
+        <div class="mnemonic-word">MY LEGS</div>
+        <div class="mnemonic-breakdown">
+          <span>M</span>arriage &mdash; promises made in consideration of marriage<br>
+          <span>Y</span>ear &mdash; contracts that cannot be performed within one year from the date of making<br>
+          <span>L</span>and &mdash; contracts for the sale or transfer of an interest in land<br>
+          <span>E</span>xecutor &mdash; promises by an executor to pay estate debts from personal funds<br>
+          <span>G</span>oods &mdash; sale of goods for $500 or more (UCC &sect; 2-201)<br>
+          <span>S</span>urety &mdash; promises to answer for the debt of another
+        </div>
+      </div>
+
+      <h4>1. One-Year Provision</h4>
+      <p>A contract falls within the one-year provision only if it is <strong>impossible</strong> to perform the contract within one year from the date of formation. If there is any possibility of completion within one year, even if unlikely, the contract is outside the Statute. A contract for life (e.g., "I will employ you for life") is outside the Statute because the employee could die within a year. A contract for "exactly two years" is within the Statute.</p>
+
+      <h4>2. Land Provision</h4>
+      <p>Covers sales of real property, long-term leases (typically over one year), easements, and mortgages. Short-term leases (one year or less) are generally outside the Statute.</p>
+
+      <h4>3. UCC Statute of Frauds (&sect; 2-201)</h4>
+      <p>Contracts for the sale of goods for <strong>$500 or more</strong> must be evidenced by a writing. The UCC writing requirements are less stringent: the writing need only indicate a contract has been made, be signed by the party to be charged, and state the quantity. The writing need not include price, delivery, or payment terms. The contract is not enforceable beyond the quantity stated in the writing.</p>
+
+      <div class="callout callout-tip">
+        <div class="callout-title">Exam Tip</div>
+        <p>Under the proposed revisions to Article 2, the threshold would increase from $500 to $5,000. Unless specifically told otherwise, use the $500 threshold on the bar exam.</p>
+      </div>
+
+      <h3>B. Satisfying the Statute of Frauds</h3>
+      <p>The writing need not be a formal contract. It can be a letter, memo, email, receipt, or even multiple writings pieced together, as long as it: (1) identifies the parties, (2) describes the subject matter, (3) states the essential terms, and (4) is signed by the party to be charged (the party against whom enforcement is sought).</p>
+
+      <h3>C. Exceptions to the Statute of Frauds</h3>
+
+      <h4>Common Law Exceptions</h4>
+      <ul>
+        <li><strong>Part performance (land contracts):</strong> An oral contract for the sale of land may be enforced if the buyer has taken at least two of the following three actions: (1) payment (full or partial), (2) possession of the land, (3) making valuable improvements to the land.</li>
+        <li><strong>Full performance:</strong> A fully performed oral contract is generally enforceable regardless of the Statute of Frauds.</li>
+        <li><strong>Promissory estoppel / detrimental reliance:</strong> Some courts allow enforcement of an oral contract within the Statute where the promisee has reasonably and foreseeably relied on the oral promise to their detriment and injustice can be avoided only by enforcement.</li>
+        <li><strong>Judicial admission:</strong> If the party to be charged admits in pleadings, testimony, or otherwise in court that a contract was made, the Statute is satisfied.</li>
+      </ul>
+
+      <h4>UCC Exceptions (&sect; 2-201)</h4>
+      <ul>
+        <li><strong>Merchant confirmation rule (2-201(2)):</strong> Between merchants, if one party sends a written confirmation sufficient against the sender within a reasonable time, and the recipient has reason to know of its contents and does not object in writing within <strong>10 days</strong>, the confirmation satisfies the SOF against the recipient as well.</li>
+        <li><strong>Specially manufactured goods (2-201(3)(a)):</strong> If goods are specially manufactured for the buyer, not suitable for sale to others, and the seller has made a substantial beginning of manufacture or commitments for procurement before notice of repudiation.</li>
+        <li><strong>Judicial admission (2-201(3)(b)):</strong> The party admits in pleading, testimony, or court proceedings that a contract was made.</li>
+        <li><strong>Payment or delivery accepted (2-201(3)(c)):</strong> With respect to goods for which payment has been made and accepted, or goods that have been received and accepted. Enforceable only to the extent of goods paid for or accepted.</li>
+      </ul>
+
+      <div class="callout callout-california">
+        <div class="callout-title">California Distinction</div>
+        <p>California Civil Code &sect; 1624 codifies the Statute of Frauds. California recognizes the equitable estoppel / detrimental reliance exception to the Statute of Frauds. California also has a specific statute for agreements not to be performed during the lifetime of the promisor (Cal. Civ. Code &sect; 1624(a)(5)).</p>
+      </div>
+
+      <!-- ============================================================ -->
+      <!--  SECTION 5 — DEFENSES TO FORMATION                           -->
+      <!-- ============================================================ -->
+      <h2>V. Defenses to Contract Formation</h2>
+
+      <h3>A. Lack of Capacity</h3>
+      <p><strong>Minors:</strong> A minor (under 18) may enter into a contract but has the power to <strong>disaffirm</strong> (void) the contract at any time during minority or within a reasonable time after reaching the age of majority. Upon disaffirmance, the minor must return any consideration still in their possession. Exceptions: Contracts for necessities (food, shelter, clothing, medical care) are enforceable against the minor to the extent of the reasonable value of the necessities actually furnished (quasi-contract recovery).</p>
+      <p><strong>Mental incapacity:</strong> A contract entered into by a person who lacks the mental capacity to understand the nature and consequences of the transaction is voidable. If the contract was made on fair terms and the other party had no reason to know of the incapacity, avoidance is permitted only if the incapacitated party can return the other party to the status quo.</p>
+      <p><strong>Intoxication:</strong> A contract entered into by a person so intoxicated that they cannot understand the nature and consequences of the transaction is voidable, provided the other party had reason to know of the intoxication.</p>
+
+      <h3>B. Duress</h3>
+      <div class="callout callout-rule">
+        <div class="callout-title">Key Rule</div>
+        <p><strong>Duress</strong> occurs when one party's assent is induced by an improper threat that leaves the victim with no reasonable alternative but to agree. Physical duress renders a contract <strong>void</strong>. Economic duress (or duress by threat) renders a contract <strong>voidable</strong>.</p>
+      </div>
+      <p><strong>Economic duress</strong> requires: (1) a wrongful or improper threat, (2) that the threatened party had no reasonable alternative, and (3) that the threat actually induced the party's assent. Threatening to breach a contract unless the other party agrees to a price increase may constitute economic duress if the victim has no reasonable alternative source.</p>
+
+      <h3>C. Undue Influence</h3>
+      <p>Undue influence arises where one party is in a position of trust, confidence, or dominance over another and uses that position to overcome the weaker party's free will. Contracts procured by undue influence are <strong>voidable</strong>. Common in relationships such as attorney-client, doctor-patient, guardian-ward, and family caretaker situations.</p>
+
+      <h3>D. Misrepresentation</h3>
+      <div class="elements-list">
+        <ol>
+          <li><strong>Fraudulent misrepresentation (fraud in the inducement):</strong> A false representation of a material fact, made with knowledge of its falsity (scienter) or with reckless disregard for its truth, with intent to induce reliance, that actually and justifiably induces reliance, causing damage. Makes the contract <strong>voidable</strong> and also gives rise to tort damages.</li>
+          <li><strong>Negligent or innocent misrepresentation:</strong> A false representation of a material fact, reasonably relied upon, but without intent to deceive. Still makes the contract <strong>voidable</strong>, though tort damages may be more limited.</li>
+          <li><strong>Fraud in the factum (fraud in the execution):</strong> Where the party is deceived about the very nature of the document signed (e.g., tricked into signing a contract believing it to be a letter). Makes the contract <strong>void</strong> (not merely voidable).</li>
+          <li><strong>Nondisclosure:</strong> Generally, there is no duty to disclose. However, a duty to disclose may arise in fiduciary relationships, where a party actively conceals a defect, where a party makes a partial disclosure that is misleading, or where a party knows the other side is mistaken about a basic assumption.</li>
+        </ol>
+      </div>
+
+      <h3>E. Mistake</h3>
+      <p><strong>Mutual mistake:</strong> Where both parties share a mistaken belief about a basic assumption on which the contract was made, and the mistake has a material effect on the exchange, the adversely affected party may void the contract &mdash; unless that party bears the risk of the mistake. (<em>Sherwood v. Walker</em> &mdash; barren cow case.)</p>
+      <p><strong>Unilateral mistake:</strong> Generally, a unilateral mistake does not make a contract voidable unless: (1) the non-mistaken party knew or should have known of the mistake; or (2) enforcement would be unconscionable. A clerical or mathematical error in a bid may allow relief if the other party knew or should have known of the error.</p>
+
+      <h3>F. Unconscionability</h3>
+      <div class="callout callout-rule">
+        <div class="callout-title">Key Rule</div>
+        <p>A contract or term is <strong>unconscionable</strong> if it is so one-sided as to be unfair, assessed at the time the contract was made. Courts require both <strong>procedural unconscionability</strong> (unfairness in the bargaining process, such as hidden terms, unequal bargaining power, lack of meaningful choice) and <strong>substantive unconscionability</strong> (unfairness in the terms themselves, such as grossly one-sided provisions). Courts apply a sliding scale: the more of one, the less of the other is required.</p>
+      </div>
+      <p>Remedies for unconscionability: The court may (1) refuse to enforce the entire contract, (2) refuse to enforce the unconscionable clause, or (3) limit the application of the unconscionable clause. Unconscionability is determined by the court (not the jury) and is assessed as of the time of contract formation.</p>
+
+      <div class="callout callout-california">
+        <div class="callout-title">California Distinction</div>
+        <p>California courts have been particularly aggressive in finding unconscionability in arbitration clauses and consumer contracts. Under <em>Armendariz v. Foundation Health Psychcare Services</em>, employment arbitration agreements must meet specific requirements or they may be found unconscionable: (1) neutral arbitrator, (2) more than minimal discovery, (3) written decision, (4) all claims available in court must be arbitrable, and (5) employer cannot limit employee's remedies.</p>
+      </div>
+
+      <h3>G. Illegality</h3>
+      <p>A contract with an illegal subject matter or purpose is <strong>void</strong> and unenforceable. If only part of the contract is illegal, the illegal portion may be severed if the remainder can stand on its own. If one party is less culpable than the other (e.g., a party protected by the statute that was violated), that party may still be entitled to restitution or enforcement.</p>
+
+      <!-- ============================================================ -->
+      <!--  SECTION 6 — PAROL EVIDENCE RULE                             -->
+      <!-- ============================================================ -->
+      <h2>VI. Parol Evidence Rule</h2>
+
+      <div class="callout callout-rule">
+        <div class="callout-title">Key Rule</div>
+        <p>The <strong>parol evidence rule</strong> provides that when parties have reduced their agreement to a final written expression (an integrated agreement), prior or contemporaneous oral or written agreements that contradict or supplement the writing are inadmissible to vary its terms.</p>
+      </div>
+
+      <h3>A. Levels of Integration</h3>
+      <table class="comparison-table">
+        <thead>
+          <tr><th>Integration Level</th><th>Definition</th><th>Effect on Parol Evidence</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Total integration</td>
+            <td>The writing is the complete and exclusive statement of all terms. Often evidenced by a merger/integration clause.</td>
+            <td>Bars both contradictory and supplementary extrinsic evidence.</td>
+          </tr>
+          <tr>
+            <td>Partial integration</td>
+            <td>The writing is final as to the terms it contains but is not the complete expression of the agreement.</td>
+            <td>Bars contradictory extrinsic evidence but allows consistent supplementary terms.</td>
+          </tr>
+          <tr>
+            <td>Not integrated</td>
+            <td>The writing is not intended as a final expression of the agreement (e.g., a preliminary draft).</td>
+            <td>Parol evidence rule does not apply at all.</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>B. Exceptions to the Parol Evidence Rule</h3>
+      <p>Extrinsic evidence is always admissible to show:</p>
+      <div class="elements-list">
+        <ol>
+          <li><strong>Formation defects:</strong> fraud, duress, mistake, illegality, lack of consideration, or any defense to formation</li>
+          <li><strong>Condition precedent:</strong> that the contract was subject to an oral condition precedent that has not been satisfied (i.e., the contract was never intended to be effective until a condition occurred)</li>
+          <li><strong>Ambiguity:</strong> to interpret or clarify ambiguous terms in the writing</li>
+          <li><strong>Subsequent modifications:</strong> the parol evidence rule only bars prior or contemporaneous evidence, not subsequent agreements to modify</li>
+          <li><strong>Course of dealing, usage of trade, and course of performance:</strong> under the UCC and Restatement, these are admissible to explain or supplement the writing</li>
+          <li><strong>Collateral agreements:</strong> separate, independent agreements supported by separate consideration that do not contradict the writing</li>
+          <li><strong>Reformation:</strong> to show the writing does not accurately reflect the parties' actual agreement due to a drafting error</li>
+        </ol>
+      </div>
+
+      <div class="callout callout-california">
+        <div class="callout-title">California Distinction</div>
+        <p>Under <em>Pacific Gas &amp; Electric Co. v. G.W. Thomas Drayage</em>, California takes a liberal approach to parol evidence. California courts allow extrinsic evidence to determine whether the contract language is "reasonably susceptible" to the meaning alleged by the party seeking to introduce the evidence. If the language is reasonably susceptible, the extrinsic evidence is admissible to interpret the contract. This effectively means extrinsic evidence is almost always admissible in California for interpretation purposes, even when the contract appears unambiguous on its face.</p>
+      </div>
+
+      <!-- ============================================================ -->
+      <!--  SECTION 7 — CONTRACT INTERPRETATION                         -->
+      <!-- ============================================================ -->
+      <h2>VII. Contract Interpretation</h2>
+
+      <p>When the meaning of a contract term is disputed, courts use the following hierarchy of interpretation aids:</p>
+      <div class="elements-list">
+        <ol>
+          <li><strong>Express terms</strong> of the contract (given greatest weight)</li>
+          <li><strong>Course of performance</strong> &mdash; how the parties have acted under the current contract</li>
+          <li><strong>Course of dealing</strong> &mdash; how the parties have acted in prior transactions with each other</li>
+          <li><strong>Usage of trade</strong> &mdash; practices in the industry that are regularly observed</li>
+        </ol>
+      </div>
+
+      <p><strong>Rules of construction:</strong> (1) Specific terms prevail over general terms. (2) Negotiated terms prevail over boilerplate. (3) Handwritten terms prevail over typed, which prevail over printed. (4) Ambiguous terms are construed against the drafter (<em>contra proferentem</em>). (5) Courts prefer interpretations that render all terms operative rather than interpretations that render any terms meaningless (give effect to all provisions). (6) Words are given their plain and ordinary meaning unless a technical meaning is customary in the trade.</p>
+
+      <!-- ============================================================ -->
+      <!--  SECTION 8 — CONDITIONS                                      -->
+      <!-- ============================================================ -->
+      <h2>VIII. Conditions</h2>
+
+      <div class="callout callout-rule">
+        <div class="callout-title">Key Rule</div>
+        <p>A <strong>condition</strong> is an event, not certain to occur, that must occur before a contractual duty of performance is triggered (condition precedent) or that discharges a duty once it occurs (condition subsequent). Conditions modify the duty to perform but are distinct from promises. Failure of a condition excuses the duty to perform; breach of a promise gives rise to a claim for damages.</p>
+      </div>
+
+      <h3>A. Types of Conditions by Origin</h3>
+      <ul>
+        <li><strong>Express conditions:</strong> Created by the explicit agreement of the parties. Must be strictly satisfied (substantial performance is not enough). Look for conditional language: "if," "provided that," "on condition that," "subject to," "when," "unless."</li>
+        <li><strong>Implied conditions (constructive conditions):</strong> Imposed by law to ensure fairness and orderly performance. The most important constructive condition is the constructive condition of exchange: in a bilateral contract, each party's performance is conditioned on the other's performance or tender of performance. Only need be substantially satisfied.</li>
+      </ul>
+
+      <h3>B. Types of Conditions by Timing</h3>
+      <ul>
+        <li><strong>Condition precedent:</strong> An event that must occur before a duty to perform arises (e.g., "I will buy your house if I obtain financing"). The party whose duty is conditioned bears the burden of showing the condition was met.</li>
+        <li><strong>Condition concurrent:</strong> Conditions that are to occur at the same time (e.g., payment and delivery of goods at closing). Each party must tender performance to trigger the other's duty.</li>
+        <li><strong>Condition subsequent:</strong> An event that, if it occurs, discharges an existing duty (e.g., "Insurance company will pay unless the insured fails to file a proof of loss within 30 days"). The party asserting the condition subsequent bears the burden of proving it occurred.</li>
+      </ul>
+
+      <h3>C. Satisfaction Conditions</h3>
+      <p>Where a contract is conditioned on one party's "satisfaction," courts apply two standards:</p>
+      <ul>
+        <li><strong>Objective standard</strong> (default for commercial/mechanical contracts): The condition is satisfied if a reasonable person would be satisfied.</li>
+        <li><strong>Subjective standard</strong> (for personal taste, aesthetic judgment): The condition is satisfied only if the party is actually, honestly satisfied &mdash; though the dissatisfaction must be in good faith.</li>
+      </ul>
+
+      <h3>D. Excuse of Conditions</h3>
+      <p>A condition may be excused (so that the duty to perform becomes unconditional) by:</p>
+      <div class="elements-list">
+        <ol>
+          <li><strong>Waiver:</strong> The party protected by the condition may voluntarily relinquish the condition. A waiver of a condition not yet due may be retracted by giving reasonable notice, unless the other party has detrimentally relied on the waiver. A waiver of a condition that has already failed cannot be retracted.</li>
+          <li><strong>Estoppel:</strong> If one party indicates the condition will not be enforced and the other party detrimentally relies on that indication, the condition is excused by estoppel.</li>
+          <li><strong>Prevention / hindrance:</strong> If a party whose duty is conditional wrongfully prevents the condition from occurring, the condition is excused.</li>
+          <li><strong>Anticipatory repudiation:</strong> If a party repudiates before the condition is due, the condition is excused.</li>
+          <li><strong>Substantial performance:</strong> A constructive condition may be satisfied by substantial performance (but not an express condition, which requires strict compliance).</li>
+          <li><strong>Forfeiture:</strong> A court may excuse a condition to avoid a disproportionate forfeiture, unless the condition was a material part of the parties' bargain.</li>
+        </ol>
+      </div>
+
+      <!-- ============================================================ -->
+      <!--  SECTION 9 — BREACH                                          -->
+      <!-- ============================================================ -->
+      <h2>IX. Breach of Contract</h2>
+
+      <h3>A. Material Breach vs. Minor Breach (Common Law)</h3>
+      <div class="callout callout-rule">
+        <div class="callout-title">Key Rule</div>
+        <p>A <strong>material breach</strong> occurs when a party fails to perform a significant obligation, depriving the other party of the substantial benefit of the bargain. A material breach excuses the non-breaching party's remaining duties under the contract and gives rise to a claim for total breach damages.</p>
+        <p>A <strong>minor breach</strong> (partial breach) occurs when the breaching party has substantially performed. The non-breaching party must still perform but may recover damages for the deficiency.</p>
+      </div>
+
+      <p>Factors for determining materiality (Restatement &sect; 241):</p>
+      <div class="elements-list">
+        <ol>
+          <li>The extent to which the injured party will be deprived of the expected benefit</li>
+          <li>The extent to which the injured party can be adequately compensated by damages</li>
+          <li>The extent to which the breaching party will suffer forfeiture</li>
+          <li>The likelihood that the breaching party will cure the failure</li>
+          <li>The extent to which the breaching party's conduct comports with standards of good faith and fair dealing</li>
+        </ol>
+      </div>
+
+      <h3>B. Substantial Performance</h3>
+      <p>Under the common law doctrine of substantial performance, a party who has performed in good faith but with minor deviations from the contract terms is deemed to have fulfilled the constructive condition of exchange. The performing party can recover the contract price minus damages for the deficiencies. This doctrine applies to constructive conditions only; express conditions require strict compliance. (<em>Jacob &amp; Youngs v. Kent</em> &mdash; the Reading pipe case.)</p>
+
+      <h3>C. Perfect Tender Rule (UCC)</h3>
+      <div class="callout callout-rule">
+        <div class="callout-title">Key Rule</div>
+        <p>Under UCC &sect; 2-601, if the goods or their tender fail to conform to the contract <strong>in any respect</strong>, the buyer may: (1) reject the whole, (2) accept the whole, or (3) accept some commercial units and reject the rest.</p>
+      </div>
+
+      <p><strong>Limitations on the perfect tender rule:</strong></p>
+      <ul>
+        <li><strong>Right to cure (UCC &sect; 2-508):</strong> If the time for performance has not yet expired, the seller may notify the buyer of intent to cure and make a conforming tender within the contract time. Even after the time has expired, if the seller had reasonable grounds to believe the non-conforming tender would be acceptable (e.g., based on prior dealings), the seller may have a further reasonable time to substitute a conforming tender.</li>
+        <li><strong>Installment contracts (UCC &sect; 2-612):</strong> The buyer may reject an installment only if the non-conformity substantially impairs the value of that installment and cannot be cured. The buyer may cancel the entire contract only if the non-conformity substantially impairs the value of the whole contract.</li>
+        <li><strong>Revocation of acceptance (UCC &sect; 2-608):</strong> A buyer who has accepted goods may revoke acceptance if the non-conformity substantially impairs their value to the buyer, and the buyer accepted: (a) on the reasonable assumption a non-conformity would be cured and it wasn't, or (b) without discovery of the non-conformity and the acceptance was reasonably induced by the seller's assurances or the difficulty of discovery. Revocation must occur within a reasonable time after the buyer discovers or should have discovered the non-conformity and before any substantial change in the condition of the goods not caused by the non-conformity.</li>
+      </ul>
+
+      <h3>D. Anticipatory Repudiation</h3>
+      <div class="callout callout-rule">
+        <div class="callout-title">Key Rule</div>
+        <p><strong>Anticipatory repudiation</strong> occurs when a party unequivocally communicates, before performance is due, an intent not to perform or an inability to perform. The repudiation must be clear and unequivocal &mdash; mere expressions of doubt, difficulty, or requests for modification are not repudiations.</p>
+      </div>
+
+      <p>Upon anticipatory repudiation, the non-repudiating party may: (1) treat the repudiation as a total breach and sue immediately for damages; (2) suspend their own performance and await retraction for a commercially reasonable time; or (3) urge performance. Under the UCC (&sect; 2-610), the aggrieved party may also resort to any remedy for breach. The repudiating party may retract the repudiation before the non-repudiating party has materially changed position or indicated that the repudiation is accepted as final.</p>
+
+      <p><strong>Demand for adequate assurances (UCC &sect; 2-609; Restatement &sect; 251):</strong> When reasonable grounds for insecurity arise regarding the other party's performance, a party may demand in writing adequate assurances of performance and suspend their own performance until assurances are received. Failure to provide adequate assurances within a reasonable time (not exceeding 30 days under the UCC) constitutes a repudiation.</p>
+
+      <!-- ============================================================ -->
+      <!--  SECTION 10 — REMEDIES                                       -->
+      <!-- ============================================================ -->
+      <h2>X. Remedies for Breach of Contract</h2>
+
+      <h3>A. Expectation Damages (Benefit of the Bargain)</h3>
+      <div class="callout callout-rule">
+        <div class="callout-title">Key Rule</div>
+        <p><strong>Expectation damages</strong> are the default remedy for breach of contract. They put the non-breaching party in the position they would have been in had the contract been performed. The formula is: <strong>loss in value + incidental damages + consequential damages &minus; costs avoided &minus; losses avoided</strong>.</p>
+      </div>
+
+      <p><strong>Limitations on expectation damages:</strong></p>
+      <div class="elements-list">
+        <ol>
+          <li><strong>Foreseeability (Hadley v. Baxendale):</strong> Damages are limited to those that arise naturally from the breach (general damages) or those that were in the contemplation of both parties at the time of contracting because of special circumstances communicated to the breaching party (special/consequential damages).</li>
+          <li><strong>Certainty:</strong> Damages must be proven with reasonable certainty. Lost profits from a new business may be too speculative, though courts have become more flexible. The certainty requirement applies to the fact of damages, not necessarily the exact amount.</li>
+          <li><strong>Mitigation (avoidability):</strong> The non-breaching party has a duty to take reasonable steps to minimize damages. Damages that could have been avoided by reasonable effort are not recoverable. However, the non-breaching party is not required to take unreasonable, humiliating, or unduly burdensome steps.</li>
+        </ol>
+      </div>
+
+      <h4>Common Expectation Damage Calculations</h4>
+      <table class="comparison-table">
+        <thead>
+          <tr><th>Scenario</th><th>Damage Measure</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Construction contract &mdash; owner breaches</td><td>Builder's expected profit + costs incurred &minus; costs saved, OR contract price &minus; cost to complete (whichever gives proper expectation)</td></tr>
+          <tr><td>Construction contract &mdash; builder breaches</td><td>Cost of completion (to hire another to finish). If completion cost would involve economic waste (grossly disproportionate to the benefit), diminution in value is used instead.</td></tr>
+          <tr><td>Employment contract &mdash; employer breaches</td><td>Remaining salary due under the contract &minus; wages earned or reasonably earnable in comparable employment.</td></tr>
+          <tr><td>Sale of goods &mdash; seller breaches</td><td>Cover price &minus; contract price + incidentals &minus; expenses saved (UCC 2-712), OR market price at time of breach &minus; contract price + incidentals (UCC 2-713).</td></tr>
+          <tr><td>Sale of goods &mdash; buyer breaches</td><td>Contract price &minus; resale price + incidentals &minus; expenses saved (UCC 2-706), OR contract price &minus; market price + incidentals (UCC 2-708(1)), OR lost profits if a "lost volume seller" (UCC 2-708(2)).</td></tr>
+        </tbody>
+      </table>
+
+      <h3>B. Reliance Damages</h3>
+      <p><strong>Reliance damages</strong> put the non-breaching party in the position they were in before the contract was made. They compensate for expenses incurred in reliance on the contract. Available as an alternative to expectation damages when expectation damages are too speculative (e.g., new business with no track record). Reliance damages are capped at the contract price (so a losing contract still limits recovery).</p>
+
+      <h3>C. Restitution Damages</h3>
+      <p><strong>Restitution</strong> restores to the non-breaching party the value of benefits conferred on the breaching party. Measured by the reasonable value of the benefit conferred (not necessarily the contract price). Available even if the non-breaching party would have lost money on the contract (the contract price does not cap restitution for the non-breaching party). Also available in quasi-contract when no valid contract exists.</p>
+
+      <h3>D. Specific Performance</h3>
+      <div class="callout callout-rule">
+        <div class="callout-title">Key Rule</div>
+        <p><strong>Specific performance</strong> is an equitable remedy ordering the breaching party to perform the contract. It is available when: (1) there is a valid contract, (2) the non-breaching party has performed or is ready, willing, and able to perform, (3) the legal remedy (money damages) is inadequate, and (4) enforcement is feasible. Specific performance is routinely granted for real property contracts because each parcel is considered unique. For goods, specific performance is available when goods are unique or in other proper circumstances (UCC &sect; 2-716).</p>
+      </div>
+      <p>Specific performance is <strong>not available</strong> for personal services contracts because of concerns about involuntary servitude and judicial supervision difficulties. However, a court may issue a negative injunction prohibiting the breaching party from performing the same services for a competitor.</p>
+
+      <h3>E. Liquidated Damages</h3>
+      <div class="callout callout-rule">
+        <div class="callout-title">Key Rule</div>
+        <p>A <strong>liquidated damages</strong> clause is enforceable if: (1) damages were difficult to estimate at the time of contracting, and (2) the amount is a reasonable forecast of compensatory damages. If the liquidated amount is unreasonably large (or sometimes unreasonably small), it is an unenforceable <strong>penalty</strong>. Under the UCC (&sect; 2-718), the test also considers actual damages in light of anticipated or actual harm.</p>
+      </div>
+
+      <div class="callout callout-california">
+        <div class="callout-title">California Distinction</div>
+        <p>California Civil Code &sect; 1671 provides that liquidated damages clauses in non-consumer contracts are presumed valid. In consumer contracts, they are presumed invalid (the party seeking enforcement bears the burden). In residential real estate purchase contracts, the liquidated damages clause must be separately initialed and may not exceed 3% of the purchase price.</p>
+      </div>
+
+      <h3>F. UCC Buyer's Remedies (Summary)</h3>
+      <ul>
+        <li><strong>Cover (UCC 2-712):</strong> Buy substitute goods in good faith and recover the difference between cover price and contract price, plus incidentals and consequentials, minus expenses saved.</li>
+        <li><strong>Market price differential (UCC 2-713):</strong> Market price at time buyer learned of breach minus contract price, plus incidentals and consequentials.</li>
+        <li><strong>Specific performance (UCC 2-716):</strong> Available for unique goods or other proper circumstances.</li>
+        <li><strong>Replevin (UCC 2-716):</strong> Available where cover is unavailable and goods have been identified to the contract.</li>
+        <li><strong>Damages for accepted goods (UCC 2-714):</strong> Difference between value of goods as accepted and value as warranted, plus incidentals and consequentials.</li>
+      </ul>
+
+      <h3>G. UCC Seller's Remedies (Summary)</h3>
+      <ul>
+        <li><strong>Resale (UCC 2-706):</strong> Resell goods in good faith and recover the difference between resale price and contract price, plus incidentals, minus expenses saved.</li>
+        <li><strong>Market price differential (UCC 2-708(1)):</strong> Contract price minus market price at time and place of tender, plus incidentals.</li>
+        <li><strong>Lost profit (UCC 2-708(2)):</strong> Available when market price differential is inadequate (e.g., lost volume seller). Profit the seller would have made, plus incidentals, plus reasonable overhead.</li>
+        <li><strong>Action for the price (UCC 2-709):</strong> Available when buyer has accepted goods, when conforming goods are lost or damaged after risk of loss passes to buyer, or when seller is unable to resell identified goods at a reasonable price.</li>
+        <li><strong>Withhold delivery, stop delivery in transit (UCC 2-702, 2-705).</strong></li>
+      </ul>
+
+      <!-- ============================================================ -->
+      <!--  SECTION 11 — THIRD-PARTY RIGHTS                             -->
+      <!-- ============================================================ -->
+      <h2>XI. Third-Party Rights</h2>
+
+      <h3>A. Third-Party Beneficiaries</h3>
+      <div class="callout callout-rule">
+        <div class="callout-title">Key Rule</div>
+        <p>A <strong>third-party beneficiary</strong> is a person who is not a party to a contract but who stands to benefit from its performance. The key distinction is between <strong>intended beneficiaries</strong> (who have enforceable rights) and <strong>incidental beneficiaries</strong> (who do not).</p>
+      </div>
+
+      <p><strong>Intended beneficiary:</strong> A person is an intended beneficiary if recognition of the right to performance is appropriate to effectuate the parties' intention, and either: (a) performance will satisfy a duty the promisee owes to the beneficiary (<strong>creditor beneficiary</strong>), or (b) the circumstances indicate that the promisee intended to give the beneficiary the benefit of performance (<strong>donee beneficiary</strong>).</p>
+
+      <p><strong>Vesting:</strong> The rights of a third-party beneficiary <strong>vest</strong> when the beneficiary: (1) materially changes position in justifiable reliance on the promise, (2) manifests assent to the promise (as requested by the parties), or (3) brings a lawsuit to enforce the promise. Before vesting, the original contracting parties may modify or rescind the contract without the beneficiary's consent. After vesting, they may not.</p>
+
+      <p><strong>Who can sue whom:</strong></p>
+      <ul>
+        <li>Beneficiary can sue the promisor (the party who must perform for the beneficiary).</li>
+        <li>Creditor beneficiary can also sue the promisee (on the underlying obligation).</li>
+        <li>Donee beneficiary generally cannot sue the promisee (no underlying obligation).</li>
+        <li>Promisee can sue the promisor (for specific performance or damages).</li>
+        <li>Promisor may raise against the beneficiary any defense that would be available against the promisee.</li>
+      </ul>
+
+      <h3>B. Assignment of Rights</h3>
+      <div class="callout callout-rule">
+        <div class="callout-title">Key Rule</div>
+        <p>An <strong>assignment</strong> is a present transfer of a contract right from the assignor (original party) to the assignee (third party). Generally, all contract rights are assignable unless: (1) the assignment would materially change the duty of the obligor, materially increase the risk or burden, or materially impair the obligor's chance of obtaining return performance; (2) the contract validly prohibits assignment; or (3) the assignment is prohibited by law.</p>
+      </div>
+
+      <p><strong>Effect of anti-assignment clauses:</strong></p>
+      <ul>
+        <li>A clause that prohibits "assignment of the contract" is construed as barring only delegation of duties, not assignment of rights (UCC &sect; 2-210 and Restatement).</li>
+        <li>A clause that specifically prohibits "assignment of rights" makes the assignment a breach but does not render it void unless the clause states the assignment is "void."</li>
+        <li>Under the UCC, a clause prohibiting assignment of rights to payment is ineffective; such rights are always assignable.</li>
+      </ul>
+
+      <p><strong>Revocability:</strong> A gratuitous assignment (not supported by consideration) is revocable by the assignor. An assignment for value is irrevocable. A gratuitous assignment may become irrevocable if the obligor has already performed, if the assignee has received a symbolic writing, or if the assignee has detrimentally relied.</p>
+
+      <p><strong>Successive assignments:</strong> When the same right is assigned to two different assignees, the first assignee in time generally prevails (the "first in time" rule). However, under the "English rule," a subsequent assignee for value and without notice who obtains payment or judgment first may prevail.</p>
+
+      <h3>C. Delegation of Duties</h3>
+      <div class="callout callout-rule">
+        <div class="callout-title">Key Rule</div>
+        <p>A <strong>delegation</strong> is a transfer of a contractual duty to a third party (the delegate). Delegation is generally permitted unless: (1) the duty involves personal skill, judgment, or reputation (e.g., painting a portrait, providing legal services); (2) the contract prohibits delegation; or (3) the other party has a substantial interest in having the original party perform.</p>
+      </div>
+
+      <p><strong>Key principle:</strong> Delegation does <strong>not</strong> relieve the delegator of liability. The delegator remains liable for performance unless there is a <strong>novation</strong> (agreement by the obligee to release the delegator and substitute the delegate). The delegate is also liable if they have assumed the duty (consideration from the delegator to the delegate is sufficient for the obligee to enforce the delegate's promise as a third-party beneficiary).</p>
+
+      <!-- ============================================================ -->
+      <!--  SECTION 12 — DISCHARGE OF CONTRACTUAL OBLIGATIONS            -->
+      <!-- ============================================================ -->
+      <h2>XII. Discharge of Contractual Obligations</h2>
+
+      <h3>A. Impossibility</h3>
+      <div class="callout callout-rule">
+        <div class="callout-title">Key Rule</div>
+        <p>A contract is discharged by <strong>impossibility</strong> when performance becomes objectively impossible due to an event that occurs after formation, was not foreseeable, and is not the fault of the party seeking discharge. Examples: destruction of the specific subject matter, death or incapacity of a person essential to performance, supervening illegality.</p>
+      </div>
+
+      <h3>B. Impracticability (UCC &sect; 2-615)</h3>
+      <p>Performance is discharged when an unforeseen event makes performance <strong>impracticable</strong> (extremely and unreasonably difficult or expensive, not merely more expensive). The party must show: (1) an event occurred whose non-occurrence was a basic assumption of the contract; (2) the event made performance impracticable; (3) the party seeking discharge was not at fault; and (4) the party did not assume the risk of the event.</p>
+      <p>Mere increase in cost, even dramatic increases, does not generally excuse performance unless the increase is far beyond the normal range. Market shifts and inflation are foreseeable and typically do not excuse performance.</p>
+
+      <h3>C. Frustration of Purpose</h3>
+      <div class="callout callout-rule">
+        <div class="callout-title">Key Rule</div>
+        <p><strong>Frustration of purpose</strong> discharges a party's remaining duties when: (1) the party's principal purpose in entering the contract is substantially frustrated; (2) by an event whose non-occurrence was a basic assumption of the contract; (3) without fault of the party seeking discharge; and (4) the party did not assume the risk. Performance is still possible but has become pointless. (<em>Krell v. Henry</em> &mdash; coronation case.)</p>
+      </div>
+
+      <div class="callout callout-warning">
+        <div class="callout-title">Watch Out</div>
+        <p>Distinguish impracticability from frustration of purpose. Impracticability means performance itself is extremely difficult. Frustration of purpose means performance is still possible but the value of what the party would receive has been destroyed. Both require an unforeseen event, but they operate on different sides of the transaction.</p>
+      </div>
+
+      <h3>D. Accord and Satisfaction</h3>
+      <p>An <strong>accord</strong> is a new agreement in which one party agrees to accept a different performance from the other party in satisfaction of the original obligation. <strong>Satisfaction</strong> is the actual performance of the accord. The original obligation is not discharged until satisfaction occurs. If the debtor breaches the accord, the creditor may sue on either the original obligation or the accord.</p>
+      <p><strong>Check cashing disputes:</strong> If a debtor sends a check for less than the amount owed with a notation such as "payment in full" and the creditor cashes it, accord and satisfaction may result if the amount was genuinely in dispute. Under UCC &sect; 3-311, a claim is discharged if: (1) the instrument was tendered in good faith as full satisfaction, (2) the amount of the claim was unliquidated or subject to bona fide dispute, and (3) the claimant obtained payment of the instrument.</p>
+
+      <h3>E. Novation</h3>
+      <p>A <strong>novation</strong> is an agreement among all three parties (the original two parties and a new party) that substitutes a new party for an original party and releases the original party from liability. A novation requires: (1) a previous valid obligation, (2) agreement by all parties, (3) extinguishment of the old obligation, and (4) a valid new obligation. Distinguish from delegation, where the original party remains liable.</p>
+
+      <h3>F. Rescission</h3>
+      <p><strong>Mutual rescission</strong> occurs when both parties agree to cancel the contract. Each party's surrender of their rights under the contract is consideration for the other's surrender. However, if one party has fully performed, a mutual rescission may require new consideration (because the performing party would be giving up a right to payment without receiving anything new). Under the UCC, mutual rescission may be effective even without consideration.</p>
+      <p><strong>Unilateral rescission</strong> is available to a party who has a legal ground (such as fraud, duress, mistake, or material breach) and who acts promptly upon discovering the ground.</p>
+
+      <h3>G. Release, Modification, and Substituted Contract</h3>
+      <p>A <strong>release</strong> is a writing manifesting intent to discharge a party's duty. At common law, a release requires consideration (unless under seal). A <strong>substituted contract</strong> is a new contract that expressly or impliedly revokes and replaces the original. It immediately discharges the original obligation (unlike an accord, which is not discharged until satisfaction).</p>
+
+      <!-- ============================================================ -->
+      <!--  SECTION 13 — COMMON ESSAY PATTERNS                          -->
+      <!-- ============================================================ -->
+      <h2>XIII. Common Essay Patterns</h2>
+
+      <h3>Pattern 1: Formation Dispute with UCC 2-207</h3>
+      <p>A buyer and seller exchange forms with conflicting terms. You must identify whether UCC or common law applies, apply 2-207, determine which terms are part of the contract, and then analyze whether there has been a breach.</p>
+
+      <h3>Pattern 2: Modification + Preexisting Duty + Statute of Frauds</h3>
+      <p>Parties agree to a contract, then one party seeks to modify the terms (e.g., increase price, extend time). Analyze: Was there consideration for the modification (common law preexisting duty rule vs. UCC 2-209)? Does the modification need to satisfy the Statute of Frauds? Was there duress?</p>
+
+      <h3>Pattern 3: Conditions, Breach, and Discharge</h3>
+      <p>A construction or services contract where one party claims the other failed a condition. Identify whether conditions are express or constructive. Determine if there was substantial performance or material breach. Analyze whether conditions were excused (waiver, prevention, estoppel).</p>
+
+      <h3>Pattern 4: Third-Party Beneficiary + Assignment</h3>
+      <p>A contracts with B for B to pay C. C sues B when B doesn't pay. Analyze: Is C an intended or incidental beneficiary? Have the rights vested? Can the original parties modify or rescind? Often combined with assignment or delegation issues.</p>
+
+      <h3>Pattern 5: Breach + Remedies Calculation</h3>
+      <p>One party breaches a contract and the other seeks damages. Calculate expectation damages. Discuss foreseeability, certainty, and mitigation. Consider whether specific performance, reliance damages, or restitution is available or preferable. If UCC, apply the specific buyer/seller remedy provisions.</p>
+
+      <!-- ============================================================ -->
+      <!--  SECTION 14 — ISSUE SPOTTING CHECKLIST                       -->
+      <!-- ============================================================ -->
+      <h2>XIV. Issue Spotting Checklist</h2>
+
+      <ul class="checklist">
+        <li>Is this a UCC (sale of goods) or common law contract? Mixed transaction?</li>
+        <li>Is there a valid offer? Has it been terminated? Is it irrevocable?</li>
+        <li>Is there a valid acceptance? Mirror image rule or 2-207?</li>
+        <li>Is there consideration? Preexisting duty issue? Modification?</li>
+        <li>If no consideration, is there promissory estoppel?</li>
+        <li>Does the Statute of Frauds apply? Is there a sufficient writing? Any exceptions?</li>
+        <li>Are there any defenses to formation (capacity, duress, misrepresentation, unconscionability, mistake, illegality)?</li>
+        <li>Does the parol evidence rule bar any extrinsic evidence? Any exceptions?</li>
+        <li>Are there conditions (express or constructive)? Have they been satisfied or excused?</li>
+        <li>Has there been a breach? Material or minor? Anticipatory repudiation?</li>
+        <li>What are the available remedies? Expectation, reliance, restitution, specific performance?</li>
+        <li>Have damages been properly calculated? Foreseeability, certainty, mitigation?</li>
+        <li>Is there a liquidated damages clause? Is it enforceable?</li>
+        <li>Are there any third-party beneficiary, assignment, or delegation issues?</li>
+        <li>Has the contract been discharged by impossibility, impracticability, frustration, accord and satisfaction, or novation?</li>
+      </ul>
+
+      <!-- ============================================================ -->
+      <!--  SECTION 15 — EXAM WRITING TIPS                              -->
+      <!-- ============================================================ -->
+      <h2>XV. Exam Writing Tips</h2>
+
+      <div class="callout callout-tip">
+        <div class="callout-title">Exam Tip</div>
+        <p><strong>Always start with applicable law.</strong> The first paragraph of your essay should identify whether the UCC or common law governs. State the rule and apply it to the facts. This is a "gimme" issue that many students skip, costing them easy points.</p>
+      </div>
+
+      <div class="callout callout-tip">
+        <div class="callout-title">Exam Tip</div>
+        <p><strong>Use IRAC structure rigorously.</strong> For each issue: (1) state the Issue in one sentence, (2) state the Rule clearly and completely, (3) Apply the rule to the specific facts, and (4) state your Conclusion. Do not skip the application step &mdash; this is where most points are earned. Examiners want to see you manipulate the facts, not just recite rules.</p>
+      </div>
+
+      <div class="callout callout-tip">
+        <div class="callout-title">Exam Tip</div>
+        <p><strong>Address both sides.</strong> Where the issue is debatable, present arguments for both parties. Use phrases like "Party A will argue... However, Party B will counter..." and then reach a reasoned conclusion. This shows analytical depth.</p>
+      </div>
+
+      <div class="callout callout-tip">
+        <div class="callout-title">Exam Tip</div>
+        <p><strong>Don't forget remedies.</strong> Every contracts essay should end with a remedies analysis. Calculate damages precisely using the facts given. Discuss all available remedy options and which is most appropriate.</p>
+      </div>
+
+      <div class="callout callout-tip">
+        <div class="callout-title">Exam Tip</div>
+        <p><strong>Watch for crossover issues.</strong> Contracts essays frequently cross over with Remedies (specific performance, restitution, liquidated damages), Professional Responsibility (attorney-client fee agreements), Real Property (land sale contracts), and Community Property (characterization of contract rights).</p>
+      </div>
+
+      <!-- ============================================================ -->
+      <!--  SECTION 16 — MNEMONICS & MEMORY AIDS                        -->
+      <!-- ============================================================ -->
+      <h2>XVI. Mnemonics &amp; Memory Aids</h2>
+
+      <div class="mnemonic">
+        <div class="mnemonic-word">MY LEGS</div>
+        <div class="mnemonic-breakdown">
+          <span>M</span>arriage &mdash; <span>Y</span>ear &mdash; <span>L</span>and &mdash; <span>E</span>xecutor &mdash; <span>G</span>oods ($500+) &mdash; <span>S</span>urety
+        </div>
+      </div>
+
+      <div class="mnemonic">
+        <div class="mnemonic-word">DUMIFU</div>
+        <div class="mnemonic-breakdown">
+          Defenses to Formation:<br>
+          <span>D</span>uress &mdash; <span>U</span>ndue Influence &mdash; <span>M</span>isrepresentation &mdash; <span>I</span>ncapacity &mdash; <span>F</span>raud &mdash; <span>U</span>nconscionability
+        </div>
+      </div>
+
+      <div class="mnemonic">
+        <div class="mnemonic-word">FCM</div>
+        <div class="mnemonic-breakdown">
+          Damage Limitations:<br>
+          <span>F</span>oreseeability (Hadley v. Baxendale) &mdash; <span>C</span>ertainty &mdash; <span>M</span>itigation
+        </div>
+      </div>
+
+      <div class="mnemonic">
+        <div class="mnemonic-word">WEPHD</div>
+        <div class="mnemonic-breakdown">
+          Excuse of Conditions:<br>
+          <span>W</span>aiver &mdash; <span>E</span>stoppel &mdash; <span>P</span>revention/Hindrance &mdash; <span>H</span>ard forfeiture avoidance &mdash; <span>D</span>ivision (substantial performance)
+        </div>
+      </div>
+
+      <div class="mnemonic">
+        <div class="mnemonic-word">PIANO</div>
+        <div class="mnemonic-breakdown">
+          Offer Termination:<br>
+          <span>P</span>erformance impossible (destruction/illegality) &mdash; <span>I</span>nsanity/death of offeror &mdash; <span>A</span>cceptance deadline (lapse) &mdash; <span>N</span>ew offer (counteroffer/rejection) &mdash; <span>O</span>fferor revokes
+        </div>
+      </div>
+
+      <!-- ============================================================ -->
+      <!--  SECTION 17 — KEY DISTINCTIONS                               -->
+      <!-- ============================================================ -->
+      <h2>XVII. Key Distinctions</h2>
+
+      <table class="comparison-table">
+        <thead>
+          <tr><th>Issue</th><th>Common Law</th><th>UCC Article 2</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Acceptance varying terms</td>
+            <td>Mirror image rule: any variation = counteroffer</td>
+            <td>2-207: acceptance with additional/different terms is still acceptance</td>
+          </tr>
+          <tr>
+            <td>Firm offers</td>
+            <td>Offer revocable unless supported by option consideration</td>
+            <td>Merchant's signed written offer held open up to 3 months without consideration (2-205)</td>
+          </tr>
+          <tr>
+            <td>Modification</td>
+            <td>Requires new consideration (preexisting duty rule)</td>
+            <td>No consideration needed, only good faith (2-209)</td>
+          </tr>
+          <tr>
+            <td>Essential terms</td>
+            <td>Must include all essential terms (parties, subject, price, quantity, time)</td>
+            <td>Only quantity required; UCC fills gaps for price, time, place, payment</td>
+          </tr>
+          <tr>
+            <td>Statute of Frauds threshold</td>
+            <td>Varies by provision (land, one year, etc.)</td>
+            <td>$500 or more for goods</td>
+          </tr>
+          <tr>
+            <td>Performance standard</td>
+            <td>Substantial performance (material breach test)</td>
+            <td>Perfect tender rule (2-601), with right to cure and installment exceptions</td>
+          </tr>
+          <tr>
+            <td>Risk of loss (no breach)</td>
+            <td>N/A</td>
+            <td>Merchant seller: on delivery; Non-merchant seller with shipment contract: on delivery to carrier; Destination contract: on delivery to destination</td>
+          </tr>
+          <tr>
+            <td>Output/requirements contracts</td>
+            <td>May be illusory (no valid consideration)</td>
+            <td>Valid; obligation of good faith imposes limits (2-306)</td>
+          </tr>
+          <tr>
+            <td>Warranties</td>
+            <td>Limited implied warranties</td>
+            <td>Express warranty (2-313), implied warranty of merchantability (2-314), implied warranty of fitness for particular purpose (2-315)</td>
+          </tr>
+          <tr>
+            <td>Parol evidence</td>
+            <td>Four corners approach in many jurisdictions</td>
+            <td>Liberally admits course of dealing, usage of trade, course of performance (UCC 2-202)</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <table class="comparison-table">
+        <thead>
+          <tr><th>Concept</th><th>Definition/Rule</th><th>Key Distinction</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Assignment vs. Delegation</td>
+            <td>Assignment = transfer of rights; Delegation = transfer of duties</td>
+            <td>Assignment extinguishes assignor's right; delegation does NOT release delegator from liability</td>
+          </tr>
+          <tr>
+            <td>Condition vs. Promise</td>
+            <td>Condition = event that triggers/excuses duty; Promise = commitment creating liability</td>
+            <td>Failure of condition = no duty; breach of promise = liability for damages</td>
+          </tr>
+          <tr>
+            <td>Intended vs. Incidental Beneficiary</td>
+            <td>Intended = parties meant to benefit this person; Incidental = benefit is a byproduct</td>
+            <td>Only intended beneficiaries have enforceable rights</td>
+          </tr>
+          <tr>
+            <td>Impossibility vs. Impracticability vs. Frustration</td>
+            <td>Impossibility: cannot be done; Impracticability: extremely difficult; Frustration: can be done but purpose destroyed</td>
+            <td>Impossibility/impracticability: performance side; Frustration: purpose/value side</td>
+          </tr>
+          <tr>
+            <td>Accord vs. Novation vs. Substituted Contract</td>
+            <td>Accord: new agreement, original duty suspended until satisfaction; Novation: new party substituted, old party released; Substituted contract: new contract replaces old one immediately</td>
+            <td>Accord: not discharged until performance; Novation: requires all parties' consent; Substituted: immediately replaces</td>
+          </tr>
+          <tr>
+            <td>Expectation vs. Reliance vs. Restitution</td>
+            <td>Expectation: where you'd be if performed; Reliance: where you were before contract; Restitution: value of benefit conferred</td>
+            <td>Expectation is default; reliance when expectation too speculative; restitution can exceed contract price for non-breaching party</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <!-- ============================================================ -->
+      <!--  SECTION 18 — CALIFORNIA DISTINCTIONS SUMMARY                -->
+      <!-- ============================================================ -->
+      <h2>XVIII. California Distinctions Summary</h2>
+
+      <table class="comparison-table">
+        <thead>
+          <tr><th>Issue</th><th>Common Law / MBE</th><th>California</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Preexisting duty / modification</td>
+            <td>Common law requires new consideration for modification</td>
+            <td>Written modifications enforceable without consideration (Cal. Civ. Code &sect; 1697)</td>
+          </tr>
+          <tr>
+            <td>Parol evidence</td>
+            <td>Many jurisdictions use "four corners" approach; extrinsic evidence inadmissible if writing appears unambiguous</td>
+            <td>Liberal approach: extrinsic evidence admissible to show language is "reasonably susceptible" to proposed interpretation (<em>Pacific Gas &amp; Electric</em>)</td>
+          </tr>
+          <tr>
+            <td>Liquidated damages</td>
+            <td>Enforceable if damages difficult to estimate and amount is reasonable forecast</td>
+            <td>Presumed valid in commercial contracts; presumed invalid in consumer contracts (Cal. Civ. Code &sect; 1671); residential real estate limited to 3% with separate initialing</td>
+          </tr>
+          <tr>
+            <td>Unconscionability</td>
+            <td>Both procedural and substantive required</td>
+            <td>Sliding scale; special scrutiny of arbitration clauses (<em>Armendariz</em>); California courts are more aggressive</td>
+          </tr>
+          <tr>
+            <td>Statute of Frauds</td>
+            <td>Standard MY LEGS categories</td>
+            <td>Cal. Civ. Code &sect; 1624 codifies; includes agreements not to be performed during promisor's lifetime; recognizes detrimental reliance exception</td>
+          </tr>
+          <tr>
+            <td>Seal</td>
+            <td>Some states still recognize seal as substitute for consideration</td>
+            <td>California does not recognize the seal as a substitute for consideration</td>
+          </tr>
+          <tr>
+            <td>Merchant confirmation rule</td>
+            <td>UCC 2-201(2): 10-day objection period</td>
+            <td>California follows the UCC merchant confirmation rule for sale of goods</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="mark-complete-wrap">
+        <button class="mark-complete" data-subject="contracts">Mark as Complete</button>
+      </div>
+
+      <div class="page-nav">
+        <a href="remedies.html" class="prev"><span class="dir-label">Previous</span><br>Remedies</a>
+        <a href="business-associations.html" class="next"><span class="dir-label">Next</span><br>Business Associations</a>
+      </div>
+
+    </div>
+  </main>
+  <script src="../script.js"></script>
+</body>
+</html>
